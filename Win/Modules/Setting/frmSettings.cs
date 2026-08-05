@@ -1509,7 +1509,7 @@ namespace ACPP.Modules.Master
         {
 
         }
-        //bharath
+        //bharath waj
         private void cboCurrencyPosition_SelectedIndexChanged(object sender, EventArgs e)
         {
             LoadPositivePreview();
