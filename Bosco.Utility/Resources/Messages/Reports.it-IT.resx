@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RPT_001_NAME" xml:space="preserve">
+    <value>Résumé mensuel (ricevute)</value>
+  </data>
+  <data name="RPT_001_TITLE" xml:space="preserve">
+    <value>Riassunto mensile (ricevuti)</value>
+  </data>
+  <data name="RPT_002_TITLE" xml:space="preserve">
+    <value>Riassunto mensile (pagamenti)</value>
+  </data>
+  <data name="RPT_003_TITLE" xml:space="preserve">
+    <value>Riassunto mensile (entrate e pagamenti)</value>
+  </data>
+  <data name="RPT_004_TITLE" xml:space="preserve">
+    <value>Ricevute multi-riassunto</value>
+  </data>
+  <data name="RPT_005_TITLE" xml:space="preserve">
+    <value>Pagamenti multi-astratti</value>
+  </data>
+  <data name="RPT_006_TITLE" xml:space="preserve">
+    <value>Multi Abstract (entrate e pagamenti)</value>
+  </data>
+  <data name="RPT_012_TITLE" xml:space="preserve">
+    <value>Libro mastro</value>
+  </data>
+  <data name="RPT_013_TITLE" xml:space="preserve">
+    <value>Riepilogo riconciliazione bancaria</value>
+  </data>
+  <data name="RPT_014_TITLE" xml:space="preserve">
+    <value>Situazione del saldo bancario</value>
+  </data>
+  <data name="RPT_015_TITLE" xml:space="preserve">
+    <value>Riepilogo deposito a termine</value>
+  </data>
+  <data name="RPT_016_TITLE" xml:space="preserve">
+    <value>Giornale cassa</value>
+  </data>
+  <data name="RPT_017_TITLE" xml:space="preserve">
+    <value>Giornale bancario</value>
+  </data>
+  <data name="RPT_018_TITLE" xml:space="preserve">
+    <value>Saldo giornaliero in contanti</value>
+  </data>
+  <data name="RPT_019_TITLE" xml:space="preserve">
+    <value>Saldo giornaliero in banca</value>
+  </data>
+  <data name="RPT_020_TITLE" xml:space="preserve">
+    <value>Obiettivo</value>
+  </data>
+  <data name="RPT_021_TITLE" xml:space="preserve">
+    <value>Donatore istituzionale</value>
+  </data>
+  <data name="RPT_022_TITLE" xml:space="preserve">
+    <value>Donatore individuale</value>
+  </data>
+  <data name="RPT_023_TITLE" xml:space="preserve">
+    <value>Membri dirigenti</value>
+  </data>
+  <data name="RPT_024_TITLE" xml:space="preserve">
+    <value>Bolla di ricezione</value>
+  </data>
+  <data name="RPT_025_TITLE" xml:space="preserve">
+    <value>Bolla di pagamento</value>
+  </data>
+  <data name="RPT_026_TITLE" xml:space="preserve">
+    <value>Bollettino giornale</value>
+  </data>
+  <data name="RPT_027_TITLE" xml:space="preserve">
+    <value>Entrate e pagamenti</value>
+  </data>
+  <data name="RPT_028_TITLE" xml:space="preserve">
+    <value>Redditi e spese</value>
+  </data>
+  <data name="RPT_030_TITLE" xml:space="preserve">
+    <value>Prova di bilancio</value>
+  </data>
+  <data name="RPT_031_TITLE" xml:space="preserve">
+    <value>Stato patrimoniale</value>
+  </data>
+  <data name="RPT_034_TITLE" xml:space="preserve">
+    <value>Riassunto (entrate e pagamenti)</value>
+  </data>
+  <data name="RPT_037_TITLE" xml:space="preserve">
+    <value>Multi Abstract (entrate e pagamenti)</value>
+  </data>
+  <data name="RPT_038_TITLE" xml:space="preserve">
+    <value>Giornale cassa</value>
+  </data>
+  <data name="RPT_039_TITLE" xml:space="preserve">
+    <value>Giornale bancario</value>
+  </data>
+  <data name="RPT_040_TITLE" xml:space="preserve">
+    <value>Libretto cassa e banca</value>
+  </data>
+  <data name="RPT_041_TITLE" xml:space="preserve">
+    <value>Entrate e pagamenti</value>
+  </data>
+  <data name="RPT_042_TITLE" xml:space="preserve">
+    <value>Paese</value>
+  </data>
+  <data name="RPT_044_TITLE" xml:space="preserve">
+    <value>Transazioni in contanti/bancarie</value>
+  </data>
+  <data name="RPT_045_TITLE" xml:space="preserve">
+    <value>Operazioni giornale</value>
+  </data>
+  <data name="RPT_046_TITLE" xml:space="preserve">
+    <value>Budget - Scostamento</value>
+  </data>
+  <data name="RPT_047_TITLE" xml:space="preserve">
+    <value>Registro dei depositi a termine</value>
+  </data>
+  <data name="RPT_048_TITLE" xml:space="preserve">
+    <value>Dettagli del budget</value>
+  </data>
+  <data name="RPT_049_TITLE" xml:space="preserve">
+    <value>Redditi e spese</value>
+  </data>
+  <data name="RPT_050_TITLE" xml:space="preserve">
+    <value>Registro</value>
+  </data>
+  <data name="RPT_051_TITLE" xml:space="preserve">
+    <value>Rapporto consolidato</value>
+  </data>
+  <data name="RPT_052_TITLE" xml:space="preserve">
+    <value>Libro giornale</value>
+  </data>
+  <data name="RPT_053_TITLE" xml:space="preserve">
+    <value>Libro giornale</value>
+  </data>
+  <data name="RPT_054_TITLE" xml:space="preserve">
+    <value>TDS dal punto di vista della parte</value>
+  </data>
+  <data name="RPT_055_TITLE" xml:space="preserve">
+    <value>TDS Pagato</value>
+  </data>
+  <data name="RPT_056_TITLE" xml:space="preserve">
+    <value>Calcolo TDS da pagare</value>
+  </data>
+  <data name="RPT_057_TITLE" xml:space="preserve">
+    <value>TDS in sospeso da pagare</value>
+  </data>
+  <data name="RPT_058_TITLE" xml:space="preserve">
+    <value>TDS a livello del libro mastro</value>
+  </data>
+  <data name="RPT_059_TITLE" xml:space="preserve">
+    <value>TDS Natura dei pagamenti</value>
+  </data>
+  <data name="RPT_060_TITLE" xml:space="preserve">
+    <value>Transazione giornale</value>
+  </data>
+  <data name="RPT_061_TITLE" xml:space="preserve">
+    <value>TDS Challan</value>
+  </data>
+  <data name="RPT_062_TITLE" xml:space="preserve">
+    <value>Libretto cassa e banca</value>
+  </data>
+  <data name="RPT_068_TITLE" xml:space="preserve">
+    <value>Rapporto di confronto budget</value>
+  </data>
+  <data name="RPT_069_TITLE" xml:space="preserve">
+    <value>Busta paga</value>
+  </data>
+  <data name="RPT_070_TITLE" xml:space="preserve">
+    <value>Registro delle paghe</value>
+  </data>
+  <data name="RPT_071_TITLE" xml:space="preserve">
+    <value>Rapporto sulle retribuzioni</value>
+  </data>
+  <data name="RPT_072_TITLE" xml:space="preserve">
+    <value>Saldo prestito</value>
+  </data>
+  <data name="RPT_075_TITLE" xml:space="preserve">
+    <value>Registro degli acquisti</value>
+  </data>
+  <data name="RPT_076_TITLE" xml:space="preserve">
+    <value>Riassunto immobilizzazioni</value>
+  </data>
+  <data name="RPT_077_TITLE" xml:space="preserve">
+    <value>Tavola delle immobilizzazioni</value>
+  </data>
+  <data name="RPT_078_TITLE" xml:space="preserve">
+    <value>Riepilogo centri di costo</value>
+  </data>
+  <data name="RPT_079_TITLE" xml:space="preserve">
+    <value>Elenco dei contributi dei donatori</value>
+  </data>
+  <data name="RPT_084_TITLE" xml:space="preserve">
+    <value>Registro vendite / cessioni / donazioni</value>
+  </data>
+  <data name="RPT_088_TITLE" xml:space="preserve">
+    <value>Registro immobilizzazioni</value>
+  </data>
+  <data name="RPT_089_TITLE" xml:space="preserve">
+    <value>Registro in natura</value>
+  </data>
+  <data name="RPT_093_TITLE" xml:space="preserve">
+    <value>Entrate/dichiarazione uso mirato</value>
+  </data>
+  <data name="RPT_094_TITLE" xml:space="preserve">
+    <value>Storico depositi fissi</value>
+  </data>
+  <data name="RPT_101_TITLE" xml:space="preserve">
+    <value>Libretto bancario in contanti e multi-colonna</value>
+  </data>
+  <data name="RPT_115_TITLE" xml:space="preserve">
+    <value>Ricevute multi-astratte – per anno</value>
+  </data>
+  <data name="RPT_116_TITLE" xml:space="preserve">
+    <value>Pagamenti multi-astratti - per anno</value>
+  </data>
+  <data name="RPT_138_TITLE" xml:space="preserve">
+    <value>Transazioni dettagliate</value>
+  </data>
+  <data name="RPT_142_TITLE" xml:space="preserve">
+    <value>Rapporto statistico</value>
+  </data>
+  <data name="RPT_145_TITLE" xml:space="preserve">
+    <value>Situazione finanziaria</value>
+  </data>
+  <data name="RPT_146_TITLE" xml:space="preserve">
+    <value>Pagamento TPS Challan</value>
+  </data>
+  <data name="RPT_147_TITLE" xml:space="preserve">
+    <value>Stampa assegni</value>
+  </data>
+  <data name="RPT_148_TITLE" xml:space="preserve">
+    <value>Ricevute e pagamenti con anno precedente</value>
+  </data>
+  <data name="RPT_149_TITLE" xml:space="preserve">
+    <value>Stato in attesa per numero di riferimento</value>
+  </data>
+  <data name="RPT_150_TITLE" xml:space="preserve">
+    <value>Registro investimenti a deposito fisso</value>
+  </data>
+  <data name="RPT_151_TITLE" xml:space="preserve">
+    <value>Contro-bolla</value>
+  </data>
+  <data name="RPT_152_TITLE" xml:space="preserve">
+    <value>Vista budget</value>
+  </data>
+  <data name="RPT_153_TITLE" xml:space="preserve">
+    <value>Ricevute in contanti/banca (numero bolla)</value>
+  </data>
+  <data name="RPT_154_TITLE" xml:space="preserve">
+    <value>Pagamenti in contanti/banca (numero bolla)</value>
+  </data>
+  <data name="RPT_155_TITLE" xml:space="preserve">
+    <value>Ricevute multi-astratte – per anno</value>
+  </data>
+  <data name="RPT_156_TITLE" xml:space="preserve">
+    <value>Pagamenti multi-astratti - per anno</value>
+  </data>
+  <data name="RPT_157_TITLE" xml:space="preserve">
+    <value>Entrate totali</value>
+  </data>
+  <data name="RPT_158_TITLE" xml:space="preserve">
+    <value>Pagamenti totali</value>
+  </data>
+  <data name="RPT_159_TITLE" xml:space="preserve">
+    <value>Registro depositi in contanti</value>
+  </data>
+  <data name="RPT_160_TITLE" xml:space="preserve">
+    <value>Registro prelievi contanti</value>
+  </data>
+  <data name="RPT_161_TITLE" xml:space="preserve">
+    <value>Registro realizzato FD</value>
+  </data>
+  <data name="RPT_162_TITLE" xml:space="preserve">
+    <value>Firma dell'autorità</value>
+  </data>
+  <data name="RPT_163_TITLE" xml:space="preserve">
+    <value>Budget e spese mensili</value>
+  </data>
+  <data name="RPT_164_TITLE" xml:space="preserve">
+    <value>Ricevute multi-astratte – per progetto</value>
+  </data>
+  <data name="RPT_165_TITLE" xml:space="preserve">
+    <value>Pagamenti multi-astratti - per progetto</value>
+  </data>
+  <data name="RPT_166_TITLE" xml:space="preserve">
+    <value>Registro uscita GSTR-1</value>
+  </data>
+  <data name="RPT_167_TITLE" xml:space="preserve">
+    <value>Registro emesso tramite assegno</value>
+  </data>
+  <data name="RPT_168_TITLE" xml:space="preserve">
+    <value>Registro annuale paghe del personale</value>
+  </data>
+  <data name="RPT_169_TITLE" xml:space="preserve">
+    <value>Dettagli budget – per progetto</value>
+  </data>
+  <data name="RPT_170_TITLE" xml:space="preserve">
+    <value>Avviso pagamento in banca</value>
+  </data>
+  <data name="RPT_173_TITLE" xml:space="preserve">
+    <value>Libretto cassa/banca (manuale)</value>
+  </data>
+  <data name="RPT_174_TITLE" xml:space="preserve">
+    <value>Ricevute multi-astratte - Trimestrale</value>
+  </data>
+  <data name="RPT_175_TITLE" xml:space="preserve">
+    <value>Pagamenti multi-astratti - Trimestrale</value>
+  </data>
+  <data name="RPT_176_TITLE" xml:space="preserve">
+    <value>Multi Abstract (entrate e pagamenti) - Trimestrale</value>
+  </data>
+  <data name="RPT_177_TITLE" xml:space="preserve">
+    <value>Ripartizione mese budget</value>
+  </data>
+  <data name="RPT_178_TITLE" xml:space="preserve">
+    <value>Verifica registro raccolto</value>
+  </data>
+  <data name="RPT_179_TITLE" xml:space="preserve">
+    <value>Sommario annuale budget</value>
+  </data>
+  <data name="RPT_180_TITLE" xml:space="preserve">
+    <value>Budget e spese mensili (due mesi)</value>
+  </data>
+  <data name="RPT_181_TITLE" xml:space="preserve">
+    <value>Registro entrate GSTR-2</value>
+  </data>
+  <data name="RPT_182_TITLE" xml:space="preserve">
+    <value>Confronto budget-anni</value>
+  </data>
+  <data name="RPT_183_TITLE" xml:space="preserve">
+    <value>Libretto bancario (estratto conto reale)</value>
+  </data>
+  <data name="RPT_184_TITLE" xml:space="preserve">
+    <value>Budget - Approvato</value>
+  </data>
+  <data name="RPT_185_TITLE" xml:space="preserve">
+    <value>Budget - Realizzazione</value>
+  </data>
+  <data name="RPT_186_TITLE" xml:space="preserve">
+    <value>Budget - Bilancio</value>
+  </data>
+  <data name="RPT_187_TITLE" xml:space="preserve">
+    <value>Multi Abstract (entrate e pagamenti) - per anno</value>
+  </data>
+  <data name="RPT_189_TITLE" xml:space="preserve">
+    <value>Sommario annuale budget</value>
+  </data>
+  <data name="RPT_192_TITLE" xml:space="preserve">
+    <value>Storico saldi cassa/bancari negativi</value>
+  </data>
+  <data name="RPT_193_TITLE" xml:space="preserve">
+    <value>Budget - Realizzazione trimestrale</value>
+  </data>
+  <data name="RPT_194_TITLE" xml:space="preserve">
+    <value>Statistiche delle bolle</value>
+  </data>
+  <data name="RPT_195_TITLE" xml:space="preserve">
+    <value>Giornale audit bolle d'acquisto</value>
+  </data>
+  <data name="RPT_196_TITLE" xml:space="preserve">
+    <value>Bolle auditate</value>
+  </data>
+  <data name="RPT_197_TITLE" xml:space="preserve">
+    <value>Monitoraggio modifiche da auditor</value>
+  </data>
+  <data name="RPT_198_TITLE" xml:space="preserve">
+    <value>Elenco libri mastri attivati per centri di costo</value>
+  </data>
+  <data name="RPT_199_TITLE" xml:space="preserve">
+    <value>Profitti e perdite (verifica)</value>
+  </data>
+  <data name="RPT_200_TITLE" xml:space="preserve">
+    <value>Budget pluriennale (verifica)</value>
+  </data>
+  <data name="RPT_201_TITLE" xml:space="preserve">
+    <value>Budget pluriennale consolidato (verifica)</value>
+  </data>
+  <data name="RPT_204_TITLE" xml:space="preserve">
+    <value>Registro interessi su depositi fissi</value>
+  </data>
+  <data name="RPT_205_TITLE" xml:space="preserve">
+    <value>Registro trimestrale interessi su depositi fissi</value>
+  </data>
+  <data name="RPT_206_TITLE" xml:space="preserve">
+    <value>Ricevute/uso mirato</value>
+  </data>
+  <data name="RPT_207_TITLE" xml:space="preserve">
+    <value>Giornale - Fattura TPS</value>
+  </data>
+  <data name="RPT_208_TITLE" xml:space="preserve">
+    <value>Centro costi budget – a livello libro mastro</value>
+  </data>
+  <data name="RPT_209_TITLE" xml:space="preserve">
+    <value>Centro costi budget – a livello libro mastro</value>
+  </data>
+  <data name="RPT_210_TITLE" xml:space="preserve">
+    <value>Registro ammortamenti</value>
+  </data>
+  <data name="RPT_211_TITLE" xml:space="preserve">
+    <value>Monitoraggio modifiche bolle da utenti</value>
+  </data>
+  <data name="RPT_212_TITLE" xml:space="preserve">
+    <value>Ricevuta - Fattura TPS</value>
+  </data>
+  <data name="RPT_213_TITLE" xml:space="preserve">
+    <value>Fatture esenzione TPS</value>
+  </data>
+  <data name="RPT_214_TITLE" xml:space="preserve">
+    <value>Ricevute astratte – contanti e banca</value>
+  </data>
+  <data name="RPT_215_TITLE" xml:space="preserve">
+    <value>Pagamenti astratti – contanti e banca</value>
+  </data>
+  <data name="RPT_217_TITLE" xml:space="preserve">
+    <value>Registri contabili paghe validate</value>
+  </data>
+  <data name="RPT_231_TITLE" xml:space="preserve">
+    <value>Libro mastro - per centro costi</value>
+  </data>
+  <data name="RPT_232_TITLE" xml:space="preserve">
+    <value>Registro immobilizzazioni: dettagli articoli</value>
+  </data>
+  <data name="RPT_238_TITLE" xml:space="preserve">
+    <value>Centro costi - Estratto conto</value>
+  </data>
+  <data name="RPT_GRP_197" xml:space="preserve">
+    <value>Registrazione salvata</value>
+  </data>
+  <data name="RPT_GRP_198" xml:space="preserve">
+    <value>Attività bancarie</value>
+  </data>
+  <data name="RPT_GRP_199" xml:space="preserve">
+    <value>Libro conti</value>
+  </data>
+  <data name="RPT_GRP_200" xml:space="preserve">
+    <value>Conti finali</value>
+  </data>
+  <data name="RPT_GRP_201" xml:space="preserve">
+    <value>Contributo estero</value>
+  </data>
+  <data name="RPT_GRP_202" xml:space="preserve">
+    <value>Registrazione salvata</value>
+  </data>
+  <data name="RPT_GRP_203" xml:space="preserve">
+    <value>Dossier finanziari</value>
+  </data>
+  <data name="RPT_GRP_204" xml:space="preserve">
+    <value>Budget  </value>
+  </data>
+  <data name="RPT_GRP_205" xml:space="preserve">
+    <value>Audit</value>
+  </data>
+  <data name="RPT_GRP_436" xml:space="preserve">
+    <value>Immobilizzazioni</value>
+  </data>
+  <data name="RPT_GRP_472" xml:space="preserve">
+    <value>Stipendi</value>
+  </data>
+</root>

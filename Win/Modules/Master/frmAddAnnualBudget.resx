@@ -1,0 +1,2441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="glkpNewProject.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="glkpNewProject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>707, 570</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v13.2" name="DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="glkpNewProject.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v13.2">
+    <value>Combo</value>
+  </data>
+  <data name="glkpNewProject.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvNewProject.Appearance.FocusedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colOldBudgetId.Caption" xml:space="preserve">
+    <value>Old Budget</value>
+  </data>
+  <data name="colNewProject.Caption" xml:space="preserve">
+    <value>New Project/Development Project</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="colNewProject.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colNewProject.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="glkpNewProject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 20</value>
+  </data>
+  <data name="glkpNewProject.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;glkpNewProject.Name" xml:space="preserve">
+    <value>glkpNewProject</value>
+  </data>
+  <data name="&gt;&gt;glkpNewProject.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;glkpNewProject.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;glkpNewProject.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1154, 568</value>
+  </data>
+  <data name="btnLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="btnLink.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnLink.Text" xml:space="preserve">
+    <value>&amp;Link</value>
+  </data>
+  <data name="&gt;&gt;btnLink.Name" xml:space="preserve">
+    <value>btnLink</value>
+  </data>
+  <data name="&gt;&gt;btnLink.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnLink.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnLink.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnStrengthDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 540</value>
+  </data>
+  <data name="btnStrengthDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 24</value>
+  </data>
+  <data name="btnStrengthDetails.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v13.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxMy4yLCBWZXJzaW9uPTEzLjIu
+        Ny4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjEzLjIsIFZlcnNpb249MTMuMi43LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwBwAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wCWl0ZW1UeXBlMQVpdGVtMQQAAAQEBAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAABCCVEZXZFeHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAACFEZXZFeHByZXNz
+        LlV0aWxzLlRvb2xUaXBUaXRsZUl0ZW0CAAAAJURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29sVGlwSXRl
+        bVR5cGUCAAAAHERldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0CAAAAAgAAAAX8////H0RldkV4cHJl
+        c3MuVXRpbHMuRGVmYXVsdEJvb2xlYW4BAAAAB3ZhbHVlX18ACAMAAAACAAAAAAIAAAAF+////yVEZXZF
+        eHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAkGAAAA
+        Afn////7////AAAAAAkIAAAADAkAAABRU3lzdGVtLkRyYXdpbmcsIFZlcnNpb249NC4wLjAuMCwgQ3Vs
+        dHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhBQYAAAAhRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwVGl0bGVJdGVtCgAAAA1BbGxvd0h0bWxUZXh0BEljb24FSW1hZ2UKSW1hZ2VB
+        bGlnbgpJbWFnZUluZGV4E0ltYWdlVG9UZXh0RGlzdGFuY2UKTGVmdEluZGVudAhNYXhXaWR0aBJPd25l
+        ckFsbG93SHRtbFRleHQEVGV4dAQEBAQAAAAAAAEfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgkAAAAUU3lzdGVtLkRyYXdpbmcuSW1hZ2UJAAAAJkRldkV4
+        cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AgAAAAgICAgBAgAAAAH2/////P///wIAAAAK
+        CgX1////JkRldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgC
+        AAAAAAAAAP////8OAAAAAAAAADwBAAAABgwAAAAQU3RyZW5ndGggRGV0YWlscwUIAAAAHERldkV4cHJl
+        c3MuVXRpbHMuVG9vbFRpcEl0ZW0KAAAADUFsbG93SHRtbFRleHQESWNvbgVJbWFnZQpJbWFnZUFsaWdu
+        CkltYWdlSW5kZXgTSW1hZ2VUb1RleHREaXN0YW5jZQpMZWZ0SW5kZW50CE1heFdpZHRoEk93bmVyQWxs
+        b3dIdG1sVGV4dARUZXh0BAQEBAAAAAAAAR9EZXZFeHByZXNzLlV0aWxzLkRlZmF1bHRCb29sZWFuAwAA
+        ABNTeXN0ZW0uRHJhd2luZy5JY29uCQAAABRTeXN0ZW0uRHJhd2luZy5JbWFnZQkAAAAmRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwSW1hZ2VBbGlnbm1lbnQCAAAACAgICAECAAAAAfP////8////AgAAAAoKAfL/
+        ///1////AAAAAP////8OAAAABgAAADwBAAAABg8AAAAzVXBkYXRlIEJ1ZGdldCBTdHJlbmd0aCBkZXRh
+        aWxzIGJhc2VkIG9uIENvc3QgQ2VudHJlCw==
+</value>
+  </data>
+  <data name="btnStrengthDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="btnStrengthDetails.Text" xml:space="preserve">
+    <value>Strength Details</value>
+  </data>
+  <data name="&gt;&gt;btnStrengthDetails.Name" xml:space="preserve">
+    <value>btnStrengthDetails</value>
+  </data>
+  <data name="&gt;&gt;btnStrengthDetails.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnStrengthDetails.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnStrengthDetails.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnMergeAllCommuntities.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 85</value>
+  </data>
+  <data name="btnMergeAllCommuntities.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="btnMergeAllCommuntities.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="btnMergeAllCommuntities.Text" xml:space="preserve">
+    <value>Merge All Communtities</value>
+  </data>
+  <data name="&gt;&gt;btnMergeAllCommuntities.Name" xml:space="preserve">
+    <value>btnMergeAllCommuntities</value>
+  </data>
+  <data name="&gt;&gt;btnMergeAllCommuntities.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnMergeAllCommuntities.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnMergeAllCommuntities.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblBudgetAction.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="lblBudgetAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1125, 33</value>
+  </data>
+  <data name="lblBudgetAction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 19</value>
+  </data>
+  <data name="lblBudgetAction.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="lblBudgetAction.Text" xml:space="preserve">
+    <value>Budget Action</value>
+  </data>
+  <data name="&gt;&gt;lblBudgetAction.Name" xml:space="preserve">
+    <value>lblBudgetAction</value>
+  </data>
+  <data name="&gt;&gt;lblBudgetAction.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblBudgetAction.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;lblBudgetAction.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnDevProjects.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 540</value>
+  </data>
+  <data name="btnDevProjects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 24</value>
+  </data>
+  <data name="btnDevProjects.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v13.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxMy4yLCBWZXJzaW9uPTEzLjIu
+        Ny4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjEzLjIsIFZlcnNpb249MTMuMi43LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwBwAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wCWl0ZW1UeXBlMQVpdGVtMQQAAAQEBAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAABCCVEZXZFeHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAACFEZXZFeHByZXNz
+        LlV0aWxzLlRvb2xUaXBUaXRsZUl0ZW0CAAAAJURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29sVGlwSXRl
+        bVR5cGUCAAAAHERldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0CAAAAAgAAAAX8////H0RldkV4cHJl
+        c3MuVXRpbHMuRGVmYXVsdEJvb2xlYW4BAAAAB3ZhbHVlX18ACAMAAAACAAAAAAIAAAAF+////yVEZXZF
+        eHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAkGAAAA
+        Afn////7////AAAAAAkIAAAADAkAAABRU3lzdGVtLkRyYXdpbmcsIFZlcnNpb249NC4wLjAuMCwgQ3Vs
+        dHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhBQYAAAAhRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwVGl0bGVJdGVtCgAAAA1BbGxvd0h0bWxUZXh0BEljb24FSW1hZ2UKSW1hZ2VB
+        bGlnbgpJbWFnZUluZGV4E0ltYWdlVG9UZXh0RGlzdGFuY2UKTGVmdEluZGVudAhNYXhXaWR0aBJPd25l
+        ckFsbG93SHRtbFRleHQEVGV4dAQEBAQAAAAAAAEfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgkAAAAUU3lzdGVtLkRyYXdpbmcuSW1hZ2UJAAAAJkRldkV4
+        cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AgAAAAgICAgBAgAAAAH2/////P///wIAAAAK
+        CgX1////JkRldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgC
+        AAAAAAAAAP////8OAAAAAAAAADwBAAAABgwAAAAZRGV2ZWxvcG1lbnRhbC9OZXcgUHJvamVjdAUIAAAA
+        HERldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0KAAAADUFsbG93SHRtbFRleHQESWNvbgVJbWFnZQpJ
+        bWFnZUFsaWduCkltYWdlSW5kZXgTSW1hZ2VUb1RleHREaXN0YW5jZQpMZWZ0SW5kZW50CE1heFdpZHRo
+        Ek93bmVyQWxsb3dIdG1sVGV4dARUZXh0BAQEBAAAAAAAAR9EZXZFeHByZXNzLlV0aWxzLkRlZmF1bHRC
+        b29sZWFuAwAAABNTeXN0ZW0uRHJhd2luZy5JY29uCQAAABRTeXN0ZW0uRHJhd2luZy5JbWFnZQkAAAAm
+        RGV2RXhwcmVzcy5VdGlscy5Ub29sVGlwSW1hZ2VBbGlnbm1lbnQCAAAACAgICAECAAAAAfP////8////
+        AgAAAAoKAfL////1////AAAAAP////8OAAAABgAAADwBAAAABg8AAABDVXBkYXRlIERldmVsb3BtZW50
+        YWwgUHJvamVjdC9TcGVjaWFsIFByb2plY3QvTmV3IFByb2plY3QvQWN0aXZpdGllcws=
+</value>
+  </data>
+  <data name="btnDevProjects.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="btnDevProjects.Text" xml:space="preserve">
+    <value>Developmental Project / New Project</value>
+  </data>
+  <data name="&gt;&gt;btnDevProjects.Name" xml:space="preserve">
+    <value>btnDevProjects</value>
+  </data>
+  <data name="&gt;&gt;btnDevProjects.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnDevProjects.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnDevProjects.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtHOHelpPropsedAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>673, 86</value>
+  </data>
+  <data name="txtHOHelpPropsedAmount.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v13.2" name="DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="txtHOHelpPropsedAmount.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>Numeric</value>
+  </data>
+  <data name="txtHOHelpPropsedAmount.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtHOHelpPropsedAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 20</value>
+  </data>
+  <data name="txtHOHelpPropsedAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;txtHOHelpPropsedAmount.Name" xml:space="preserve">
+    <value>txtHOHelpPropsedAmount</value>
+  </data>
+  <data name="&gt;&gt;txtHOHelpPropsedAmount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtHOHelpPropsedAmount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtHOHelpPropsedAmount.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtHOHelpApprovedAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>865, 86</value>
+  </data>
+  <data name="txtHOHelpApprovedAmount.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <data name="txtHOHelpApprovedAmount.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>Numeric</value>
+  </data>
+  <data name="txtHOHelpApprovedAmount.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtHOHelpApprovedAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 20</value>
+  </data>
+  <data name="txtHOHelpApprovedAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;txtHOHelpApprovedAmount.Name" xml:space="preserve">
+    <value>txtHOHelpApprovedAmount</value>
+  </data>
+  <data name="&gt;&gt;txtHOHelpApprovedAmount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtHOHelpApprovedAmount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtHOHelpApprovedAmount.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnImportBudget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>814, 540</value>
+  </data>
+  <data name="btnImportBudget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 24</value>
+  </data>
+  <data name="btnImportBudget.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="btnImportBudget.Text" xml:space="preserve">
+    <value>Download Budget</value>
+  </data>
+  <data name="btnImportBudget.ToolTip" xml:space="preserve">
+    <value>Download the  Approved Budget from Head Office</value>
+  </data>
+  <data name="&gt;&gt;btnImportBudget.Name" xml:space="preserve">
+    <value>btnImportBudget</value>
+  </data>
+  <data name="&gt;&gt;btnImportBudget.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnImportBudget.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnImportBudget.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnExportBudget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>914, 540</value>
+  </data>
+  <data name="btnExportBudget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 24</value>
+  </data>
+  <data name="btnExportBudget.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="btnExportBudget.Text" xml:space="preserve">
+    <value>Request Budget</value>
+  </data>
+  <data name="btnExportBudget.ToolTip" xml:space="preserve">
+    <value>Request to Approve Budget from Head Office</value>
+  </data>
+  <data name="&gt;&gt;btnExportBudget.Name" xml:space="preserve">
+    <value>btnExportBudget</value>
+  </data>
+  <data name="&gt;&gt;btnExportBudget.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnExportBudget.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnExportBudget.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="glkpMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>791, 7</value>
+  </data>
+  <data name="glkpMonth.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v13.2">
+    <value>Combo</value>
+  </data>
+  <data name="glkpMonth.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gccolName.Caption" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="gccoldisplayMember.Caption" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="gccoldisplayMember.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccoldisplayMember.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="glkpMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="glkpMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;glkpMonth.Name" xml:space="preserve">
+    <value>glkpMonth</value>
+  </data>
+  <data name="&gt;&gt;glkpMonth.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;glkpMonth.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;glkpMonth.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="peImportExcelData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 85</value>
+  </data>
+  <data name="peImportExcelData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="peImportExcelData.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v13.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxMy4yLCBWZXJzaW9uPTEzLjIu
+        Ny4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjEzLjIsIFZlcnNpb249MTMuMi43LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwBwAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wCWl0ZW1UeXBlMQVpdGVtMQQAAAQEBAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAABCCVEZXZFeHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAACFEZXZFeHByZXNz
+        LlV0aWxzLlRvb2xUaXBUaXRsZUl0ZW0CAAAAJURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29sVGlwSXRl
+        bVR5cGUCAAAAHERldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0CAAAAAgAAAAX8////H0RldkV4cHJl
+        c3MuVXRpbHMuRGVmYXVsdEJvb2xlYW4BAAAAB3ZhbHVlX18ACAMAAAACAAAAAAIAAAAF+////yVEZXZF
+        eHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAkGAAAA
+        Afn////7////AAAAAAkIAAAADAkAAABRU3lzdGVtLkRyYXdpbmcsIFZlcnNpb249NC4wLjAuMCwgQ3Vs
+        dHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhBQYAAAAhRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwVGl0bGVJdGVtCgAAAA1BbGxvd0h0bWxUZXh0BEljb24FSW1hZ2UKSW1hZ2VB
+        bGlnbgpJbWFnZUluZGV4E0ltYWdlVG9UZXh0RGlzdGFuY2UKTGVmdEluZGVudAhNYXhXaWR0aBJPd25l
+        ckFsbG93SHRtbFRleHQEVGV4dAQEBAQAAAAAAAEfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgkAAAAUU3lzdGVtLkRyYXdpbmcuSW1hZ2UJAAAAJkRldkV4
+        cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AgAAAAgICAgBAgAAAAH2/////P///wIAAAAK
+        CgX1////JkRldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgC
+        AAAAAAAAAP////8OAAAAAAAAADwBAAAABgwAAAAkSW1wb3J0IEJ1ZGdldCBBbW91bnQgZnJvbSBFeGNl
+        bCBmaWxlBQgAAAAcRGV2RXhwcmVzcy5VdGlscy5Ub29sVGlwSXRlbQoAAAANQWxsb3dIdG1sVGV4dARJ
+        Y29uBUltYWdlCkltYWdlQWxpZ24KSW1hZ2VJbmRleBNJbWFnZVRvVGV4dERpc3RhbmNlCkxlZnRJbmRl
+        bnQITWF4V2lkdGgST3duZXJBbGxvd0h0bWxUZXh0BFRleHQEBAQEAAAAAAABH0RldkV4cHJlc3MuVXRp
+        bHMuRGVmYXVsdEJvb2xlYW4DAAAAE1N5c3RlbS5EcmF3aW5nLkljb24JAAAAFFN5c3RlbS5EcmF3aW5n
+        LkltYWdlCQAAACZEZXZFeHByZXNzLlV0aWxzLlRvb2xUaXBJbWFnZUFsaWdubWVudAIAAAAICAgIAQIA
+        AAAB8/////z///8CAAAACgoB8v////X///8AAAAA/////w4AAAAGAAAAPAEAAAAGDwAAAC9JbXBvcnQg
+        QnVkZ2V0IExlZGdlciBBcHByb3ZlZCBBbW91bnQgZnJvbSBFeGNlbAs=
+</value>
+  </data>
+  <data name="peImportExcelData.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="peImportExcelData.ToolTip" xml:space="preserve">
+    <value>Import Budget Ledger Approved Amount from Excel</value>
+  </data>
+  <data name="&gt;&gt;peImportExcelData.Name" xml:space="preserve">
+    <value>peImportExcelData</value>
+  </data>
+  <data name="&gt;&gt;peImportExcelData.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;peImportExcelData.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;peImportExcelData.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnGo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 32</value>
+  </data>
+  <data name="btnGo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 22</value>
+  </data>
+  <data name="btnGo.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="btnGo.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Name" xml:space="preserve">
+    <value>btnGo</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnGo.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="gcExpenseLedger.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 322</value>
+  </data>
+  <data name="gvExpenseLedger.Appearance.FooterPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="gvExpenseLedger.Appearance.FooterPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="gvExpenseLedger.Appearance.FooterPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gvExpenseLedger.Appearance.FooterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Blue</value>
+  </data>
+  <data name="gvExpenseLedger.Appearance.ViewCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt, style=Bold</value>
+  </data>
+  <data name="colExpenseLedgerId.Caption" xml:space="preserve">
+    <value>ExpenseLedgerId</value>
+  </data>
+  <data name="gccolexpenseCode.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolexpenseCode.Caption" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="gccolexpenseCode.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolexpenseCode.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gccolexpenseCode.Width" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="gccolexpenseLedgerName.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolexpenseLedgerName.Caption" xml:space="preserve">
+    <value>Ledger</value>
+  </data>
+  <data name="gccolexpenseLedgerName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolexpenseLedgerName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gccolexpenseLedgerName.Width" type="System.Int32, mscorlib">
+    <value>439</value>
+  </data>
+  <data name="gccolExpenseNature.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolExpenseNature.Caption" xml:space="preserve">
+    <value>Nature</value>
+  </data>
+  <data name="gccolExpenseNature.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolExpenseNature.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gccolExpenseNature.Width" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="gccolBudgetGroup.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolBudgetGroup.Caption" xml:space="preserve">
+    <value>Budget Group</value>
+  </data>
+  <data name="gccolBudgetGroup.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="gccolBudgetSubGroup.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolBudgetSubGroup.Caption" xml:space="preserve">
+    <value>Budget Sub Group</value>
+  </data>
+  <data name="gccolBudgetSubGroup.Width" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="gccolexpenseApprovedPreviousYR.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolexpenseApprovedPreviousYR.Caption" xml:space="preserve">
+    <value>Approved 2014-15</value>
+  </data>
+  <assembly alias="DevExpress.Data.v13.2" name="DevExpress.Data.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="gccolexpenseApprovedPreviousYR.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v13.2">
+    <value>Sum</value>
+  </data>
+  <data name="gccolexpenseApprovedPreviousYR.Summary1" xml:space="preserve">
+    <value>APPROVED_PREVIOUS_YR</value>
+  </data>
+  <data name="gccolexpenseApprovedPreviousYR.Summary2" xml:space="preserve">
+    <value>{0:N}</value>
+  </data>
+  <data name="gccolexpenseApprovedPreviousYR.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolexpenseApprovedPreviousYR.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gccolexpenseApprovedPreviousYR.Width" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="gccolexpenseActualincome.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolexpenseActualincome.Caption" xml:space="preserve">
+    <value>Actual 2014-15</value>
+  </data>
+  <data name="gccolexpenseActualincome.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v13.2">
+    <value>Sum</value>
+  </data>
+  <data name="gccolexpenseActualincome.Summary1" xml:space="preserve">
+    <value>ACTUAL</value>
+  </data>
+  <data name="gccolexpenseActualincome.Summary2" xml:space="preserve">
+    <value>{0:N}</value>
+  </data>
+  <data name="gccolexpenseActualincome.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolexpenseActualincome.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gccolexpenseActualincome.Width" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="gccolexpenseproposedcurrentYR.AppearanceCell.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>LightYellow</value>
+  </data>
+  <data name="gccolexpenseproposedcurrentYR.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolexpenseproposedcurrentYR.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolexpenseproposedcurrentYR.Caption" xml:space="preserve">
+    <value>Proposed 2015-16</value>
+  </data>
+  <data name="rtxtExpenseProposedCurrentYR.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rtxtExpenseProposedCurrentYR.Mask.EditMask" xml:space="preserve">
+    <value>###,###,###,##0.00;</value>
+  </data>
+  <data name="rtxtExpenseProposedCurrentYR.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>Numeric</value>
+  </data>
+  <data name="gccolexpenseproposedcurrentYR.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v13.2">
+    <value>Sum</value>
+  </data>
+  <data name="gccolexpenseproposedcurrentYR.Summary1" xml:space="preserve">
+    <value>PROPOSED_CURRENT_YR</value>
+  </data>
+  <data name="gccolexpenseproposedcurrentYR.Summary2" xml:space="preserve">
+    <value>{0:N}</value>
+  </data>
+  <data name="gccolexpenseproposedcurrentYR.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolexpenseproposedcurrentYR.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="gccolexpenseproposedcurrentYR.Width" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="gccolexpenseapprovedcurrentYR.AppearanceCell.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>LightYellow</value>
+  </data>
+  <data name="gccolexpenseapprovedcurrentYR.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolexpenseapprovedcurrentYR.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolexpenseapprovedcurrentYR.Caption" xml:space="preserve">
+    <value>Approved 2015-16</value>
+  </data>
+  <data name="rtxtApprovedCurrentYR.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rtxtApprovedCurrentYR.Mask.EditMask" xml:space="preserve">
+    <value>###,###,###,##0.00;</value>
+  </data>
+  <data name="rtxtApprovedCurrentYR.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>Numeric</value>
+  </data>
+  <data name="gccolexpenseapprovedcurrentYR.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v13.2">
+    <value>Sum</value>
+  </data>
+  <data name="gccolexpenseapprovedcurrentYR.Summary1" xml:space="preserve">
+    <value>APPROVED_CURRENT_YR</value>
+  </data>
+  <data name="gccolexpenseapprovedcurrentYR.Summary2" xml:space="preserve">
+    <value>{0:N}</value>
+  </data>
+  <data name="gccolexpenseapprovedcurrentYR.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolexpenseapprovedcurrentYR.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gccolexpenseapprovedcurrentYR.Width" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="gccolExpNarration.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolExpNarration.Caption" xml:space="preserve">
+    <value>Narration</value>
+  </data>
+  <data name="gccolExpNarration.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolExpNarration.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="gccolExpNarration.Width" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="gridColumn1.Caption" xml:space="preserve">
+    <value>gridColumn1</value>
+  </data>
+  <data name="colExeHONarration.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colExeHONarration.Caption" xml:space="preserve">
+    <value>HeadOffice Narration</value>
+  </data>
+  <data name="colExeHONarration.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colExeHONarration.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="colExeHONarration.Width" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="gvExpenseLedger.ViewCaption" xml:space="preserve">
+    <value>Budget Expense Ledgers</value>
+  </data>
+  <data name="gcExpenseLedger.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1216, 206</value>
+  </data>
+  <data name="gcExpenseLedger.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;gcExpenseLedger.Name" xml:space="preserve">
+    <value>gcExpenseLedger</value>
+  </data>
+  <data name="&gt;&gt;gcExpenseLedger.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcExpenseLedger.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;gcExpenseLedger.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="gcIncomeLedger.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 111</value>
+  </data>
+  <data name="gvIncomeLedger.Appearance.FooterPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="gvIncomeLedger.Appearance.FooterPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="gvIncomeLedger.Appearance.FooterPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gvIncomeLedger.Appearance.FooterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Blue</value>
+  </data>
+  <data name="gvIncomeLedger.Appearance.ViewCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt, style=Bold</value>
+  </data>
+  <data name="colIncomeLedgerId.Caption" xml:space="preserve">
+    <value>LedgerId</value>
+  </data>
+  <data name="gccolIncomeCode.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolIncomeCode.Caption" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="gccolIncomeCode.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolIncomeCode.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gccolIncomeCode.Width" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="gccolIncomeLedger.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolIncomeLedger.Caption" xml:space="preserve">
+    <value>Ledger</value>
+  </data>
+  <data name="gccolIncomeLedger.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolIncomeLedger.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gccolIncomeLedger.Width" type="System.Int32, mscorlib">
+    <value>462</value>
+  </data>
+  <data name="gccolIncomeNature.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolIncomeNature.Caption" xml:space="preserve">
+    <value>Nature</value>
+  </data>
+  <data name="gccolIncomeNature.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolIncomeNature.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gccolIncomeNature.Width" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="gccolIncomeBudgetGroup.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolIncomeBudgetGroup.Caption" xml:space="preserve">
+    <value>Budget Group</value>
+  </data>
+  <data name="gccolIncomeBudgetGroup.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="gccolIncomeBudgetSubGroup.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolIncomeBudgetSubGroup.Caption" xml:space="preserve">
+    <value>Budget Sub Group</value>
+  </data>
+  <data name="gccolIncomeBudgetSubGroup.Width" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="gccolIncomePreviousApproved.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolIncomePreviousApproved.Caption" xml:space="preserve">
+    <value>Approved 2014-15</value>
+  </data>
+  <data name="gccolIncomePreviousApproved.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v13.2">
+    <value>Sum</value>
+  </data>
+  <data name="gccolIncomePreviousApproved.Summary1" xml:space="preserve">
+    <value>APPROVED_PREVIOUS_YR</value>
+  </data>
+  <data name="gccolIncomePreviousApproved.Summary2" xml:space="preserve">
+    <value>{0:N}</value>
+  </data>
+  <data name="gccolIncomePreviousApproved.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolIncomePreviousApproved.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gccolIncomePreviousApproved.Width" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="gccolIncomeActualIncome.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolIncomeActualIncome.Caption" xml:space="preserve">
+    <value>Actual 2014-15</value>
+  </data>
+  <data name="gccolIncomeActualIncome.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v13.2">
+    <value>Sum</value>
+  </data>
+  <data name="gccolIncomeActualIncome.Summary1" xml:space="preserve">
+    <value>ACTUAL</value>
+  </data>
+  <data name="gccolIncomeActualIncome.Summary2" xml:space="preserve">
+    <value>{0:N}</value>
+  </data>
+  <data name="gccolIncomeActualIncome.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolIncomeActualIncome.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gccolIncomeActualIncome.Width" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="gccolIncomeCurrentYearProposed.AppearanceCell.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>LightYellow</value>
+  </data>
+  <data name="gccolIncomeCurrentYearProposed.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolIncomeCurrentYearProposed.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolIncomeCurrentYearProposed.Caption" xml:space="preserve">
+    <value>Proposed 2015-16</value>
+  </data>
+  <data name="rtxtIncomeCurrentYearproposedamt.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rtxtIncomeCurrentYearproposedamt.Mask.EditMask" xml:space="preserve">
+    <value>###,###,###,##0.00;</value>
+  </data>
+  <data name="rtxtIncomeCurrentYearproposedamt.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>Numeric</value>
+  </data>
+  <data name="gccolIncomeCurrentYearProposed.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v13.2">
+    <value>Sum</value>
+  </data>
+  <data name="gccolIncomeCurrentYearProposed.Summary1" xml:space="preserve">
+    <value>PROPOSED_CURRENT_YR</value>
+  </data>
+  <data name="gccolIncomeCurrentYearProposed.Summary2" xml:space="preserve">
+    <value>{0:N}</value>
+  </data>
+  <data name="gccolIncomeCurrentYearProposed.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolIncomeCurrentYearProposed.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="gccolIncomeCurrentYearProposed.Width" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="gccolIncomeCurrentYearApproved.AppearanceCell.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>LightYellow</value>
+  </data>
+  <data name="gccolIncomeCurrentYearApproved.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolIncomeCurrentYearApproved.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolIncomeCurrentYearApproved.Caption" xml:space="preserve">
+    <value>Approved 2015-16</value>
+  </data>
+  <data name="rtxtIncomeCurrentYearApproved.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rtxtIncomeCurrentYearApproved.Mask.EditMask" xml:space="preserve">
+    <value>###,###,###,##0.00;</value>
+  </data>
+  <data name="rtxtIncomeCurrentYearApproved.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>Numeric</value>
+  </data>
+  <data name="gccolIncomeCurrentYearApproved.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v13.2">
+    <value>Sum</value>
+  </data>
+  <data name="gccolIncomeCurrentYearApproved.Summary1" xml:space="preserve">
+    <value>APPROVED_CURRENT_YR</value>
+  </data>
+  <data name="gccolIncomeCurrentYearApproved.Summary2" xml:space="preserve">
+    <value>{0:N}</value>
+  </data>
+  <data name="gccolIncomeCurrentYearApproved.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolIncomeCurrentYearApproved.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gccolIncomeCurrentYearApproved.Width" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="gccolIncomeNarration.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolIncomeNarration.Caption" xml:space="preserve">
+    <value>Narration</value>
+  </data>
+  <data name="rtxtIncomeCurrentYearNarration.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gccolIncomeNarration.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolIncomeNarration.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="gccolIncomeNarration.Width" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="gccolNatureId.Caption" xml:space="preserve">
+    <value>NatureId</value>
+  </data>
+  <data name="colIncomeHONarration.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colIncomeHONarration.Caption" xml:space="preserve">
+    <value>HeadOffice Narration</value>
+  </data>
+  <data name="colIncomeHONarration.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colIncomeHONarration.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="colIncomeHONarration.Width" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="gvIncomeLedger.ViewCaption" xml:space="preserve">
+    <value>Budget Income Ledgers</value>
+  </data>
+  <data name="gcIncomeLedger.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1216, 207</value>
+  </data>
+  <data name="gcIncomeLedger.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;gcIncomeLedger.Name" xml:space="preserve">
+    <value>gcIncomeLedger</value>
+  </data>
+  <data name="&gt;&gt;gcIncomeLedger.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcIncomeLedger.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;gcIncomeLedger.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="peReplaceValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 85</value>
+  </data>
+  <data name="peReplaceValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="peReplaceValue.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v13.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxMy4yLCBWZXJzaW9uPTEzLjIu
+        Ny4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjEzLjIsIFZlcnNpb249MTMuMi43LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwBwAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wCWl0ZW1UeXBlMQVpdGVtMQQAAAQEBAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAABCCVEZXZFeHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAACFEZXZFeHByZXNz
+        LlV0aWxzLlRvb2xUaXBUaXRsZUl0ZW0CAAAAJURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29sVGlwSXRl
+        bVR5cGUCAAAAHERldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0CAAAAAgAAAAX8////H0RldkV4cHJl
+        c3MuVXRpbHMuRGVmYXVsdEJvb2xlYW4BAAAAB3ZhbHVlX18ACAMAAAACAAAAAAIAAAAF+////yVEZXZF
+        eHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAkGAAAA
+        Afn////7////AAAAAAkIAAAADAkAAABRU3lzdGVtLkRyYXdpbmcsIFZlcnNpb249NC4wLjAuMCwgQ3Vs
+        dHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhBQYAAAAhRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwVGl0bGVJdGVtCgAAAA1BbGxvd0h0bWxUZXh0BEljb24FSW1hZ2UKSW1hZ2VB
+        bGlnbgpJbWFnZUluZGV4E0ltYWdlVG9UZXh0RGlzdGFuY2UKTGVmdEluZGVudAhNYXhXaWR0aBJPd25l
+        ckFsbG93SHRtbFRleHQEVGV4dAQEBAQAAAAAAAEfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgkAAAAUU3lzdGVtLkRyYXdpbmcuSW1hZ2UJAAAAJkRldkV4
+        cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AgAAAAgICAgBAgAAAAH2/////P///wIAAAAK
+        CgX1////JkRldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgC
+        AAAAAAAAAP////8OAAAAAAAAADwBAAAABgwAAAAPQXBwcm92ZWQgQW1vdW50BQgAAAAcRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwSXRlbQoAAAANQWxsb3dIdG1sVGV4dARJY29uBUltYWdlCkltYWdlQWxpZ24K
+        SW1hZ2VJbmRleBNJbWFnZVRvVGV4dERpc3RhbmNlCkxlZnRJbmRlbnQITWF4V2lkdGgST3duZXJBbGxv
+        d0h0bWxUZXh0BFRleHQEBAQEAAAAAAABH0RldkV4cHJlc3MuVXRpbHMuRGVmYXVsdEJvb2xlYW4DAAAA
+        E1N5c3RlbS5EcmF3aW5nLkljb24JAAAAFFN5c3RlbS5EcmF3aW5nLkltYWdlCQAAACZEZXZFeHByZXNz
+        LlV0aWxzLlRvb2xUaXBJbWFnZUFsaWdubWVudAIAAAAICAgIAQIAAAAB8/////z///8CAAAACgoB8v//
+        //X///8AAAAA/////w4AAAAGAAAAPAEAAAAGDwAAACdNb3ZlIFByb3Bvc2VkIEFtb3VudCB0byBBcHBy
+        b3ZlZCBBbW91bnQL
+</value>
+  </data>
+  <data name="peReplaceValue.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="peReplaceValue.ToolTip" xml:space="preserve">
+    <value>Move Proposed Amt to Approved Amt</value>
+  </data>
+  <data name="&gt;&gt;peReplaceValue.Name" xml:space="preserve">
+    <value>peReplaceValue</value>
+  </data>
+  <data name="&gt;&gt;peReplaceValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;peReplaceValue.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;peReplaceValue.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnStatistics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1033, 540</value>
+  </data>
+  <data name="btnStatistics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 24</value>
+  </data>
+  <data name="btnStatistics.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="btnStatistics.Text" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="&gt;&gt;btnStatistics.Name" xml:space="preserve">
+    <value>btnStatistics</value>
+  </data>
+  <data name="&gt;&gt;btnStatistics.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnStatistics.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnStatistics.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="glkpBudgetType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>578, 7</value>
+  </data>
+  <data name="glkpBudgetType.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v13.2">
+    <value>Combo</value>
+  </data>
+  <data name="glkpBudgetType.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridLookUpEdit1View.Appearance.FocusedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gridLookUpEdit1View.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colId.Caption" xml:space="preserve">
+    <value>gridColumn1</value>
+  </data>
+  <data name="colName.Caption" xml:space="preserve">
+    <value>gridColumn2</value>
+  </data>
+  <data name="colName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="glkpBudgetType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 20</value>
+  </data>
+  <data name="glkpBudgetType.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;glkpBudgetType.Name" xml:space="preserve">
+    <value>glkpBudgetType</value>
+  </data>
+  <data name="&gt;&gt;glkpBudgetType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;glkpBudgetType.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;glkpBudgetType.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dePeriodTo.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dePeriodTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1088, 7</value>
+  </data>
+  <data name="dePeriodTo.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v13.2">
+    <value>Combo</value>
+  </data>
+  <data name="dePeriodTo.Properties.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v13.2">
+    <value>Combo</value>
+  </data>
+  <data name="dePeriodTo.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>DateTimeAdvancingCaret</value>
+  </data>
+  <data name="dePeriodTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 20</value>
+  </data>
+  <data name="dePeriodTo.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;dePeriodTo.Name" xml:space="preserve">
+    <value>dePeriodTo</value>
+  </data>
+  <data name="&gt;&gt;dePeriodTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dePeriodTo.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;dePeriodTo.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="dePeriodFrom.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dePeriodFrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>916, 7</value>
+  </data>
+  <data name="dePeriodFrom.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v13.2">
+    <value>Combo</value>
+  </data>
+  <data name="dePeriodFrom.Properties.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v13.2">
+    <value>Combo</value>
+  </data>
+  <data name="dePeriodFrom.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>DateTimeAdvancingCaret</value>
+  </data>
+  <data name="dePeriodFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="dePeriodFrom.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;dePeriodFrom.Name" xml:space="preserve">
+    <value>dePeriodFrom</value>
+  </data>
+  <data name="&gt;&gt;dePeriodFrom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dePeriodFrom.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;dePeriodFrom.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="pePrintBudget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 85</value>
+  </data>
+  <data name="pePrintBudget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="pePrintBudget.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v13.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxMy4yLCBWZXJzaW9uPTEzLjIu
+        Ny4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjEzLjIsIFZlcnNpb249MTMuMi43LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwBwAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wCWl0ZW1UeXBlMQVpdGVtMQQAAAQEBAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAABCCVEZXZFeHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAACFEZXZFeHByZXNz
+        LlV0aWxzLlRvb2xUaXBUaXRsZUl0ZW0CAAAAJURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29sVGlwSXRl
+        bVR5cGUCAAAAHERldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0CAAAAAgAAAAX8////H0RldkV4cHJl
+        c3MuVXRpbHMuRGVmYXVsdEJvb2xlYW4BAAAAB3ZhbHVlX18ACAMAAAACAAAAAAIAAAAF+////yVEZXZF
+        eHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAkGAAAA
+        Afn////7////AAAAAAkIAAAADAkAAABRU3lzdGVtLkRyYXdpbmcsIFZlcnNpb249NC4wLjAuMCwgQ3Vs
+        dHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhBQYAAAAhRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwVGl0bGVJdGVtCgAAAA1BbGxvd0h0bWxUZXh0BEljb24FSW1hZ2UKSW1hZ2VB
+        bGlnbgpJbWFnZUluZGV4E0ltYWdlVG9UZXh0RGlzdGFuY2UKTGVmdEluZGVudAhNYXhXaWR0aBJPd25l
+        ckFsbG93SHRtbFRleHQEVGV4dAQEBAQAAAAAAAEfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgkAAAAUU3lzdGVtLkRyYXdpbmcuSW1hZ2UJAAAAJkRldkV4
+        cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AgAAAAgICAgBAgAAAAH2/////P///wIAAAAK
+        CgX1////JkRldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgC
+        AAAAAAAAAP////8OAAAAAAAAADwBAAAABgwAAAAdUHJpbnQgUHJldmlldy9FeHBvcnQgdG8gRXhjZWwF
+        CAAAABxEZXZFeHByZXNzLlV0aWxzLlRvb2xUaXBJdGVtCgAAAA1BbGxvd0h0bWxUZXh0BEljb24FSW1h
+        Z2UKSW1hZ2VBbGlnbgpJbWFnZUluZGV4E0ltYWdlVG9UZXh0RGlzdGFuY2UKTGVmdEluZGVudAhNYXhX
+        aWR0aBJPd25lckFsbG93SHRtbFRleHQEVGV4dAQEBAQAAAAAAAEfRGV2RXhwcmVzcy5VdGlscy5EZWZh
+        dWx0Qm9vbGVhbgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgkAAAAUU3lzdGVtLkRyYXdpbmcuSW1hZ2UJ
+        AAAAJkRldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AgAAAAgICAgBAgAAAAHz////
+        /P///wIAAAAKCgHy////9f///wAAAAD/////DgAAAAYAAAA8AQAAAAYPAAAAHlByaW50L0V4cG9ydCB0
+        aGUgQnVkZ2V0IEFtb3VudAs=
+</value>
+  </data>
+  <data name="pePrintBudget.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="pePrintBudget.ToolTip" xml:space="preserve">
+    <value>Print/Export the Budget Amount</value>
+  </data>
+  <data name="&gt;&gt;pePrintBudget.Name" xml:space="preserve">
+    <value>pePrintBudget</value>
+  </data>
+  <data name="&gt;&gt;pePrintBudget.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pePrintBudget.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;pePrintBudget.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="chkFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 571</value>
+  </data>
+  <data name="chkFilter.Properties.Caption" xml:space="preserve">
+    <value>Show &lt;b&gt;&amp;F&lt;/b&gt;ilter</value>
+  </data>
+  <data name="chkFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 19</value>
+  </data>
+  <data name="chkFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;chkFilter.Name" xml:space="preserve">
+    <value>chkFilter</value>
+  </data>
+  <data name="&gt;&gt;chkFilter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkFilter.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;chkFilter.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="glkpProject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 31</value>
+  </data>
+  <data name="glkpProject.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="glkpProject.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v13.2">
+    <value>Combo</value>
+  </data>
+  <data name="glkpProject.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rchkCheckBox.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rchkCheckBox.Caption" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="gvProject.Appearance.FocusedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colProjectId.Caption" xml:space="preserve">
+    <value>ProjectId</value>
+  </data>
+  <data name="colProject.Caption" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="colProject.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colProject.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="glkpProject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>696, 24</value>
+  </data>
+  <data name="glkpProject.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v13.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxMy4yLCBWZXJzaW9uPTEzLjIu
+        Ny4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjEzLjIsIFZlcnNpb249MTMuMi43LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwBwAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wCWl0ZW1UeXBlMQVpdGVtMQQAAAQEBAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAABCCVEZXZFeHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAACFEZXZFeHByZXNz
+        LlV0aWxzLlRvb2xUaXBUaXRsZUl0ZW0CAAAAJURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29sVGlwSXRl
+        bVR5cGUCAAAAHERldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0CAAAAAgAAAAX8////H0RldkV4cHJl
+        c3MuVXRpbHMuRGVmYXVsdEJvb2xlYW4BAAAAB3ZhbHVlX18ACAMAAAACAAAAAAIAAAAF+////yVEZXZF
+        eHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAkGAAAA
+        Afn////7////AAAAAAkIAAAADAkAAABRU3lzdGVtLkRyYXdpbmcsIFZlcnNpb249NC4wLjAuMCwgQ3Vs
+        dHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhBQYAAAAhRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwVGl0bGVJdGVtCgAAAA1BbGxvd0h0bWxUZXh0BEljb24FSW1hZ2UKSW1hZ2VB
+        bGlnbgpJbWFnZUluZGV4E0ltYWdlVG9UZXh0RGlzdGFuY2UKTGVmdEluZGVudAhNYXhXaWR0aBJPd25l
+        ckFsbG93SHRtbFRleHQEVGV4dAQEBAQAAAAAAAEfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgkAAAAUU3lzdGVtLkRyYXdpbmcuSW1hZ2UJAAAAJkRldkV4
+        cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AgAAAAgICAgBAgAAAAH2/////P///wIAAAAK
+        CgX1////JkRldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgC
+        AAAAAAAAAP////8OAAAAAAAAADwBAAAABgwAAAAHUHJvamVjdAUIAAAAHERldkV4cHJlc3MuVXRpbHMu
+        VG9vbFRpcEl0ZW0KAAAADUFsbG93SHRtbFRleHQESWNvbgVJbWFnZQpJbWFnZUFsaWduCkltYWdlSW5k
+        ZXgTSW1hZ2VUb1RleHREaXN0YW5jZQpMZWZ0SW5kZW50CE1heFdpZHRoEk93bmVyQWxsb3dIdG1sVGV4
+        dARUZXh0BAQEBAAAAAAAAR9EZXZFeHByZXNzLlV0aWxzLkRlZmF1bHRCb29sZWFuAwAAABNTeXN0ZW0u
+        RHJhd2luZy5JY29uCQAAABRTeXN0ZW0uRHJhd2luZy5JbWFnZQkAAAAmRGV2RXhwcmVzcy5VdGlscy5U
+        b29sVGlwSW1hZ2VBbGlnbm1lbnQCAAAACAgICAECAAAAAfP////8////AgAAAAoKAfL////1////AAAA
+        AP////8OAAAABgAAADwBAAAABg8AAAAMUHJvamVjdCBOYW1lCw==
+</value>
+  </data>
+  <data name="glkpProject.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;glkpProject.Name" xml:space="preserve">
+    <value>glkpProject</value>
+  </data>
+  <data name="&gt;&gt;glkpProject.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;glkpProject.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;glkpProject.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="chkActive.EditValue" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkActive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>963, 32</value>
+  </data>
+  <data name="chkActive.Properties.Caption" xml:space="preserve">
+    <value>Is Ac&lt;b&gt;&amp;t&lt;/b&gt;ive</value>
+  </data>
+  <data name="chkActive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 19</value>
+  </data>
+  <data name="chkActive.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;chkActive.Name" xml:space="preserve">
+    <value>chkActive</value>
+  </data>
+  <data name="&gt;&gt;chkActive.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkActive.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;chkActive.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1173, 540</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 24</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1103, 540</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 24</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="btnApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1151, 85</value>
+  </data>
+  <data name="btnApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 22</value>
+  </data>
+  <data name="btnApply.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>&amp;Apply</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Name" xml:space="preserve">
+    <value>btnApply</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnApply.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="txtPercentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1097, 86</value>
+  </data>
+  <data name="txtPercentage.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtPercentage.Properties.Mask.EditMask" xml:space="preserve">
+    <value>(\d{1,3}(\.\d{1,3})?)</value>
+  </data>
+  <data name="txtPercentage.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>RegEx</value>
+  </data>
+  <data name="txtPercentage.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPercentage.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="txtPercentage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtPercentage.Name" xml:space="preserve">
+    <value>txtPercentage</value>
+  </data>
+  <data name="&gt;&gt;txtPercentage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtPercentage.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtPercentage.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="txtBudgetName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 8</value>
+  </data>
+  <data name="txtBudgetName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 20</value>
+  </data>
+  <data name="txtBudgetName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtBudgetName.Name" xml:space="preserve">
+    <value>txtBudgetName</value>
+  </data>
+  <data name="&gt;&gt;txtBudgetName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtBudgetName.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtBudgetName.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="lcSave.CustomizationFormText" xml:space="preserve">
+    <value>lcSave</value>
+  </data>
+  <data name="lcSave.Text" xml:space="preserve">
+    <value>lcSave</value>
+  </data>
+  <data name="lcClose.CustomizationFormText" xml:space="preserve">
+    <value>lcClose</value>
+  </data>
+  <data name="lcClose.Text" xml:space="preserve">
+    <value>lcClose</value>
+  </data>
+  <data name="lcBudgetGroup.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lcBudgetGroup.CustomizationFormText" xml:space="preserve">
+    <value>Budget for 2014-15</value>
+  </data>
+  <data name="lciPercentage.CustomizationFormText" xml:space="preserve">
+    <value>% Calc</value>
+  </data>
+  <data name="lciPercentage.Text" xml:space="preserve">
+    <value>Actual %</value>
+  </data>
+  <data name="lciapply.CustomizationFormText" xml:space="preserve">
+    <value>lciapply</value>
+  </data>
+  <data name="lciapply.Text" xml:space="preserve">
+    <value>lciapply</value>
+  </data>
+  <data name="emptySpaceItem4.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem4</value>
+  </data>
+  <data name="emptySpaceItem4.Text" xml:space="preserve">
+    <value>emptySpaceItem4</value>
+  </data>
+  <data name="lcPrint.CustomizationFormText" xml:space="preserve">
+    <value>lcPrint</value>
+  </data>
+  <data name="lcPrint.Text" xml:space="preserve">
+    <value>lcPrint</value>
+  </data>
+  <data name="lcMoveProToApproved.CustomizationFormText" xml:space="preserve">
+    <value>lcMoveProToApproved</value>
+  </data>
+  <data name="lcMoveProToApproved.Text" xml:space="preserve">
+    <value>lcMoveProToApproved</value>
+  </data>
+  <data name="lcIncomeBudgetLedgers.CustomizationFormText" xml:space="preserve">
+    <value>lcIncomeBudgetLedgers</value>
+  </data>
+  <data name="lcIncomeBudgetLedgers.Text" xml:space="preserve">
+    <value>lcIncomeBudgetLedgers</value>
+  </data>
+  <data name="lcExpenseBudgetLedgers.CustomizationFormText" xml:space="preserve">
+    <value>lcExpenseBudgetLedgers</value>
+  </data>
+  <data name="lcExpenseBudgetLedgers.Text" xml:space="preserve">
+    <value>lcExpenseBudgetLedgers</value>
+  </data>
+  <data name="lcExcellImport.CustomizationFormText" xml:space="preserve">
+    <value>lcExcellImport</value>
+  </data>
+  <data name="lcExcellImport.Text" xml:space="preserve">
+    <value>lcExcellImport</value>
+  </data>
+  <data name="lcHOHelpApprovedAmt.CustomizationFormText" xml:space="preserve">
+    <value>Province Help</value>
+  </data>
+  <data name="lcHOHelpApprovedAmt.Text" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="emptySpaceItem5.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem5</value>
+  </data>
+  <data name="emptySpaceItem5.Text" xml:space="preserve">
+    <value>emptySpaceItem5</value>
+  </data>
+  <data name="lcHOHelpProposedAmt.CustomizationFormText" xml:space="preserve">
+    <value>Proposed</value>
+  </data>
+  <data name="lcHOHelpProposedAmt.Text" xml:space="preserve">
+    <value>Proposed</value>
+  </data>
+  <data name="lblHOHelp.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblHOHelp.CustomizationFormText" xml:space="preserve">
+    <value>Province Help</value>
+  </data>
+  <data name="lblHOHelp.Text" xml:space="preserve">
+    <value>Province Help</value>
+  </data>
+  <data name="lcMergeAllCommuntities.CustomizationFormText" xml:space="preserve">
+    <value>lcMergeAllCommuntities</value>
+  </data>
+  <data name="lcMergeAllCommuntities.Text" xml:space="preserve">
+    <value>lcMergeAllCommuntities</value>
+  </data>
+  <data name="lcBudgetGroup.Text" xml:space="preserve">
+    <value>Budget for 2014-15</value>
+  </data>
+  <data name="lblPeriodFrom.CustomizationFormText" xml:space="preserve">
+    <value>Period From</value>
+  </data>
+  <data name="lblPeriodFrom.Text" xml:space="preserve">
+    <value>Period From</value>
+  </data>
+  <data name="lblPeriodTo.CustomizationFormText" xml:space="preserve">
+    <value>Date To</value>
+  </data>
+  <data name="lblPeriodTo.Text" xml:space="preserve">
+    <value>Date To</value>
+  </data>
+  <data name="lciBudgetName.CustomizationFormText" xml:space="preserve">
+    <value>Budget Name&lt;color="Red"&gt;*&lt;/color&gt;</value>
+  </data>
+  <data name="lciBudgetName.Text" xml:space="preserve">
+    <value>Budget Name&lt;Color=Red&gt;*&lt;/Color&gt;</value>
+  </data>
+  <data name="lciBudgetType.CustomizationFormText" xml:space="preserve">
+    <value>Budget Type</value>
+  </data>
+  <data name="lciBudgetType.Text" xml:space="preserve">
+    <value>Budget Type</value>
+  </data>
+  <data name="lciProject.CustomizationFormText" xml:space="preserve">
+    <value>Project &lt;color=red&gt;*&lt;/color&gt;</value>
+  </data>
+  <data name="lciProject.Text" xml:space="preserve">
+    <value>Project &lt;color=red&gt;*&lt;/color&gt;</value>
+  </data>
+  <data name="emptySpaceItem1.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="emptySpaceItem1.Text" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="emptySpaceItem3.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="emptySpaceItem3.Text" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="lcBudgetActive.CustomizationFormText" xml:space="preserve">
+    <value>lcBudgetActive</value>
+  </data>
+  <data name="lcBudgetActive.Text" xml:space="preserve">
+    <value>lcBudgetActive</value>
+  </data>
+  <data name="lciStatisticsButton.CustomizationFormText" xml:space="preserve">
+    <value>lciStatisticsButton</value>
+  </data>
+  <data name="lciStatisticsButton.Text" xml:space="preserve">
+    <value>lciStatisticsButton</value>
+  </data>
+  <data name="layoutControlItem8.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem8</value>
+  </data>
+  <data name="layoutControlItem8.Text" xml:space="preserve">
+    <value>layoutControlItem8</value>
+  </data>
+  <data name="lciMonth.CustomizationFormText" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="lciMonth.Text" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="lcExportBudget.CustomizationFormText" xml:space="preserve">
+    <value>lcExportBudget</value>
+  </data>
+  <data name="lcExportBudget.Text" xml:space="preserve">
+    <value>lcExportBudget</value>
+  </data>
+  <data name="lcImportBudget.CustomizationFormText" xml:space="preserve">
+    <value>lcImportBudget</value>
+  </data>
+  <data name="lcImportBudget.Text" xml:space="preserve">
+    <value>lcImportBudget</value>
+  </data>
+  <data name="lcBudgetAction.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt, style=Bold</value>
+  </data>
+  <data name="lcBudgetAction.CustomizationFormText" xml:space="preserve">
+    <value>BudgetAction</value>
+  </data>
+  <data name="lcBudgetAction.Text" xml:space="preserve">
+    <value>BudgetAction</value>
+  </data>
+  <data name="lableText.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="lableText.CustomizationFormText" xml:space="preserve">
+    <value>You can also Specify percentage for individaul ledgers. Eg. Try tying 80% in a cell.</value>
+  </data>
+  <data name="lableText.Text" xml:space="preserve">
+    <value>You can also Specify percentage for individual ledgers. Eg. Make 80% in a cell.</value>
+  </data>
+  <data name="lcDevelopmentProjects.CustomizationFormText" xml:space="preserve">
+    <value>lcDevelopmentProjects</value>
+  </data>
+  <data name="lcDevelopmentProjects.Text" xml:space="preserve">
+    <value>lcDevelopmentProjects</value>
+  </data>
+  <data name="emptySpaceItem6.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem6</value>
+  </data>
+  <data name="emptySpaceItem6.Text" xml:space="preserve">
+    <value>emptySpaceItem6</value>
+  </data>
+  <data name="emptySpaceItem2.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="emptySpaceItem2.Text" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="lcCCStrengthDetails.CustomizationFormText" xml:space="preserve">
+    <value>lcCCStrengthDetails</value>
+  </data>
+  <data name="lcCCStrengthDetails.Text" xml:space="preserve">
+    <value>lcCCStrengthDetails</value>
+  </data>
+  <data name="layoutControlItem12.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem12</value>
+  </data>
+  <data name="layoutControlItem12.Text" xml:space="preserve">
+    <value>layoutControlItem12</value>
+  </data>
+  <data name="lcLink.CustomizationFormText" xml:space="preserve">
+    <value>lcLink</value>
+  </data>
+  <data name="lcLink.Text" xml:space="preserve">
+    <value>lcLink</value>
+  </data>
+  <data name="lcLinkNewProjects.CustomizationFormText" xml:space="preserve">
+    <value>Link New Project(s)</value>
+  </data>
+  <data name="lcLinkNewProjects.Text" xml:space="preserve">
+    <value>Link New Project(s)</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1246, 599</value>
+  </data>
+  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="printingSys.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1246, 599</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Budget</value>
+  </data>
+  <data name="&gt;&gt;gvNewProject.Name" xml:space="preserve">
+    <value>gvNewProject</value>
+  </data>
+  <data name="&gt;&gt;gvNewProject.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colOldBudgetId.Name" xml:space="preserve">
+    <value>colOldBudgetId</value>
+  </data>
+  <data name="&gt;&gt;colOldBudgetId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colNewProject.Name" xml:space="preserve">
+    <value>colNewProject</value>
+  </data>
+  <data name="&gt;&gt;colNewProject.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Name" xml:space="preserve">
+    <value>gridView1</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolName.Name" xml:space="preserve">
+    <value>gccolName</value>
+  </data>
+  <data name="&gt;&gt;gccolName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccoldisplayMember.Name" xml:space="preserve">
+    <value>gccoldisplayMember</value>
+  </data>
+  <data name="&gt;&gt;gccoldisplayMember.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gvExpenseLedger.Name" xml:space="preserve">
+    <value>gvExpenseLedger</value>
+  </data>
+  <data name="&gt;&gt;gvExpenseLedger.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colExpenseLedgerId.Name" xml:space="preserve">
+    <value>colExpenseLedgerId</value>
+  </data>
+  <data name="&gt;&gt;colExpenseLedgerId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolexpenseCode.Name" xml:space="preserve">
+    <value>gccolexpenseCode</value>
+  </data>
+  <data name="&gt;&gt;gccolexpenseCode.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolexpenseLedgerName.Name" xml:space="preserve">
+    <value>gccolexpenseLedgerName</value>
+  </data>
+  <data name="&gt;&gt;gccolexpenseLedgerName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolExpenseNature.Name" xml:space="preserve">
+    <value>gccolExpenseNature</value>
+  </data>
+  <data name="&gt;&gt;gccolExpenseNature.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolBudgetGroup.Name" xml:space="preserve">
+    <value>gccolBudgetGroup</value>
+  </data>
+  <data name="&gt;&gt;gccolBudgetGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolBudgetSubGroup.Name" xml:space="preserve">
+    <value>gccolBudgetSubGroup</value>
+  </data>
+  <data name="&gt;&gt;gccolBudgetSubGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolexpenseApprovedPreviousYR.Name" xml:space="preserve">
+    <value>gccolexpenseApprovedPreviousYR</value>
+  </data>
+  <data name="&gt;&gt;gccolexpenseApprovedPreviousYR.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolexpenseActualincome.Name" xml:space="preserve">
+    <value>gccolexpenseActualincome</value>
+  </data>
+  <data name="&gt;&gt;gccolexpenseActualincome.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolexpenseproposedcurrentYR.Name" xml:space="preserve">
+    <value>gccolexpenseproposedcurrentYR</value>
+  </data>
+  <data name="&gt;&gt;gccolexpenseproposedcurrentYR.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rtxtExpenseProposedCurrentYR.Name" xml:space="preserve">
+    <value>rtxtExpenseProposedCurrentYR</value>
+  </data>
+  <data name="&gt;&gt;rtxtExpenseProposedCurrentYR.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolexpenseapprovedcurrentYR.Name" xml:space="preserve">
+    <value>gccolexpenseapprovedcurrentYR</value>
+  </data>
+  <data name="&gt;&gt;gccolexpenseapprovedcurrentYR.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rtxtApprovedCurrentYR.Name" xml:space="preserve">
+    <value>rtxtApprovedCurrentYR</value>
+  </data>
+  <data name="&gt;&gt;rtxtApprovedCurrentYR.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolExpNarration.Name" xml:space="preserve">
+    <value>gccolExpNarration</value>
+  </data>
+  <data name="&gt;&gt;gccolExpNarration.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn1.Name" xml:space="preserve">
+    <value>gridColumn1</value>
+  </data>
+  <data name="&gt;&gt;gridColumn1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colExeHONarration.Name" xml:space="preserve">
+    <value>colExeHONarration</value>
+  </data>
+  <data name="&gt;&gt;colExeHONarration.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gvIncomeLedger.Name" xml:space="preserve">
+    <value>gvIncomeLedger</value>
+  </data>
+  <data name="&gt;&gt;gvIncomeLedger.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colIncomeLedgerId.Name" xml:space="preserve">
+    <value>colIncomeLedgerId</value>
+  </data>
+  <data name="&gt;&gt;colIncomeLedgerId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeCode.Name" xml:space="preserve">
+    <value>gccolIncomeCode</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeCode.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeLedger.Name" xml:space="preserve">
+    <value>gccolIncomeLedger</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeLedger.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeNature.Name" xml:space="preserve">
+    <value>gccolIncomeNature</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeNature.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeBudgetGroup.Name" xml:space="preserve">
+    <value>gccolIncomeBudgetGroup</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeBudgetGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeBudgetSubGroup.Name" xml:space="preserve">
+    <value>gccolIncomeBudgetSubGroup</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeBudgetSubGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomePreviousApproved.Name" xml:space="preserve">
+    <value>gccolIncomePreviousApproved</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomePreviousApproved.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeActualIncome.Name" xml:space="preserve">
+    <value>gccolIncomeActualIncome</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeActualIncome.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeCurrentYearProposed.Name" xml:space="preserve">
+    <value>gccolIncomeCurrentYearProposed</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeCurrentYearProposed.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rtxtIncomeCurrentYearproposedamt.Name" xml:space="preserve">
+    <value>rtxtIncomeCurrentYearproposedamt</value>
+  </data>
+  <data name="&gt;&gt;rtxtIncomeCurrentYearproposedamt.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeCurrentYearApproved.Name" xml:space="preserve">
+    <value>gccolIncomeCurrentYearApproved</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeCurrentYearApproved.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rtxtIncomeCurrentYearApproved.Name" xml:space="preserve">
+    <value>rtxtIncomeCurrentYearApproved</value>
+  </data>
+  <data name="&gt;&gt;rtxtIncomeCurrentYearApproved.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeNarration.Name" xml:space="preserve">
+    <value>gccolIncomeNarration</value>
+  </data>
+  <data name="&gt;&gt;gccolIncomeNarration.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rtxtIncomeCurrentYearNarration.Name" xml:space="preserve">
+    <value>rtxtIncomeCurrentYearNarration</value>
+  </data>
+  <data name="&gt;&gt;rtxtIncomeCurrentYearNarration.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolNatureId.Name" xml:space="preserve">
+    <value>gccolNatureId</value>
+  </data>
+  <data name="&gt;&gt;gccolNatureId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colIncomeHONarration.Name" xml:space="preserve">
+    <value>colIncomeHONarration</value>
+  </data>
+  <data name="&gt;&gt;colIncomeHONarration.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridLookUpEdit1View.Name" xml:space="preserve">
+    <value>gridLookUpEdit1View</value>
+  </data>
+  <data name="&gt;&gt;gridLookUpEdit1View.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colId.Name" xml:space="preserve">
+    <value>colId</value>
+  </data>
+  <data name="&gt;&gt;colId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colName.Name" xml:space="preserve">
+    <value>colName</value>
+  </data>
+  <data name="&gt;&gt;colName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rchkCheckBox.Name" xml:space="preserve">
+    <value>rchkCheckBox</value>
+  </data>
+  <data name="&gt;&gt;rchkCheckBox.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gvProject.Name" xml:space="preserve">
+    <value>gvProject</value>
+  </data>
+  <data name="&gt;&gt;gvProject.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colProjectId.Name" xml:space="preserve">
+    <value>colProjectId</value>
+  </data>
+  <data name="&gt;&gt;colProjectId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colProject.Name" xml:space="preserve">
+    <value>colProject</value>
+  </data>
+  <data name="&gt;&gt;colProject.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcSave.Name" xml:space="preserve">
+    <value>lcSave</value>
+  </data>
+  <data name="&gt;&gt;lcSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcClose.Name" xml:space="preserve">
+    <value>lcClose</value>
+  </data>
+  <data name="&gt;&gt;lcClose.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcBudgetGroup.Name" xml:space="preserve">
+    <value>lcBudgetGroup</value>
+  </data>
+  <data name="&gt;&gt;lcBudgetGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciPercentage.Name" xml:space="preserve">
+    <value>lciPercentage</value>
+  </data>
+  <data name="&gt;&gt;lciPercentage.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciapply.Name" xml:space="preserve">
+    <value>lciapply</value>
+  </data>
+  <data name="&gt;&gt;lciapply.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem4.Name" xml:space="preserve">
+    <value>emptySpaceItem4</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcPrint.Name" xml:space="preserve">
+    <value>lcPrint</value>
+  </data>
+  <data name="&gt;&gt;lcPrint.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcMoveProToApproved.Name" xml:space="preserve">
+    <value>lcMoveProToApproved</value>
+  </data>
+  <data name="&gt;&gt;lcMoveProToApproved.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcIncomeBudgetLedgers.Name" xml:space="preserve">
+    <value>lcIncomeBudgetLedgers</value>
+  </data>
+  <data name="&gt;&gt;lcIncomeBudgetLedgers.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcExpenseBudgetLedgers.Name" xml:space="preserve">
+    <value>lcExpenseBudgetLedgers</value>
+  </data>
+  <data name="&gt;&gt;lcExpenseBudgetLedgers.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcExcellImport.Name" xml:space="preserve">
+    <value>lcExcellImport</value>
+  </data>
+  <data name="&gt;&gt;lcExcellImport.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcHOHelpApprovedAmt.Name" xml:space="preserve">
+    <value>lcHOHelpApprovedAmt</value>
+  </data>
+  <data name="&gt;&gt;lcHOHelpApprovedAmt.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem5.Name" xml:space="preserve">
+    <value>emptySpaceItem5</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcHOHelpProposedAmt.Name" xml:space="preserve">
+    <value>lcHOHelpProposedAmt</value>
+  </data>
+  <data name="&gt;&gt;lcHOHelpProposedAmt.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblHOHelp.Name" xml:space="preserve">
+    <value>lblHOHelp</value>
+  </data>
+  <data name="&gt;&gt;lblHOHelp.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcMergeAllCommuntities.Name" xml:space="preserve">
+    <value>lcMergeAllCommuntities</value>
+  </data>
+  <data name="&gt;&gt;lcMergeAllCommuntities.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblPeriodFrom.Name" xml:space="preserve">
+    <value>lblPeriodFrom</value>
+  </data>
+  <data name="&gt;&gt;lblPeriodFrom.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblPeriodTo.Name" xml:space="preserve">
+    <value>lblPeriodTo</value>
+  </data>
+  <data name="&gt;&gt;lblPeriodTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciBudgetName.Name" xml:space="preserve">
+    <value>lciBudgetName</value>
+  </data>
+  <data name="&gt;&gt;lciBudgetName.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciBudgetType.Name" xml:space="preserve">
+    <value>lciBudgetType</value>
+  </data>
+  <data name="&gt;&gt;lciBudgetType.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciProject.Name" xml:space="preserve">
+    <value>lciProject</value>
+  </data>
+  <data name="&gt;&gt;lciProject.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem1.Name" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem3.Name" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcBudgetActive.Name" xml:space="preserve">
+    <value>lcBudgetActive</value>
+  </data>
+  <data name="&gt;&gt;lcBudgetActive.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciStatisticsButton.Name" xml:space="preserve">
+    <value>lciStatisticsButton</value>
+  </data>
+  <data name="&gt;&gt;lciStatisticsButton.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem8.Name" xml:space="preserve">
+    <value>layoutControlItem8</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciMonth.Name" xml:space="preserve">
+    <value>lciMonth</value>
+  </data>
+  <data name="&gt;&gt;lciMonth.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcExportBudget.Name" xml:space="preserve">
+    <value>lcExportBudget</value>
+  </data>
+  <data name="&gt;&gt;lcExportBudget.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcImportBudget.Name" xml:space="preserve">
+    <value>lcImportBudget</value>
+  </data>
+  <data name="&gt;&gt;lcImportBudget.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcBudgetAction.Name" xml:space="preserve">
+    <value>lcBudgetAction</value>
+  </data>
+  <data name="&gt;&gt;lcBudgetAction.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lableText.Name" xml:space="preserve">
+    <value>lableText</value>
+  </data>
+  <data name="&gt;&gt;lableText.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcDevelopmentProjects.Name" xml:space="preserve">
+    <value>lcDevelopmentProjects</value>
+  </data>
+  <data name="&gt;&gt;lcDevelopmentProjects.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem6.Name" xml:space="preserve">
+    <value>emptySpaceItem6</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem2.Name" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcCCStrengthDetails.Name" xml:space="preserve">
+    <value>lcCCStrengthDetails</value>
+  </data>
+  <data name="&gt;&gt;lcCCStrengthDetails.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem12.Name" xml:space="preserve">
+    <value>layoutControlItem12</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem12.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcLink.Name" xml:space="preserve">
+    <value>lcLink</value>
+  </data>
+  <data name="&gt;&gt;lcLink.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcLinkNewProjects.Name" xml:space="preserve">
+    <value>lcLinkNewProjects</value>
+  </data>
+  <data name="&gt;&gt;lcLinkNewProjects.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printingSys.Name" xml:space="preserve">
+    <value>printingSys</value>
+  </data>
+  <data name="&gt;&gt;printingSys.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.PrintingSystem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmAddAnnualBudget</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ACPP.frmFinanceBaseAdd, ACPP, Version=6.54.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

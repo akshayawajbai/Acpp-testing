@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Configurações financeiras</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="btnSignDetails.Text" xml:space="preserve">
+    <value>Detalhes da assinatura</value>
+  </data>
+  <data name="btnVoucherPrintSetting.Text" xml:space="preserve">
+    <value>Boas configurações de impressão</value>
+  </data>
+  <data name="chkAllowZeroValueCashBank.Properties.Caption" xml:space="preserve">
+    <value>Não permita saldos em dinheiro/banco.</value>
+  </data>
+  <data name="chkChequePrint.Properties.Caption" xml:space="preserve">
+    <value>Ativar impressão de cheques</value>
+  </data>
+  <data name="chkConfirmAuthorizationVoucher.Properties.Caption" xml:space="preserve">
+    <value>Confirme a autorização dos vouchers.</value>
+  </data>
+  <data name="chkCostCentreMode.Properties.Caption" xml:space="preserve">
+    <value>Ativar o modo Centro de Custos ( [-] [+])</value>
+  </data>
+  <data name="chkCrDrAmountDrilling.Properties.Caption" xml:space="preserve">
+    <value>Exibir o valor de Cr/Dr ao perfurar os relatórios de resumo et R &amp; P</value>
+  </data>
+  <data name="chkCustomizationform.Properties.Caption" xml:space="preserve">
+    <value>Exibir como um relatório personalizado após o carregamento</value>
+  </data>
+  <data name="chkDonotAllowDuplicateChequeNo.Properties.Caption" xml:space="preserve">
+    <value>Ref. (DD/Cheque) duplicada no comprovante</value>
+  </data>
+  <data name="chkDontAlertBackup.Properties.Caption" xml:space="preserve">
+    <value>Nenhum alerta de backup ao fechar o Acme.erp</value>
+  </data>
+  <data name="chkEnableCCBudget.Properties.Caption" xml:space="preserve">
+    <value>Ativar orçamento do centro de custos</value>
+  </data>
+  <data name="chkEnableTransMode.Properties.Caption" xml:space="preserve">
+    <value>Habilitar entrada dupla</value>
+  </data>
+  <data name="chkExportVouchers.Properties.Caption" xml:space="preserve">
+    <value>Exporte os comprovantes para o portal após o encerramento.</value>
+  </data>
+  <data name="chkFlexiFD.Properties.Caption" xml:space="preserve">
+    <value>Ative o investimento flexível</value>
+  </data>
+  <data name="chkIncludeBudgetStatistics.Properties.Caption" xml:space="preserve">
+    <value>Incluir estatísticas orçamentárias</value>
+  </data>
+  <data name="chkIncludeIncomeLedgersBudget.Properties.Caption" xml:space="preserve">
+    <value>Inclua a renda no orçamento.</value>
+  </data>
+  <data name="chkMandatoryChequeNo.Properties.Caption" xml:space="preserve">
+    <value>Referência (DD/Cheque) necessária no comprovante</value>
+  </data>
+  <data name="chkNegativeBalance.Properties.Caption" xml:space="preserve">
+    <value>Saldo negativo no lançamento do comprovante</value>
+  </data>
+  <data name="chkProjectSelection.Properties.Caption" xml:space="preserve">
+    <value>Janela para visualizar a seleção do projeto</value>
+  </data>
+  <data name="chkRegenerateDelete.Properties.Caption" xml:space="preserve">
+    <value>Número do voucher de regeneração automática excluído</value>
+  </data>
+  <data name="chkRegenerateInsert.Properties.Caption" xml:space="preserve">
+    <value>Regeneração automática do número do voucher após a inserção.</value>
+  </data>
+  <data name="chkShowBudgetInAbstractReport.Properties.Caption" xml:space="preserve">
+    <value>Exibir o valor do orçamento aprovado nos relatórios de resumo mensais.</value>
+  </data>
+  <data name="chkShowCashBankFDDetailInBudgetProposal.Properties.Caption" xml:space="preserve">
+    <value>Apresente os detalhes das contas de caixa/banco/depósito a prazo no relatório orçamentário proposto.</value>
+  </data>
+  <data name="chkShowCCOpeningBalanceInReports.Properties.Caption" xml:space="preserve">
+    <value>Exibir os custos iniciais do centro de saldo nos relatórios de CC</value>
+  </data>
+  <data name="chkShowMonthlySummaryInDrilling.Properties.Caption" xml:space="preserve">
+    <value>Exibir o resumo mensal do Razão Geral ao detalhar os relatórios.</value>
+  </data>
+  <data name="chkShowRestLedgerOpeningBalance.Properties.Caption" xml:space="preserve">
+    <value>Exibir a opção "Redefinir saldo inicial" no mapeamento de contas.</value>
+  </data>
+  <data name="chkTDSBooking.Properties.Caption" xml:space="preserve">
+    <value>Faça uma reserva de pagamento de TDS</value>
+  </data>
+  <data name="chkTransclose.Properties.Caption" xml:space="preserve">
+    <value>Fechar Bom após Editar</value>
+  </data>
+  <data name="chkVoucherPrint.Properties.Caption" xml:space="preserve">
+    <value>Ativar voucher Imprimir após salvar</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>Natureza(s) da nota de entrega</value>
+  </data>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value>Natureza(s) do comprovante de pagamento</value>
+  </data>
+  <data name="lblEntryMode.Text" xml:space="preserve">
+    <value>Método de entrada</value>
+  </data>
+  <data name="lblTransMode.Text" xml:space="preserve">
+    <value>Modo Trans</value>
+  </data>
+  <data name="lcBudgetActualBalance.CustomizationFormText" xml:space="preserve">
+    <value>Saldo do razão geral no orçamento</value>
+  </data>
+  <data name="lcBudgetActualBalance.Text" xml:space="preserve">
+    <value>Saldo do razão geral no orçamento</value>
+  </data>
+  <data name="lcBudgetNewProject.Text" xml:space="preserve">
+    <value>Considere o orçamento de "Desenvolvimento/Novo Projeto" como</value>
+  </data>
+  <data name="lcContributionFromLedgers.Text" xml:space="preserve">
+    <value>Contribuição de contas</value>
+  </data>
+  <data name="lcContributionToLedgers.Text" xml:space="preserve">
+    <value>Contribuição para as contas</value>
+  </data>
+  <data name="lcCreationBudgetNew_Dev_Projects.Text" xml:space="preserve">
+    <value>Criar orçamento para "Projeto de Desenvolvimento / Novo"</value>
+  </data>
+  <data name="lcEntryMode.Text" xml:space="preserve">
+    <value>Método de entrada</value>
+  </data>
+  <data name="lcgrpMapContributionLedgers.Text" xml:space="preserve">
+    <value>Contas de contribuição para mapas</value>
+  </data>
+  <data name="lcGrpOption.Text" xml:space="preserve">
+    <value>Opções de ativação/desativação</value>
+  </data>
+  <data name="lcgrpReports.Text" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="lcgrpVoucherEntry.Text" xml:space="preserve">
+    <value>Entrada mediante voucher</value>
+  </data>
+  <data name="lcGSTVendorInvoceDetails.Text" xml:space="preserve">
+    <value>Detalhes da fatura do fornecedor</value>
+  </data>
+  <data name="lcgTransactionMode.Text" xml:space="preserve">
+    <value>Transação</value>
+  </data>
+  <data name="lciEnableCashBankEntries.CustomizationFormText" xml:space="preserve">
+    <value>Ativar lançamentos em dinheiro e bancários</value>
+  </data>
+  <data name="lciEnableCashBankEntries.Text" xml:space="preserve">
+    <value>Ativar lançamentos em dinheiro e bancários</value>
+  </data>
+  <data name="lcInterAcFromLedgers.Text" xml:space="preserve">
+    <value>conta do livro-razão</value>
+  </data>
+  <data name="lcInterAcToLedgers.Text" xml:space="preserve">
+    <value>conta para o livro-razão geral</value>
+  </data>
+  <data name="lcVoucherPrint.Text" xml:space="preserve">
+    <value>Boa impressão</value>
+  </data>
+  <data name="radioBudgetNewProjects.Properties.Items1" xml:space="preserve">
+    <value>Novos projetos</value>
+  </data>
+  <data name="radioBudgetNewProjects.Properties.Items3" xml:space="preserve">
+    <value>Projetos de desenvolvimento</value>
+  </data>
+  <data name="radioCreationBudgetNew_Dev_Projects.Properties.Items1" xml:space="preserve">
+    <value>No relatório</value>
+  </data>
+  <data name="radioCreationBudgetNew_Dev_Projects.Properties.Items3" xml:space="preserve">
+    <value>No orçamento principal</value>
+  </data>
+  <data name="rgbShowBudgetLedgerActualBalance.Properties.Items1" xml:space="preserve">
+    <value>Saldo do Razão (com Diário)</value>
+  </data>
+  <data name="rgbShowBudgetLedgerActualBalance.Properties.Items3" xml:space="preserve">
+    <value>Saldo do Razão (sem Diário)</value>
+  </data>
+  <data name="rgbShowBudgetLedgerActualBalance.Properties.Items5" xml:space="preserve">
+    <value>Recibo total e pagamento total separados</value>
+  </data>
+  <data name="rgbTransEntryMode.Properties.Items1" xml:space="preserve">
+    <value>Bacharel</value>
+  </data>
+</root>

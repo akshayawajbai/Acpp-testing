@@ -1,0 +1,41 @@
+11411968
+⚠ Important (Mandatory Action)
+Please update the software using the "Updater” menu that is blinking in your Windows application.
+
+This update includes the new changes and following below changes and fine-tuned some of the areas.
+* New Features And Fine tune
+  1. Asset Part Payment Through Installments
+  2. transferring funds from one project to another project with proper financial 
+   tracking and accounting entries.
+  3. Fine tuned the Balance sheet difference
+  4. PAN & GST Display Option on Voucher Add Screen
+  5. Fixed Deposit Module enhancements
+  6. Acme Integration improvements
+  7. Improved Project Import & Export capabilities
+  8. English to French – Finance, Asset, Payroll Module language conversion 
+  9. English to Italian – Finance, Asset, Payroll Module language conversion
+ 10. Multiple Renewal Entries edited for Net Bank Interest and TDS in all Renewal and Post Interest entries
+ 11. BRS – Introduced Multiple Project Selections
+ 12. Fine tuned - Drilldwon Group and TB
+ 13. Contra Multi-Currency Print – Removed Credit and Debit in print screen, individual currency shown before amount, 
+     and received currency explanation displayed in words instead of top selection
+ 14. Auditor Signature (Monthly Abstract Report) – Alignment changes for
+     split signature and signature shown only after payment, not for receipt
+ 15. Fine-tuned Budget
+
+* New Reports
+  1.   Income and Expenditure - Monthlwise
+  2.   Enhanced Finance Reports with fine-tuning
+  3.   Introduce Cost Center bifurcation in below Reports
+       i. Budget Approved, ii. Budget Realization, 
+       iii. Budget Variance, iv. Budget Cost Center Ledger wise
+  4.   Payroll- Posted Payroll Vouchers are now reflected in General Reports
+  5. Ledger Reports – Enhanced with Against Ledger option narration included, and journal entry 
+     narration shown for multiple selected ledgers instead of against ledger
+  6.  Provide percentage Reports
+  
+* Payroll Module fine-tuned with improved reporting
+
+* Asset Module optimized along with associated reports
+
+* Updated new domain - acmeerp.org

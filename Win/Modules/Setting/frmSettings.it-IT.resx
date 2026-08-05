@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Impostazioni</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>&amp;Annulla</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>&amp;Applica</value>
+  </data>
+  <data name="cboCodePosition.EditValue" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="cboCodePosition.Properties.Items" xml:space="preserve">
+    <value>Prima</value>
+  </data>
+  <data name="cboCodePosition.Properties.Items1" xml:space="preserve">
+    <value>Dopo</value>
+  </data>
+  <data name="cboCodePosition.Properties.Items2" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="cboCurrencyPosition.EditValue" xml:space="preserve">
+    <value>Prima</value>
+  </data>
+  <data name="cboCurrencyPosition.Properties.Items" xml:space="preserve">
+    <value>Prima</value>
+  </data>
+  <data name="cboCurrencyPosition.Properties.Items1" xml:space="preserve">
+    <value>Dopo</value>
+  </data>
+  <data name="checkEdit10.Properties.Caption" xml:space="preserve">
+    <value>Chiudi la transazione dopo la modifica</value>
+  </data>
+  <data name="checkEdit8.Properties.Caption" xml:space="preserve">
+    <value>Finestra Mostra selezione progetti</value>
+  </data>
+  <data name="checkEdit9.Properties.Caption" xml:space="preserve">
+    <value>Mostra la finestra di personalizzazione durante il caricamento del rapporto</value>
+  </data>
+  <data name="chkCustomizationform.Properties.Caption" xml:space="preserve">
+    <value>Mostra come personalizzazione dopo il caricamento del rapporto</value>
+  </data>
+  <data name="chkProjectSelection.Properties.Caption" xml:space="preserve">
+    <value>Finestra Mostra selezione progetti</value>
+  </data>
+  <data name="chkTDS.Properties.Caption" xml:space="preserve">
+    <value>Attivare imposta alla fonte (TDS)</value>
+  </data>
+  <data name="chkTransclose.Properties.Caption" xml:space="preserve">
+    <value>Chiudi il buono dopo la modifica</value>
+  </data>
+  <data name="chkVoucherPrint.Properties.Caption" xml:space="preserve">
+    <value>Attiva stampa voucher dopo il salvataggio</value>
+  </data>
+  <data name="colCountry.Caption" xml:space="preserve">
+    <value>Paese</value>
+  </data>
+  <data name="colCulture.Caption" xml:space="preserve">
+    <value>Cultura</value>
+  </data>
+  <data name="colDisplayName.Caption" xml:space="preserve">
+    <value>Mostra un nome</value>
+  </data>
+  <data name="colEnglishName.Caption" xml:space="preserve">
+    <value>Nome inglese</value>
+  </data>
+  <data name="colLocationName.Caption" xml:space="preserve">
+    <value>Nome della localizzazione</value>
+  </data>
+  <data name="colName.Caption" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="colNativeName.Caption" xml:space="preserve">
+    <value>Nome nativo</value>
+  </data>
+  <data name="comboBoxEdit2.EditValue" xml:space="preserve">
+    <value>Sistema senza codice</value>
+  </data>
+  <data name="comboBoxEdit2.Properties.Items" xml:space="preserve">
+    <value>code</value>
+  </data>
+  <data name="comboBoxEdit2.Properties.Items1" xml:space="preserve">
+    <value>Codeless</value>
+  </data>
+  <data name="CONFIGURATION_TITLE" xml:space="preserve">
+    <value>configurazione</value>
+  </data>
+  <data name="gbTheme.Text" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="labelControl3.Text" xml:space="preserve">
+    <value>Simbolo:</value>
+  </data>
+  <data name="layoutControlGroup10.Text" xml:space="preserve">
+    <value>Contabilità disponibile</value>
+  </data>
+  <data name="layoutControlGroup11.Text" xml:space="preserve">
+    <value>Contabilità disponibile</value>
+  </data>
+  <data name="layoutControlGroup5.Text" xml:space="preserve">
+    <value>Lingua UI</value>
+  </data>
+  <data name="layoutControlGroup6.Text" xml:space="preserve">
+    <value>Transazione</value>
+  </data>
+  <data name="layoutControlGroup7.Text" xml:space="preserve">
+    <value>Formato della data</value>
+  </data>
+  <data name="layoutControlGroup8.Text" xml:space="preserve">
+    <value>Anteprima</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>Lingua</value>
+  </data>
+  <data name="layoutControlItem10.Text" xml:space="preserve">
+    <value>Posizione</value>
+  </data>
+  <data name="layoutControlItem12.Text" xml:space="preserve">
+    <value>Separatore</value>
+  </data>
+  <data name="layoutControlItem13.Text" xml:space="preserve">
+    <value>Temi</value>
+  </data>
+  <data name="layoutControlItem2.Text" xml:space="preserve">
+    <value>Formato</value>
+  </data>
+  <data name="layoutControlItem22.Text" xml:space="preserve">
+    <value>Tipo di transazione</value>
+  </data>
+  <data name="layoutControlItem23.Text" xml:space="preserve">
+    <value>Positivo</value>
+  </data>
+  <data name="layoutControlItem24.Text" xml:space="preserve">
+    <value>Negativo</value>
+  </data>
+  <data name="layoutControlItem6.Text" xml:space="preserve">
+    <value>Tipo di credito</value>
+  </data>
+  <data name="layoutControlItem7.Text" xml:space="preserve">
+    <value>Importo di natura elevata</value>
+  </data>
+  <data name="layoutControlItem9.Text" xml:space="preserve">
+    <value>Chiusura ammortamenti</value>
+  </data>
+  <data name="lblCurrencySymbol.Text" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="lblDiagnoseDetailsCaption.Text" xml:space="preserve">
+    <value>Avviso: Alcune osservazioni su Acme.erp</value>
+  </data>
+  <data name="lcBranchAliasName.Text" xml:space="preserve">
+    <value>Nome alias della filiale</value>
+  </data>
+  <data name="lcDatabaseName.Text" xml:space="preserve">
+    <value>Nome del database</value>
+  </data>
+  <data name="lcDatabaseServer.CustomizationFormText" xml:space="preserve">
+    <value>Server della banca dati</value>
+  </data>
+  <data name="lcDatabaseServer.Text" xml:space="preserve">
+    <value>Server della banca dati</value>
+  </data>
+  <data name="lcDownloadThrough.Text" xml:space="preserve">
+    <value>Scarica aggiornamento tramite</value>
+  </data>
+  <data name="lcgCurrency.Text" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="lciCodePosition.Text" xml:space="preserve">
+    <value>Posizione del codice</value>
+  </data>
+  <data name="lciCurrencyPosition.Text" xml:space="preserve">
+    <value>Posizione valuta</value>
+  </data>
+  <data name="lciDecimalPlaces.Text" xml:space="preserve">
+    <value>Decimali</value>
+  </data>
+  <data name="lciDecimalSeparator.Text" xml:space="preserve">
+    <value>Separatore decimale</value>
+  </data>
+  <data name="lciGrouping.Text" xml:space="preserve">
+    <value>Groupement des chiffres</value>
+  </data>
+  <data name="lciGroupingSeparator.Text" xml:space="preserve">
+    <value>Raggruppamento delle cifre</value>
+  </data>
+  <data name="lciNegativeSign.Text" xml:space="preserve">
+    <value>Segno negativo</value>
+  </data>
+  <data name="lcLicenseFileName.Text" xml:space="preserve">
+    <value>Nome del file di licenza</value>
+  </data>
+  <data name="lcLocalization.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="lcRestoredOn.Text" xml:space="preserve">
+    <value>Database ripristinato il</value>
+  </data>
+  <data name="lgBranchDBDetails.Text" xml:space="preserve">
+    <value>Dettagli del database delle filiali</value>
+  </data>
+  <data name="lkpCountry.Text" xml:space="preserve">
+    <value>Paese</value>
+  </data>
+  <data name="tpLocalization.Text" xml:space="preserve">
+    <value>Impostazione generale</value>
+  </data>
+  <data name="tpUISetting.Text" xml:space="preserve">
+    <value>Struttura UI</value>
+  </data>
+  <data name="txtDatePreview.EditValue" xml:space="preserve">
+    <value>13/05/2014</value>
+  </data>
+  <data name="txtNegativePreview.EditValue" xml:space="preserve">
+    <value>(123,456,789.00$)</value>
+  </data>
+  <data name="txtPositivePreview.EditValue" xml:space="preserve">
+    <value>123456789</value>
+  </data>
+</root>

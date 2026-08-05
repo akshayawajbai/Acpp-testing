@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="xrcellCode.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="xrClosingCredit.Text" xml:space="preserve">
+    <value>Crédit</value>
+  </data>
+  <data name="xrClosingDebit.Text" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="xrCurrentCredit.Text" xml:space="preserve">
+    <value>Crédit</value>
+  </data>
+  <data name="xrCurrentDebit1.Text" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="xrLabel4.Text" xml:space="preserve">
+    <value>Solde d'ouverture</value>
+  </data>
+  <data name="xrLabel5.Text" xml:space="preserve">
+    <value>Transaction actuelle</value>
+  </data>
+  <data name="xrLabel6.Text" xml:space="preserve">
+    <value>Solde de clôture</value>
+  </data>
+  <data name="xrOpCredit.Text" xml:space="preserve">
+    <value>Crédit</value>
+  </data>
+  <data name="xrOpDebit.Text" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="xrTableCell10.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="xrTableCell11.Text" xml:space="preserve">
+    <value>Solde d'ouverture</value>
+  </data>
+  <data name="xrTableCell13.Text" xml:space="preserve">
+    <value>coordonnées</value>
+  </data>
+  <data name="xrTableCell45.Text" xml:space="preserve">
+    <value>Du liquide en main</value>
+  </data>
+  <data name="xrTableCell46.Text" xml:space="preserve">
+    <value>Comptes bancaires</value>
+  </data>
+  <data name="xrTableCell47.Text" xml:space="preserve">
+    <value>Dépôts fixes</value>
+  </data>
+  <data name="xrCellHeaderClosingCredit.Text" xml:space="preserve">
+    <value>Crédit</value>
+  </data>
+  <data name="xrCellHeaderClosingDebit.Text" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="xrCellHeaderCurrentTransCredit.Text" xml:space="preserve">
+    <value>Crédit</value>
+  </data>
+  <data name="xrCellHeaderCurrentTransDebit.Text" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="xrCellHeaderOpeningCredit.Text" xml:space="preserve">
+    <value>Crédit</value>
+  </data>
+  <data name="xrCellHeaderOpeningDebit.Text" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="xrClosingBalance.Text" xml:space="preserve">
+    <value>Solde de clôture</value>
+  </data>
+  <data name="xrClosingLedgerCode.Text" xml:space="preserve">
+    <value>xrTableCell16</value>
+  </data>
+  <data name="xrClosingLedgerName.Text" xml:space="preserve">
+    <value>xrTblClLedger</value>
+  </data>
+  <data name="xrCurrentLedgerCode.Text" xml:space="preserve">
+    <value>xrTableCell16</value>
+  </data>
+  <data name="xrCurrentLedgerName.Text" xml:space="preserve">
+    <value>xrTblClLedger</value>
+  </data>
+  <data name="xrCurTransCredit.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="xrCurTransDebit.Text" xml:space="preserve">
+    <value>xrCurTransDébit</value>
+  </data>
+  <data name="xrHeaderClosingBalance.Text" xml:space="preserve">
+    <value>Solde de clôture</value>
+  </data>
+  <data name="xrHeaderClosingCredit.Text" xml:space="preserve">
+    <value>Crédit</value>
+  </data>
+  <data name="xrHeaderClosingDebit.Text" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="xrHeaderCurrent.Text" xml:space="preserve">
+    <value>Transactions courantes</value>
+  </data>
+  <data name="xrHeaderCurrentTransClosingCredit.Text" xml:space="preserve">
+    <value>Crédit</value>
+  </data>
+  <data name="xrHeaderCurrentTransClosingDebit.Text" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="xrHeaderCurrentTransCredit.Text" xml:space="preserve">
+    <value>Crédit</value>
+  </data>
+  <data name="xrHeaderCurrentTransDebit.Text" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="xrHeaderLedgerCode.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="xrHeaderLedgerCodeClosing.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="xrHeaderLedgerCodeTransaction.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="xrHeaderLedgerName.Text" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="xrHeaderOpCap.Text" xml:space="preserve">
+    <value>Solde d’ouverture</value>
+  </data>
+  <data name="xrHeaderOpeningClosingCredit.Text" xml:space="preserve">
+    <value>Crédit</value>
+  </data>
+  <data name="xrHeaderOpeningClosingDebit.Text" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="xrHeaderOpeningCredit.Text" xml:space="preserve">
+    <value>Crédit</value>
+  </data>
+  <data name="xrHeaderOpeningDebit.Text" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="xrHeaderOpeningLedgerCode.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="xrlblOpBalance.Text" xml:space="preserve">
+    <value>Solde d’ouverture</value>
+  </data>
+  <data name="xrOpeningCR.Text" xml:space="preserve">
+    <value>xrOp_Crédit</value>
+  </data>
+  <data name="xrOpeningDR.Text" xml:space="preserve">
+    <value>xrOp_Débit</value>
+  </data>
+  <data name="xrOpeningLedgerCode.Text" xml:space="preserve">
+    <value>xrTableCell16</value>
+  </data>
+  <data name="xrOpeningLedgerName.Text" xml:space="preserve">
+    <value>xrTblClLedger</value>
+  </data>
+  <data name="xrOp_Credit.Text" xml:space="preserve">
+    <value>xrOp_Crédit</value>
+  </data>
+  <data name="xrOp_Debit.Text" xml:space="preserve">
+    <value>xrOp_Débit</value>
+  </data>
+  <data name="xrSummary1.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary10.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary11.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary12.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary13.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary14.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary15.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary16.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary17.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary18.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary19.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary2.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary20.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary21.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary22.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary23.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary24.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary25.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary26.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary27.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary28.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary29.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary3.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary30.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary31.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary32.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary33.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary34.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary35.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary36.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary37.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary38.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary39.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary4.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary40.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary5.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary6.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary7.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary8.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrSummary9.FormatString" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="xrTableCell15.Text" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="xrTableCell17.Text" xml:space="preserve">
+    <value>Transactions courantes</value>
+  </data>
+  <data name="xrTableCell18.Text" xml:space="preserve">
+    <value>Solde de clôture</value>
+  </data>
+  <data name="xrTableCell2.Text" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="xrTableCell26.Text" xml:space="preserve">
+    <value>xrTableCell26</value>
+  </data>
+  <data name="xrTableCell28.Text" xml:space="preserve">
+    <value>xrTableCell28</value>
+  </data>
+  <data name="xrTableCell3.Text" xml:space="preserve">
+    <value>Solde d’ouverture</value>
+  </data>
+  <data name="xrTableCell30.Text" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="xrTableCell31.Text" xml:space="preserve">
+    <value>xrTableCell31</value>
+  </data>
+  <data name="xrTableCell34.Text" xml:space="preserve">
+    <value>xrTableCell26</value>
+  </data>
+  <data name="xrTableCell35.Text" xml:space="preserve">
+    <value>xrTblclGroup</value>
+  </data>
+  <data name="xrTableCell36.Text" xml:space="preserve">
+    <value>xrTableCell31</value>
+  </data>
+  <data name="xrTableCell37.Text" xml:space="preserve">
+    <value>Solde de clôture</value>
+  </data>
+  <data name="xrTableCell5.Text" xml:space="preserve">
+    <value>Solde de clôture</value>
+  </data>
+  <data name="xrTableCell52.Text" xml:space="preserve">
+    <value>xrTableCell26</value>
+  </data>
+  <data name="xrTableCell58.Text" xml:space="preserve">
+    <value>xrTblclGroup</value>
+  </data>
+  <data name="xrTableCell71.Text" xml:space="preserve">
+    <value>xrTableCell26</value>
+  </data>
+  <data name="xrTableCell72.Text" xml:space="preserve">
+    <value>xrTblclGroup</value>
+  </data>
+  <data name="xrTableCellBank.Text" xml:space="preserve">
+    <value>Comptes bancaires</value>
+  </data>
+  <data name="xrTableCellCash.Text" xml:space="preserve">
+    <value>Espèces en main</value>
+  </data>
+  <data name="xrTableCTransCredit.Text" xml:space="preserve">
+    <value>xrCurTransCredit</value>
+  </data>
+  <data name="xrTableCTransDebit.Text" xml:space="preserve">
+    <value>xrCurTransDebit</value>
+  </data>
+  <data name="xrTableGroupCTransCredit.Text" xml:space="preserve">
+    <value>xrtblClCurGrpCredit</value>
+  </data>
+  <data name="xrTableGroupCTransDebit.Text" xml:space="preserve">
+    <value>xrtblClCurGrpDebit</value>
+  </data>
+  <data name="xrtblClCurGrpCredit.Text" xml:space="preserve">
+    <value>xrtblClCurGrpCredit</value>
+  </data>
+  <data name="xrtblClCurGrpDebit.Text" xml:space="preserve">
+    <value>xrtblClCurGrpDebit</value>
+  </data>
+  <data name="xrTblclGroup.Text" xml:space="preserve">
+    <value>xrTblclGroup</value>
+  </data>
+  <data name="xrTblClLedger.Text" xml:space="preserve">
+    <value>xrTblClLedger</value>
+  </data>
+  <data name="xrTblClLedgerCode.Text" xml:space="preserve">
+    <value>xrTblClLedgerCode</value>
+  </data>
+  <data name="xrtblTotalSumDebitCurrentTransAmount.Text" xml:space="preserve">
+    <value>xrtblTotalSumDebitCurrentTransAmount</value>
+  </data>
+  <data name="xrtblTotalSumOpeningCreditamount.Text" xml:space="preserve">
+    <value>xrtblTotalSumOpeningCreditamount</value>
+  </data>
+  <data name="xrtblTotalSumOpeningDebitamt.Text" xml:space="preserve">
+    <value>xrtblTotalSumOpeningDebitamt</value>
+  </data>
+  <data name="xrtblTrialBalance.Text" xml:space="preserve">
+    <value>xrtblTrialBalance</value>
+  </data>
+  <data name="xrTotalSumCaptions.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="xrTotalSumClosingCreditAmount.Text" xml:space="preserve">
+    <value>xrTotalSumClosingCreditAmount</value>
+  </data>
+  <data name="xrTotalSumClosingDebitAmount.Text" xml:space="preserve">
+    <value>xrTotalSumClosingDebitAmount</value>
+  </data>
+  <data name="xrTotalSumCreditCurrentTransAmount.Text" xml:space="preserve">
+    <value>xrTotalSumCreditCurrentTransAmount</value>
+  </data>
+</root>

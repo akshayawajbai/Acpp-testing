@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+  <data name="$this.Text" xml:space="preserve">
+<value>Registro de auditoria</value>
+</data>
+
+  <data name="btnApply.SuperTip" xml:space="preserve">
+<value>Aplicar (Ctrl+A) / Clique aqui para filtrar os registros</value>
+</data>
+
+  <data name="btnApply.Text" xml:space="preserve">
+<value>Aplicar</value>
+</data>
+
+  <data name="chkContra.Properties.Caption" xml:space="preserve">
+<value>Contra</value>
+</data>
+
+  <data name="chkContra.SuperTip" xml:space="preserve">
+<value>Contra / Selecione para filtrar registros contra</value>
+</data>
+
+  <data name="chkPayments.Properties.Caption" xml:space="preserve">
+<value>Pagamentos</value>
+</data>
+
+  <data name="chkPayments.SuperTip" xml:space="preserve">
+<value>Pagamentos / Selecione para filtrar os registros de pagamento</value>
+</data>
+
+  <data name="chkReceipt.Properties.Caption" xml:space="preserve">
+<value>Recibos</value>
+</data>
+
+  <data name="chkReceipt.SuperTip" xml:space="preserve">
+<value>Recibos / Selecione para filtrar registros de recibos</value>
+</data>
+
+  <data name="chkShowFilter.Properties.Caption" xml:space="preserve">
+<value>Mostrar &lt;b&gt;F&lt;/b&gt;outros</value>
+</data>
+
+  <data name="chkShowFilter.SuperTip" xml:space="preserve">
+<value>Mostrar filtro / Selecione para filtrar registros</value>
+</data>
+
+  <data name="colAccountNo.Caption" xml:space="preserve">
+<value>Número de conta</value>
+</data>
+
+  <data name="colAccountNumber.Caption" xml:space="preserve">
+<value>Número de conta</value>
+</data>
+
+  <data name="colAmount.Caption" xml:space="preserve">
+<value>Quantia</value>
+</data>
+
+  <data name="colAuditTrackOn.Caption" xml:space="preserve">
+<value>Do avaliador</value>
+</data>
+
+  <data name="colcashbank.Caption" xml:space="preserve">
+<value>Dinheiro em espécie / Banco</value>
+</data>
+
+  <data name="colChequeNo.Caption" xml:space="preserve">
+<value>Ref./Nº do cheque</value>
+</data>
+
+  <data name="colCHEQUE_NO.Caption" xml:space="preserve">
+<value>Ref./Nº do cheque</value>
+</data>
+
+  <data name="colContributionAmonut.Caption" xml:space="preserve">
+<value>Valor da contribuição</value>
+</data>
+
+  <data name="colCreatedBy.Caption" xml:space="preserve">
+<value>Criado por</value>
+</data>
+
+  <data name="colCreatedOn.Caption" xml:space="preserve">
+<value>Criado em</value>
+</data>
+
+  <data name="colCredit.Caption" xml:space="preserve">
+<value>Crédito</value>
+</data>
+
+  <data name="colDebit.Caption" xml:space="preserve">
+<value>Dívida</value>
+</data>
+
+  <data name="colDebitAmount.Caption" xml:space="preserve">
+<value>Dívida</value>
+</data>
+
+  <data name="colDonor.Caption" xml:space="preserve">
+<value>Doador</value>
+</data>
+
+  <data name="colExchangeRate.Caption" xml:space="preserve">
+<value>Taxa de câmbio</value>
+</data>
+
+  <data name="colLedgerName.Caption" xml:space="preserve">
+<value>Nome</value>
+</data>
+
+  <data name="colLedgerName.Summary1" xml:space="preserve">
+<value>NOME_DA_CONTA</value>
+</data>
+
+  <data name="colLedgerName.Summary2" xml:space="preserve">
+<value>verificar</value>
+</data>
+
+  <data name="colMATERIALIZED_ON.Caption" xml:space="preserve">
+<value>Materializou o</value>
+</data>
+
+  <data name="colModifiedBy.Caption" xml:space="preserve">
+<value>Editado por</value>
+</data>
+
+  <data name="colModifiedOn.Caption" xml:space="preserve">
+<value>Modificado em</value>
+</data>
+
+  <data name="colPrint.Caption" xml:space="preserve">
+<value>Imprensa</value>
+</data>
+
+  <data name="colPrint.ToolTip" xml:space="preserve">
+<value>Imprimir comprovante (Ctrl + P)</value>
+</data>
+
+  <data name="colProject.Caption" xml:space="preserve">
+<value>PROJETO</value>
+</data>
+
+  <data name="colProjectDivision.Caption" xml:space="preserve">
+<value>Nome do projeto</value>
+</data>
+
+  <data name="colPurposeName.Caption" xml:space="preserve">
+<value>Nome Propósito</value>
+</data>
+
+  <data name="colTopLedgerName.Caption" xml:space="preserve">
+<value>Detalhes</value>
+</data>
+
+  <data name="colTrackAmount.Caption" xml:space="preserve">
+<value>Quantia</value>
+</data>
+
+  <data name="colTrackByAuditor.Caption" xml:space="preserve">
+<value>Do avaliador</value>
+</data>
+
+  <data name="colTrackModifiedBy.Caption" xml:space="preserve">
+<value>Editado por</value>
+</data>
+
+  <data name="colTrackModifiedOn.Caption" xml:space="preserve">
+<value>Modificado em</value>
+</data>
+
+  <data name="colTrackPreviousAmount.Caption" xml:space="preserve">
+<value>Valor anterior</value>
+</data>
+
+  <data name="colTrackPreviousModifiedBy.Caption" xml:space="preserve">
+<value>Editado anteriormente por</value>
+</data>
+
+  <data name="colTrackProject.Caption" xml:space="preserve">
+<value>Projeto</value>
+</data>
+
+  <data name="colTrackRevision.Caption" xml:space="preserve">
+<value>Número de revisões</value>
+</data>
+
+  <data name="colTrackVoucherType.Caption" xml:space="preserve">
+<value>Bom tipo</value>
+</data>
+
+  <data name="colTransactionMode.Caption" xml:space="preserve">
+<value>Modo de transação</value>
+</data>
+
+  <data name="colTransAmount.Caption" xml:space="preserve">
+<value>Quantia</value>
+</data>
+
+  <data name="colTransLedgerName.Caption" xml:space="preserve">
+<value>Conta Caixa</value>
+</data>
+
+  <data name="colVoucherDate.Caption" xml:space="preserve">
+<value>Data</value>
+</data>
+
+  <data name="colVoucherMode.Caption" xml:space="preserve">
+<value>Tipo</value>
+</data>
+
+  <data name="colVoucherNo.Caption" xml:space="preserve">
+<value>Bom Não.</value>
+</data>
+
+  <data name="colVoucherSubType.Caption" xml:space="preserve">
+<value>Bom subtipo</value>
+</data>
+
+  <data name="colVoucherTransCredit.Caption" xml:space="preserve">
+<value>Crédito</value>
+</data>
+
+  <data name="colVoucherTransDebit.Caption" xml:space="preserve">
+<value>Dívida</value>
+</data>
+
+  <data name="colVoucherType.Caption" xml:space="preserve">
+<value>Bom tipo</value>
+</data>
+
+  <data name="deDateFrom.SuperTip" xml:space="preserve">
+<value>Data de / Data de</value>
+</data>
+
+  <data name="deDateTo.SuperTip" xml:space="preserve">
+<value>Data A / Data A</value>
+</data>
+
+  <data name="glkpProject.SuperTip" xml:space="preserve">
+<value>Projeto / Selecione um projeto</value>
+</data>
+
+  <data name="lblDateFrom.CustomizationFormText" xml:space="preserve">
+<value>Data de início</value>
+</data>
+
+  <data name="lblDateFrom.Text" xml:space="preserve">
+<value>De</value>
+</data>
+
+  <data name="lblDateTo.CustomizationFormText" xml:space="preserve">
+<value>Data A</value>
+</data>
+
+  <data name="lblDateTo.Text" xml:space="preserve">
+<value>PARA</value>
+</data>
+
+  <data name="lblOpeningBal.Text" xml:space="preserve">
+<value>Saldo inicial</value>
+</data>
+
+  <data name="lblProject.Text" xml:space="preserve">
+<value>Projeto</value>
+</data>
+
+  <data name="lcgrpTrackOnAuditChanges.Text" xml:space="preserve">
+<value>Acompanhar alterações do revisor</value>
+</data>
+
+  <data name="pceBankBalance.EditValue" xml:space="preserve">
+<value>Banco</value>
+</data>
+
+  <data name="pceBankclosingBalance.EditValue" xml:space="preserve">
+<value>Banco</value>
+</data>
+
+  <data name="pceCashBalance.EditValue" xml:space="preserve">
+<value>Dinheiro</value>
+</data>
+
+  <data name="pceCashClosingBalane.EditValue" xml:space="preserve">
+<value>Dinheiro</value>
+</data>
+
+  <data name="pceFDBalance.EditValue" xml:space="preserve">
+<value>Depósito a prazo fixo</value>
+</data>
+
+  <data name="pceFDClosingBalance.EditValue" xml:space="preserve">
+<value>Depósito a prazo fixo</value>
+</data>
+
+  <data name="simpleLabelItem1.Text" xml:space="preserve">
+<value>Saldo final</value>
+</data>
+</root>

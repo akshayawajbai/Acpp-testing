@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Applica</value>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>Applica</value>
+  </data>
+  <data name="chkColumnChooser.Properties.Caption" xml:space="preserve">
+    <value>Mostra selettore colonne |</value>
+  </data>
+  <data name="chkContraProperties.Caption" xml:space="preserve">
+    <value>Contro</value>
+  </data>
+  <data name="chkPayments.Properties.Caption" xml:space="preserve">
+    <value>Pagamento</value>
+  </data>
+  <data name="chkPaymentsProperties.Caption" xml:space="preserve">
+    <value>Pagamenti</value>
+  </data>
+  <data name="chkReceipt.Properties.Caption" xml:space="preserve">
+    <value>Ricevuta</value>
+  </data>
+  <data name="chkReceiptProperties.Caption" xml:space="preserve">
+    <value>Ricevuta</value>
+  </data>
+  <data name="chkShowFilter.Properties.Caption" xml:space="preserve">
+    <value>Mostra&lt;b&gt;F&lt;/b&gt;iltro |</value>
+  </data>
+  <data name="chkShowFilterProperties.Caption" xml:space="preserve">
+    <value>Mostra &lt;b&gt;F&lt;/b&gt;iltro</value>
+  </data>
+  <data name="colAccountNo.Caption" xml:space="preserve">
+    <value>N. conto</value>
+  </data>
+  <data name="colAccountNumber.Caption" xml:space="preserve">
+    <value>N. conto</value>
+  </data>
+  <data name="colAmount.Caption" xml:space="preserve">
+    <value>Importo</value>
+  </data>
+  <data name="colcashbank.Caption" xml:space="preserve">
+    <value>Cassa / Banca</value>
+  </data>
+  <data name="colCHEQUE_NO.Caption" xml:space="preserve">
+    <value>Rif. / N. assegno</value>
+  </data>
+  <data name="colContributionAmonut.Caption" xml:space="preserve">
+    <value>Importo del contributo</value>
+  </data>
+  <data name="colCredit.Caption" xml:space="preserve">
+    <value>Credito</value>
+  </data>
+  <data name="colCurrencyName.Caption" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="colDebit.Caption" xml:space="preserve">
+    <value>Debito</value>
+  </data>
+  <data name="colDonor.Caption" xml:space="preserve">
+    <value>Donatore</value>
+  </data>
+  <data name="colExchangeRate.Caption" xml:space="preserve">
+    <value>Tasso di cambio</value>
+  </data>
+  <data name="colLedgerExchangeRate.Caption" xml:space="preserve">
+    <value>Tasso di cambio</value>
+  </data>
+  <data name="colLedgerLiveExchangeRate.Caption" xml:space="preserve">
+    <value>Tasso di cambio live / medio</value>
+  </data>
+  <data name="colLedgerName.Caption" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="colLedgerNameSummary" xml:space="preserve">
+    <value>NOME LIBRO</value>
+  </data>
+  <data name="colLedgerNameSummary1" xml:space="preserve">
+    <value>Verifica</value>
+  </data>
+  <data name="colMATERIALIZED_ON.Caption" xml:space="preserve">
+    <value>Materializzato il</value>
+  </data>
+  <data name="colNameAddress.Caption" xml:space="preserve">
+    <value>Nome/Indirizzo</value>
+  </data>
+  <data name="colPrint.Caption" xml:space="preserve">
+    <value>Stampa</value>
+  </data>
+  <data name="colPrintToolTip" xml:space="preserve">
+    <value>Stampa Voucher Ctrl P</value>
+  </data>
+  <data name="colProject.Caption" xml:space="preserve">
+    <value>PROGETTO</value>
+  </data>
+  <data name="colProjectDivision.Caption" xml:space="preserve">
+    <value>Nome progetto</value>
+  </data>
+  <data name="colPurposeName.Caption" xml:space="preserve">
+    <value>Nome scopo</value>
+  </data>
+  <data name="colThirdpartyClientId.Caption" xml:space="preserve">
+    <value>Parte</value>
+  </data>
+  <data name="colTopLedgerName.Caption" xml:space="preserve">
+    <value>Contatti</value>
+  </data>
+  <data name="colTransactionMode.Caption" xml:space="preserve">
+    <value>Modalità trans.</value>
+  </data>
+  <data name="colTransAmount.Caption" xml:space="preserve">
+    <value>Importo</value>
+  </data>
+  <data name="colTransLedgerName.Caption" xml:space="preserve">
+    <value>Libro cassa</value>
+  </data>
+  <data name="colVoucherDate.Caption" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="colVoucherMode.Caption" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="colVoucherNo.Caption" xml:space="preserve">
+    <value>N. V</value>
+  </data>
+  <data name="colVoucherSubType.Caption" xml:space="preserve">
+    <value>Sotto voucher</value>
+  </data>
+  <data name="colVoucherTransCredit.Caption" xml:space="preserve">
+    <value>Credito</value>
+  </data>
+  <data name="colVoucherTransDebit.Caption" xml:space="preserve">
+    <value>Debito</value>
+  </data>
+  <data name="ggcolAccountNumber.Caption" xml:space="preserve">
+    <value>N. conto</value>
+  </data>
+  <data name="ggcolCHEQUE_NO.Caption" xml:space="preserve">
+    <value>N. rif. / N. assegno</value>
+  </data>
+  <data name="ggcolCostcentreAmount.Caption" xml:space="preserve">
+    <value>Importo</value>
+  </data>
+  <data name="ggcolCostcentreName.Caption" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="ggcolLedgerName.Caption" xml:space="preserve">
+    <value>Libro mastro</value>
+  </data>
+  <data name="ggcolMATERIALIZED_ON.Caption" xml:space="preserve">
+    <value>Materializzato il</value>
+  </data>
+  <data name="ggcolVoucherTransCredit.Caption" xml:space="preserve">
+    <value>Credito</value>
+  </data>
+  <data name="ggcolVoucherTransDebit.Caption" xml:space="preserve">
+    <value>Debito</value>
+  </data>
+  <data name="lblDateFrom.Text" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="lblDateFromCustomizationForm.Text" xml:space="preserve">
+    <value>Dalla data</value>
+  </data>
+  <data name="lblDateTo.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="lblDateToCustomizationForm.Text" xml:space="preserve">
+    <value>Fino alla data</value>
+  </data>
+  <data name="lblOpeningBal.Text" xml:space="preserve">
+    <value>Saldo di apertura</value>
+  </data>
+  <data name="lblProject.Text" xml:space="preserve">
+    <value>Progetto</value>
+  </data>
+  <data name="lcgCCDetails.Text" xml:space="preserve">
+    <value>Dettagli centro di costo</value>
+  </data>
+  <data name="lcgLedgerDetails.Text" xml:space="preserve">
+    <value>Dettagli libro mastro</value>
+  </data>
+  <data name="simpleLabelItem1.Text" xml:space="preserve">
+    <value>Saldo di chiusura</value>
+  </data>
+  <data name="togShowCLBalance.Properties.OffText" xml:space="preserve">
+    <value>Mostra saldo chiusura |</value>
+  </data>
+  <data name="togShowCLBalance.Properties.OnText" xml:space="preserve">
+    <value>Nascondi saldo chiusura |</value>
+  </data>
+  <data name="togShowLedgerCCDetails.Properties.OffText" xml:space="preserve">
+    <value>Mostra dettagli conto &amp; centro costi |</value>
+  </data>
+  <data name="togShowLedgerCCDetails.Properties.OnText" xml:space="preserve">
+    <value>Nascondi dettagli conto &amp; centro costi |</value>
+  </data>
+  <data name="togShowOPBalance.Properties.OffText" xml:space="preserve">
+    <value>Mostra saldo apertura |</value>
+  </data>
+  <data name="togShowOPBalance.Properties.OnText" xml:space="preserve">
+    <value>Nascondi saldo apertura |</value>
+  </data>
+</root>

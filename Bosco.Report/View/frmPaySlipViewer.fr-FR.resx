@@ -1,0 +1,1476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Report Filter Criteria</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmPaySlipViewer</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Bosco.Utility.Base.frmBase, Bosco.Utility, Version=6.28.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;btnShow.Name" xml:space="preserve">
+    <value>btnShow</value>
+  </data>
+  <data name="&gt;&gt;btnShow.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnShow.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnShow.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;btnSign1.Name" xml:space="preserve">
+    <value>btnSign1</value>
+  </data>
+  <data name="&gt;&gt;btnSign1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnSign1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSign1.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;btnSign2.Name" xml:space="preserve">
+    <value>btnSign2</value>
+  </data>
+  <data name="&gt;&gt;btnSign2.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnSign2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSign2.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;btnSign3.Name" xml:space="preserve">
+    <value>btnSign3</value>
+  </data>
+  <data name="&gt;&gt;btnSign3.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnSign3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSign3.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;chkEachPayslipSeparatePage.Name" xml:space="preserve">
+    <value>chkEachPayslipSeparatePage</value>
+  </data>
+  <data name="&gt;&gt;chkEachPayslipSeparatePage.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;chkEachPayslipSeparatePage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkEachPayslipSeparatePage.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeSignDetails.Name" xml:space="preserve">
+    <value>chkIncludeSignDetails</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeSignDetails.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeSignDetails.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeSignDetails.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;chkLstPayDepartment.Name" xml:space="preserve">
+    <value>chkLstPayDepartment</value>
+  </data>
+  <data name="&gt;&gt;chkLstPayDepartment.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;chkLstPayDepartment.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckedComboBoxEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkLstPayDepartment.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkLstPayGroup.Name" xml:space="preserve">
+    <value>chkLstPayGroup</value>
+  </data>
+  <data name="&gt;&gt;chkLstPayGroup.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;chkLstPayGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckedComboBoxEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkLstPayGroup.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;chkShowComDescription.Name" xml:space="preserve">
+    <value>chkShowComDescription</value>
+  </data>
+  <data name="&gt;&gt;chkShowComDescription.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;chkShowComDescription.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkShowComDescription.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.Name" xml:space="preserve">
+    <value>chkShowFilter</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;ChkShowPayGroupConsolidation.Name" xml:space="preserve">
+    <value>ChkShowPayGroupConsolidation</value>
+  </data>
+  <data name="&gt;&gt;ChkShowPayGroupConsolidation.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;ChkShowPayGroupConsolidation.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ChkShowPayGroupConsolidation.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;colAddress.Name" xml:space="preserve">
+    <value>colAddress</value>
+  </data>
+  <data name="&gt;&gt;colAddress.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColBank.Name" xml:space="preserve">
+    <value>ColBank</value>
+  </data>
+  <data name="&gt;&gt;ColBank.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBankLedger.Name" xml:space="preserve">
+    <value>colBankLedger</value>
+  </data>
+  <data name="&gt;&gt;colBankLedger.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBankLedgerId.Name" xml:space="preserve">
+    <value>colBankLedgerId</value>
+  </data>
+  <data name="&gt;&gt;colBankLedgerId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBranch.Name" xml:space="preserve">
+    <value>colBranch</value>
+  </data>
+  <data name="&gt;&gt;colBranch.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colComponent.Name" xml:space="preserve">
+    <value>colComponent</value>
+  </data>
+  <data name="&gt;&gt;colComponent.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colComponent1.Name" xml:space="preserve">
+    <value>colComponent1</value>
+  </data>
+  <data name="&gt;&gt;colComponent1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colComponent2.Name" xml:space="preserve">
+    <value>colComponent2</value>
+  </data>
+  <data name="&gt;&gt;colComponent2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colComponentId.Name" xml:space="preserve">
+    <value>colComponentId</value>
+  </data>
+  <data name="&gt;&gt;colComponentId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colComponentId1.Name" xml:space="preserve">
+    <value>colComponentId1</value>
+  </data>
+  <data name="&gt;&gt;colComponentId1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colComponentId2.Name" xml:space="preserve">
+    <value>colComponentId2</value>
+  </data>
+  <data name="&gt;&gt;colComponentId2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colComponentProcessType.Name" xml:space="preserve">
+    <value>colComponentProcessType</value>
+  </data>
+  <data name="&gt;&gt;colComponentProcessType.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colComponentProcessType1.Name" xml:space="preserve">
+    <value>colComponentProcessType1</value>
+  </data>
+  <data name="&gt;&gt;colComponentProcessType1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colComponentProcessType2.Name" xml:space="preserve">
+    <value>colComponentProcessType2</value>
+  </data>
+  <data name="&gt;&gt;colComponentProcessType2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colComponentType.Name" xml:space="preserve">
+    <value>colComponentType</value>
+  </data>
+  <data name="&gt;&gt;colComponentType.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colComponentType1.Name" xml:space="preserve">
+    <value>colComponentType1</value>
+  </data>
+  <data name="&gt;&gt;colComponentType1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colComponentType2.Name" xml:space="preserve">
+    <value>colComponentType2</value>
+  </data>
+  <data name="&gt;&gt;colComponentType2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colGName.Name" xml:space="preserve">
+    <value>colGName</value>
+  </data>
+  <data name="&gt;&gt;colGName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colPayId.Name" xml:space="preserve">
+    <value>colPayId</value>
+  </data>
+  <data name="&gt;&gt;colPayId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colPaymentMode.Name" xml:space="preserve">
+    <value>colPaymentMode</value>
+  </data>
+  <data name="&gt;&gt;colPaymentMode.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colPaymentModeid.Name" xml:space="preserve">
+    <value>colPaymentModeid</value>
+  </data>
+  <data name="&gt;&gt;colPaymentModeid.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colPayName.Name" xml:space="preserve">
+    <value>colPayName</value>
+  </data>
+  <data name="&gt;&gt;colPayName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSId.Name" xml:space="preserve">
+    <value>colSId</value>
+  </data>
+  <data name="&gt;&gt;colSId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSName.Name" xml:space="preserve">
+    <value>colSName</value>
+  </data>
+  <data name="&gt;&gt;colSName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colTitleType.Name" xml:space="preserve">
+    <value>colTitleType</value>
+  </data>
+  <data name="&gt;&gt;colTitleType.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colTitleTypeId.Name" xml:space="preserve">
+    <value>colTitleTypeId</value>
+  </data>
+  <data name="&gt;&gt;colTitleTypeId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DateFrom.Name" xml:space="preserve">
+    <value>DateFrom</value>
+  </data>
+  <data name="&gt;&gt;DateFrom.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;DateFrom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DateFrom.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;DateTo.Name" xml:space="preserve">
+    <value>DateTo</value>
+  </data>
+  <data name="&gt;&gt;DateTo.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;DateTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DateTo.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem1.Name" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem3.Name" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcStaff.Name" xml:space="preserve">
+    <value>gcStaff</value>
+  </data>
+  <data name="&gt;&gt;gcStaff.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;gcStaff.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcStaff.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;glkBankAc.Name" xml:space="preserve">
+    <value>glkBankAc</value>
+  </data>
+  <data name="&gt;&gt;glkBankAc.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;glkBankAc.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;glkBankAc.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;glkComponents.Name" xml:space="preserve">
+    <value>glkComponents</value>
+  </data>
+  <data name="&gt;&gt;glkComponents.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;glkComponents.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;glkComponents.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;glkComponents1.Name" xml:space="preserve">
+    <value>glkComponents1</value>
+  </data>
+  <data name="&gt;&gt;glkComponents1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;glkComponents1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;glkComponents1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;glkComponents2.Name" xml:space="preserve">
+    <value>glkComponents2</value>
+  </data>
+  <data name="&gt;&gt;glkComponents2.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;glkComponents2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;glkComponents2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;glkPayroll.Name" xml:space="preserve">
+    <value>glkPayroll</value>
+  </data>
+  <data name="&gt;&gt;glkPayroll.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;glkPayroll.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;glkPayroll.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;glkpPaymentMode.Name" xml:space="preserve">
+    <value>glkpPaymentMode</value>
+  </data>
+  <data name="&gt;&gt;glkpPaymentMode.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;glkpPaymentMode.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;glkpPaymentMode.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;glkTitleType.Name" xml:space="preserve">
+    <value>glkTitleType</value>
+  </data>
+  <data name="&gt;&gt;glkTitleType.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;glkTitleType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;glkTitleType.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;gvBankAccounts.Name" xml:space="preserve">
+    <value>gvBankAccounts</value>
+  </data>
+  <data name="&gt;&gt;gvBankAccounts.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gvComponent.Name" xml:space="preserve">
+    <value>gvComponent</value>
+  </data>
+  <data name="&gt;&gt;gvComponent.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gvComponent1.Name" xml:space="preserve">
+    <value>gvComponent1</value>
+  </data>
+  <data name="&gt;&gt;gvComponent1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gvComponent2.Name" xml:space="preserve">
+    <value>gvComponent2</value>
+  </data>
+  <data name="&gt;&gt;gvComponent2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gvPaymentMode.Name" xml:space="preserve">
+    <value>gvPaymentMode</value>
+  </data>
+  <data name="&gt;&gt;gvPaymentMode.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gvPayRoll.Name" xml:space="preserve">
+    <value>gvPayRoll</value>
+  </data>
+  <data name="&gt;&gt;gvPayRoll.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gvStaff.Name" xml:space="preserve">
+    <value>gvStaff</value>
+  </data>
+  <data name="&gt;&gt;gvStaff.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gvTitleType.Name" xml:space="preserve">
+    <value>gvTitleType</value>
+  </data>
+  <data name="&gt;&gt;gvTitleType.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
+    <value>layoutControlItem5</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem7.Name" xml:space="preserve">
+    <value>layoutControlItem7</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem8.Name" xml:space="preserve">
+    <value>layoutControlItem8</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblPayGroup.Name" xml:space="preserve">
+    <value>lblPayGroup</value>
+  </data>
+  <data name="&gt;&gt;lblPayGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblRecordCount.Name" xml:space="preserve">
+    <value>lblRecordCount</value>
+  </data>
+  <data name="&gt;&gt;lblRecordCount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblReportTitle.Name" xml:space="preserve">
+    <value>lblReportTitle</value>
+  </data>
+  <data name="&gt;&gt;lblReportTitle.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;lblReportTitle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblReportTitle.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;lcAddress.Name" xml:space="preserve">
+    <value>lcAddress</value>
+  </data>
+  <data name="&gt;&gt;lcAddress.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcAuthSign1.Name" xml:space="preserve">
+    <value>lcAuthSign1</value>
+  </data>
+  <data name="&gt;&gt;lcAuthSign1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcAuthSign2.Name" xml:space="preserve">
+    <value>lcAuthSign2</value>
+  </data>
+  <data name="&gt;&gt;lcAuthSign2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcBankAc.Name" xml:space="preserve">
+    <value>lcBankAc</value>
+  </data>
+  <data name="&gt;&gt;lcBankAc.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcChkShowCompDescription.Name" xml:space="preserve">
+    <value>lcChkShowCompDescription</value>
+  </data>
+  <data name="&gt;&gt;lcChkShowCompDescription.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcChkShowSignDetails.Name" xml:space="preserve">
+    <value>lcChkShowSignDetails</value>
+  </data>
+  <data name="&gt;&gt;lcChkShowSignDetails.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcComponents.Name" xml:space="preserve">
+    <value>lcComponents</value>
+  </data>
+  <data name="&gt;&gt;lcComponents.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcComponents1.Name" xml:space="preserve">
+    <value>lcComponents1</value>
+  </data>
+  <data name="&gt;&gt;lcComponents1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcComponents2.Name" xml:space="preserve">
+    <value>lcComponents2</value>
+  </data>
+  <data name="&gt;&gt;lcComponents2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcDateEmpty.Name" xml:space="preserve">
+    <value>lcDateEmpty</value>
+  </data>
+  <data name="&gt;&gt;lcDateEmpty.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcDateFrom.Name" xml:space="preserve">
+    <value>lcDateFrom</value>
+  </data>
+  <data name="&gt;&gt;lcDateFrom.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcDateTo.Name" xml:space="preserve">
+    <value>lcDateTo</value>
+  </data>
+  <data name="&gt;&gt;lcDateTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcEachPayslipSeparatePage.Name" xml:space="preserve">
+    <value>lcEachPayslipSeparatePage</value>
+  </data>
+  <data name="&gt;&gt;lcEachPayslipSeparatePage.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcGrpSign1.Name" xml:space="preserve">
+    <value>lcGrpSign1</value>
+  </data>
+  <data name="&gt;&gt;lcGrpSign1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcGrpSign2.Name" xml:space="preserve">
+    <value>lcGrpSign2</value>
+  </data>
+  <data name="&gt;&gt;lcGrpSign2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcGrpSign3.Name" xml:space="preserve">
+    <value>lcGrpSign3</value>
+  </data>
+  <data name="&gt;&gt;lcGrpSign3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcGrpStaffGroup.Name" xml:space="preserve">
+    <value>lcGrpStaffGroup</value>
+  </data>
+  <data name="&gt;&gt;lcGrpStaffGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcPaymentMode.Name" xml:space="preserve">
+    <value>lcPaymentMode</value>
+  </data>
+  <data name="&gt;&gt;lcPaymentMode.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcPayRoll.Name" xml:space="preserve">
+    <value>lcPayRoll</value>
+  </data>
+  <data name="&gt;&gt;lcPayRoll.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcPayrollDepartment.Name" xml:space="preserve">
+    <value>lcPayrollDepartment</value>
+  </data>
+  <data name="&gt;&gt;lcPayrollDepartment.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcProject.Name" xml:space="preserve">
+    <value>lcProject</value>
+  </data>
+  <data name="&gt;&gt;lcProject.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcReportTitle.Name" xml:space="preserve">
+    <value>lcReportTitle</value>
+  </data>
+  <data name="&gt;&gt;lcReportTitle.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcRole1.Name" xml:space="preserve">
+    <value>lcRole1</value>
+  </data>
+  <data name="&gt;&gt;lcRole1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcRole2.Name" xml:space="preserve">
+    <value>lcRole2</value>
+  </data>
+  <data name="&gt;&gt;lcRole2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcRole3.Name" xml:space="preserve">
+    <value>lcRole3</value>
+  </data>
+  <data name="&gt;&gt;lcRole3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcRoleName1.Name" xml:space="preserve">
+    <value>lcRoleName1</value>
+  </data>
+  <data name="&gt;&gt;lcRoleName1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcRoleName2.Name" xml:space="preserve">
+    <value>lcRoleName2</value>
+  </data>
+  <data name="&gt;&gt;lcRoleName2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcRoleName3.Name" xml:space="preserve">
+    <value>lcRoleName3</value>
+  </data>
+  <data name="&gt;&gt;lcRoleName3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcShowPayGroupConsolidation.Name" xml:space="preserve">
+    <value>lcShowPayGroupConsolidation</value>
+  </data>
+  <data name="&gt;&gt;lcShowPayGroupConsolidation.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcSign1.Name" xml:space="preserve">
+    <value>lcSign1</value>
+  </data>
+  <data name="&gt;&gt;lcSign1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcSign1Btn.Name" xml:space="preserve">
+    <value>lcSign1Btn</value>
+  </data>
+  <data name="&gt;&gt;lcSign1Btn.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcSign2.Name" xml:space="preserve">
+    <value>lcSign2</value>
+  </data>
+  <data name="&gt;&gt;lcSign2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcSign2Btn.Name" xml:space="preserve">
+    <value>lcSign2Btn</value>
+  </data>
+  <data name="&gt;&gt;lcSign2Btn.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcSign3.Name" xml:space="preserve">
+    <value>lcSign3</value>
+  </data>
+  <data name="&gt;&gt;lcSign3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcSign3Btn.Name" xml:space="preserve">
+    <value>lcSign3Btn</value>
+  </data>
+  <data name="&gt;&gt;lcSign3Btn.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcTitleType.Name" xml:space="preserve">
+    <value>lcTitleType</value>
+  </data>
+  <data name="&gt;&gt;lcTitleType.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;picSign1.Name" xml:space="preserve">
+    <value>picSign1</value>
+  </data>
+  <data name="&gt;&gt;picSign1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;picSign1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;picSign1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;picSign2.Name" xml:space="preserve">
+    <value>picSign2</value>
+  </data>
+  <data name="&gt;&gt;picSign2.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;picSign2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;picSign2.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;picSign3.Name" xml:space="preserve">
+    <value>picSign3</value>
+  </data>
+  <data name="&gt;&gt;picSign3.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;picSign3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;picSign3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;simpleLabelItem3.Name" xml:space="preserve">
+    <value>simpleLabelItem3</value>
+  </data>
+  <data name="&gt;&gt;simpleLabelItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtAuthSign1.Name" xml:space="preserve">
+    <value>txtAuthSign1</value>
+  </data>
+  <data name="&gt;&gt;txtAuthSign1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtAuthSign1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtAuthSign1.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;txtAuthSign2.Name" xml:space="preserve">
+    <value>txtAuthSign2</value>
+  </data>
+  <data name="&gt;&gt;txtAuthSign2.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtAuthSign2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtAuthSign2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtPayslipProjectTitle.Name" xml:space="preserve">
+    <value>txtPayslipProjectTitle</value>
+  </data>
+  <data name="&gt;&gt;txtPayslipProjectTitle.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtPayslipProjectTitle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtPayslipProjectTitle.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;txtProjectAddress.Name" xml:space="preserve">
+    <value>txtProjectAddress</value>
+  </data>
+  <data name="&gt;&gt;txtProjectAddress.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtProjectAddress.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtProjectAddress.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;txtRole1.Name" xml:space="preserve">
+    <value>txtRole1</value>
+  </data>
+  <data name="&gt;&gt;txtRole1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtRole1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtRole1.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;txtRole2.Name" xml:space="preserve">
+    <value>txtRole2</value>
+  </data>
+  <data name="&gt;&gt;txtRole2.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtRole2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtRole2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;txtRole3.Name" xml:space="preserve">
+    <value>txtRole3</value>
+  </data>
+  <data name="&gt;&gt;txtRole3.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtRole3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtRole3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;txtRoleName1.Name" xml:space="preserve">
+    <value>txtRoleName1</value>
+  </data>
+  <data name="&gt;&gt;txtRoleName1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtRoleName1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtRoleName1.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;txtRoleName2.Name" xml:space="preserve">
+    <value>txtRoleName2</value>
+  </data>
+  <data name="&gt;&gt;txtRoleName2.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtRoleName2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtRoleName2.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;txtRoleName3.Name" xml:space="preserve">
+    <value>txtRoleName3</value>
+  </data>
+  <data name="&gt;&gt;txtRoleName3.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtRoleName3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtRoleName3.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="btnShow.Text" xml:space="preserve">
+    <value>voir</value>
+  </data>
+  <data name="btnSign1.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="btnSign2.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="btnSign3.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="chkEachPayslipSeparatePage.Properties.Caption" xml:space="preserve">
+    <value>Chaque bulletin de paie sur une page distincte</value>
+  </data>
+  <data name="chkIncludeSignDetails.Properties.Caption" xml:space="preserve">
+    <value>Inclure les détails de la signature dans le pied de page</value>
+  </data>
+  <data name="chkShowComDescription.Properties.Caption" xml:space="preserve">
+    <value>Afficher la description des éléments</value>
+  </data>
+  <data name="chkShowFilter.Properties.Caption" xml:space="preserve">
+    <value>Afficher Filtre</value>
+  </data>
+  <data name="ChkShowPayGroupConsolidation.Properties.Caption" xml:space="preserve">
+    <value>Afficher la consolidation des groupes de paie</value>
+  </data>
+  <data name="colAddress.Caption" xml:space="preserve">
+    <value>ADDRESS</value>
+  </data>
+  <data name="ColBank.Caption" xml:space="preserve">
+    <value>Banque</value>
+  </data>
+  <data name="colBankLedger.Caption" xml:space="preserve">
+    <value>Compte bancaire</value>
+  </data>
+  <data name="colBankLedgerId.Caption" xml:space="preserve">
+    <value>Ledger_ID</value>
+  </data>
+  <data name="colBranch.Caption" xml:space="preserve">
+    <value>BRANCH</value>
+  </data>
+  <data name="colComponent.Caption" xml:space="preserve">
+    <value>Component</value>
+  </data>
+  <data name="colComponent1.Caption" xml:space="preserve">
+    <value>Component</value>
+  </data>
+  <data name="colComponent2.Caption" xml:space="preserve">
+    <value>Component</value>
+  </data>
+  <data name="colComponentId.Caption" xml:space="preserve">
+    <value>Pay id</value>
+  </data>
+  <data name="colComponentId1.Caption" xml:space="preserve">
+    <value>ComponentId</value>
+  </data>
+  <data name="colComponentId2.Caption" xml:space="preserve">
+    <value>ComponentId</value>
+  </data>
+  <data name="colComponentProcessType.Caption" xml:space="preserve">
+    <value>Process Component Type</value>
+  </data>
+  <data name="colComponentProcessType1.Caption" xml:space="preserve">
+    <value>Process Component Type</value>
+  </data>
+  <data name="colComponentProcessType2.Caption" xml:space="preserve">
+    <value>Process Component Type</value>
+  </data>
+  <data name="colComponentType.Caption" xml:space="preserve">
+    <value>taper</value>
+  </data>
+  <data name="colComponentType1.Caption" xml:space="preserve">
+    <value>taper</value>
+  </data>
+  <data name="colComponentType2.Caption" xml:space="preserve">
+    <value>taper</value>
+  </data>
+  <data name="colGName.Caption" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="colPayId.Caption" xml:space="preserve">
+    <value>Pay id</value>
+  </data>
+  <data name="colPaymentMode.Caption" xml:space="preserve">
+    <value>Payment Mode</value>
+  </data>
+  <data name="colPaymentModeid.Caption" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="colPayName.Caption" xml:space="preserve">
+    <value>Payroll</value>
+  </data>
+  <data name="colSId.Caption" xml:space="preserve">
+    <value>StaffId</value>
+  </data>
+  <data name="colSName.Caption" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="colTitleType.Caption" xml:space="preserve">
+    <value>Type de titre</value>
+  </data>
+  <data name="colTitleTypeId.Caption" xml:space="preserve">
+    <value>Title Type Id</value>
+  </data>
+  <data name="DateFrom.Properties.CalendarTimeProperties.Mask.EditMask" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="DateTo.Properties.CalendarTimeProperties.Mask.EditMask" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="emptySpaceItem1.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="emptySpaceItem1.Text" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="emptySpaceItem3.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="emptySpaceItem3.Text" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="glkBankAc.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="glkComponents.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="glkComponents1.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="glkComponents2.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="glkPayroll.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="glkpPaymentMode.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="glkpPaymentMode.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="glkTitleType.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>Racine</value>
+  </data>
+  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="layoutControlItem5.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem5</value>
+  </data>
+  <data name="layoutControlItem5.Text" xml:space="preserve">
+    <value>layoutControlItem5</value>
+  </data>
+  <data name="layoutControlItem7.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem7</value>
+  </data>
+  <data name="layoutControlItem7.Text" xml:space="preserve">
+    <value>layoutControlItem7</value>
+  </data>
+  <data name="layoutControlItem8.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem8</value>
+  </data>
+  <data name="layoutControlItem8.Text" xml:space="preserve">
+    <value>layoutControlItem8</value>
+  </data>
+  <data name="lblPayGroup.CustomizationFormText" xml:space="preserve">
+    <value>Payroll Group</value>
+  </data>
+  <data name="lblPayGroup.Text" xml:space="preserve">
+    <value>Groupe de paie</value>
+  </data>
+  <data name="lblRecordCount.CustomizationFormText" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblRecordCount.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblReportTitle.Text" xml:space="preserve">
+    <value>Titre du rapport</value>
+  </data>
+  <data name="lcAddress.CustomizationFormText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="lcAddress.Text" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="lcAuthSign1.CustomizationFormText" xml:space="preserve">
+    <value>Signe de l'employeur</value>
+  </data>
+  <data name="lcAuthSign1.Text" xml:space="preserve">
+    <value>Signataire autorisé 1</value>
+  </data>
+  <data name="lcAuthSign2.CustomizationFormText" xml:space="preserve">
+    <value>Auth.Signatory2</value>
+  </data>
+  <data name="lcAuthSign2.Text" xml:space="preserve">
+    <value>Signataire autorisé 2</value>
+  </data>
+  <data name="lcBankAc.CustomizationFormText" xml:space="preserve">
+    <value>Bank A/c</value>
+  </data>
+  <data name="lcBankAc.Text" xml:space="preserve">
+    <value>Cpte bancaire</value>
+  </data>
+  <data name="lcChkShowCompDescription.CustomizationFormText" xml:space="preserve">
+    <value>lcChkShowCompDescription</value>
+  </data>
+  <data name="lcChkShowCompDescription.Text" xml:space="preserve">
+    <value>lcChkShowCompDescription</value>
+  </data>
+  <data name="lcChkShowSignDetails.CustomizationFormText" xml:space="preserve">
+    <value>Include Sign details in Report Footer</value>
+  </data>
+  <data name="lcChkShowSignDetails.Text" xml:space="preserve">
+    <value>Include signature details in the report footer.</value>
+  </data>
+  <data name="lcComponents.CustomizationFormText" xml:space="preserve">
+    <value>Components</value>
+  </data>
+  <data name="lcComponents.Text" xml:space="preserve">
+    <value>Composants </value>
+  </data>
+  <data name="lcComponents1.CustomizationFormText" xml:space="preserve">
+    <value>Components 1</value>
+  </data>
+  <data name="lcComponents1.Text" xml:space="preserve">
+    <value>Composants 1</value>
+  </data>
+  <data name="lcComponents2.CustomizationFormText" xml:space="preserve">
+    <value>Components 2</value>
+  </data>
+  <data name="lcComponents2.Text" xml:space="preserve">
+    <value>Composants 2</value>
+  </data>
+  <data name="lcDateEmpty.CustomizationFormText" xml:space="preserve">
+    <value>lcDateEmpty</value>
+  </data>
+  <data name="lcDateEmpty.Text" xml:space="preserve">
+    <value>lcDateEmpty</value>
+  </data>
+  <data name="lcDateFrom.CustomizationFormText" xml:space="preserve">
+    <value>Date From</value>
+  </data>
+  <data name="lcDateFrom.Text" xml:space="preserve">
+    <value>Dater de</value>
+  </data>
+  <data name="lcDateTo.CustomizationFormText" xml:space="preserve">
+    <value>Date To</value>
+  </data>
+  <data name="lcDateTo.Text" xml:space="preserve">
+    <value>Date de</value>
+  </data>
+  <data name="lcEachPayslipSeparatePage.CustomizationFormText" xml:space="preserve">
+    <value>lcEachPayslipSeparatePage</value>
+  </data>
+  <data name="lcEachPayslipSeparatePage.Text" xml:space="preserve">
+    <value>lcEachPayslipSeparatePage</value>
+  </data>
+  <data name="lcGrpSign1.CustomizationFormText" xml:space="preserve">
+    <value>Signature 1</value>
+  </data>
+  <data name="lcGrpSign1.Text" xml:space="preserve">
+    <value>Signature 1</value>
+  </data>
+  <data name="lcGrpSign2.CustomizationFormText" xml:space="preserve">
+    <value>Signature 2</value>
+  </data>
+  <data name="lcGrpSign2.Text" xml:space="preserve">
+    <value>Signature 2</value>
+  </data>
+  <data name="lcGrpSign3.CustomizationFormText" xml:space="preserve">
+    <value>Signature 3</value>
+  </data>
+  <data name="lcGrpSign3.Text" xml:space="preserve">
+    <value>Signature 3</value>
+  </data>
+  <data name="lcGrpStaffGroup.CustomizationFormText" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="lcGrpStaffGroup.Text" xml:space="preserve">
+    <value>Personnel</value>
+  </data>
+  <data name="lcPaymentMode.CustomizationFormText" xml:space="preserve">
+    <value>Payment Mode</value>
+  </data>
+  <data name="lcPaymentMode.Text" xml:space="preserve">
+    <value>Mode de paiement</value>
+  </data>
+  <data name="lcPayRoll.CustomizationFormText" xml:space="preserve">
+    <value>Payroll</value>
+  </data>
+  <data name="lcPayRoll.Text" xml:space="preserve">
+    <value>Paie</value>
+  </data>
+  <data name="lcPayrollDepartment.CustomizationFormText" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="lcPayrollDepartment.Text" xml:space="preserve">
+    <value>Département</value>
+  </data>
+  <data name="lcProject.CustomizationFormText" xml:space="preserve">
+    <value>Projet</value>
+  </data>
+  <data name="lcProject.Text" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="lcReportTitle.CustomizationFormText" xml:space="preserve">
+    <value>lcReportTitle</value>
+  </data>
+  <data name="lcReportTitle.Text" xml:space="preserve">
+    <value>lcReportTitle</value>
+  </data>
+  <data name="lcRole1.CustomizationFormText" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="lcRole1.Text" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="lcRole2.CustomizationFormText" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="lcRole2.Text" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="lcRole3.CustomizationFormText" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="lcRole3.Text" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="lcRoleName1.CustomizationFormText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lcRoleName1.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="lcRoleName2.CustomizationFormText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lcRoleName2.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="lcRoleName3.CustomizationFormText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lcRoleName3.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="lcShowPayGroupConsolidation.CustomizationFormText" xml:space="preserve">
+    <value>lcShowPayGroupConsolidation</value>
+  </data>
+  <data name="lcShowPayGroupConsolidation.Text" xml:space="preserve">
+    <value>lcShowPayGroupConsolidation</value>
+  </data>
+  <data name="lcSign1.CustomizationFormText" xml:space="preserve">
+    <value>Sign</value>
+  </data>
+  <data name="lcSign1.Text" xml:space="preserve">
+    <value>Sign</value>
+  </data>
+  <data name="lcSign1Btn.CustomizationFormText" xml:space="preserve">
+    <value>lcSign1Btn</value>
+  </data>
+  <data name="lcSign1Btn.Text" xml:space="preserve">
+    <value>lcSign1Btn</value>
+  </data>
+  <data name="lcSign2.CustomizationFormText" xml:space="preserve">
+    <value>Sign</value>
+  </data>
+  <data name="lcSign2.Text" xml:space="preserve">
+    <value>Sign</value>
+  </data>
+  <data name="lcSign2Btn.CustomizationFormText" xml:space="preserve">
+    <value>lcSign2Btn</value>
+  </data>
+  <data name="lcSign2Btn.Text" xml:space="preserve">
+    <value>lcSign2Btn</value>
+  </data>
+  <data name="lcSign3.CustomizationFormText" xml:space="preserve">
+    <value>Sign</value>
+  </data>
+  <data name="lcSign3.Text" xml:space="preserve">
+    <value>Sign</value>
+  </data>
+  <data name="lcSign3Btn.CustomizationFormText" xml:space="preserve">
+    <value>lcSign3Btn</value>
+  </data>
+  <data name="lcSign3Btn.Text" xml:space="preserve">
+    <value>lcSign3Btn</value>
+  </data>
+  <data name="lcTitleType.CustomizationFormText" xml:space="preserve">
+    <value>Title Type</value>
+  </data>
+  <data name="lcTitleType.Text" xml:space="preserve">
+    <value>Type  titre</value>
+  </data>
+  <data name="simpleLabelItem3.CustomizationFormText" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="simpleLabelItem3.Text" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="txtRoleName3.EditValue" xml:space="preserve">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,84 @@
+<?xml version="1.0" standalone="yes"?>
+<dsLicense>
+  <xs:schema id="dsLicense" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="dsLicense" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="LicenseKey">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="HEAD_OFFICE_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="HEAD_OFFICE_CODE" type="xs:string" minOccurs="0" />
+                <xs:element name="BRANCH_OFFICE_CODE" type="xs:string" minOccurs="0" />
+                <xs:element name="BRANCH_OFFICE_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="DEPLOYMENT_TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDRESS" type="xs:string" minOccurs="0" />
+                <xs:element name="COUNTRY" type="xs:string" minOccurs="0" />
+                <xs:element name="STATE" type="xs:string" minOccurs="0" />
+                <xs:element name="PINCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="PHONE" type="xs:string" minOccurs="0" />
+                <xs:element name="MOBILE_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="EMAIL" type="xs:string" minOccurs="0" />
+                <xs:element name="PLACE" type="xs:string" minOccurs="0" />
+                <xs:element name="LICENSE_KEY_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="NoOfNodes" type="xs:string" minOccurs="0" />
+                <xs:element name="LICENSE_COST" type="xs:string" minOccurs="0" />
+                <xs:element name="YEAR_FROM" type="xs:string" minOccurs="0" />
+                <xs:element name="YEAR_TO" type="xs:string" minOccurs="0" />
+                <xs:element name="InstituteName" type="xs:string" minOccurs="0" />
+                <xs:element name="SocietyName" type="xs:string" minOccurs="0" />
+                <xs:element name="IS_MULTILOCATION" type="xs:string" minOccurs="0" />
+                <xs:element name="ENABLE_PORTAL" type="xs:string" minOccurs="0" />
+                <xs:element name="KEY_GENERATED_DATE" type="xs:string" minOccurs="0" />
+                <xs:element name="NoOfModules" type="xs:string" minOccurs="0" />
+                <xs:element name="URL" type="xs:string" minOccurs="0" />
+                <xs:element name="BRANCH_KEY_CODE" type="xs:string" minOccurs="0" />
+                <xs:element name="IS_LICENSE_MODEL" type="xs:string" minOccurs="0" />
+                <xs:element name="AccessToMultiDB" type="xs:string" minOccurs="0" />
+                <xs:element name="FAX" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCATION" type="xs:string" minOccurs="0" />
+                <xs:element name="CONTACTPERSON" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCK_MASTER" type="xs:string" minOccurs="0" />
+                <xs:element name="MAP_LEDGER" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <LicenseKey>
+    <HEAD_OFFICE_NAME>AzPhfLypxKkVwzIblsRKC8Kzef8mkyRuaZAV4PCmLos=</HEAD_OFFICE_NAME>
+    <HEAD_OFFICE_CODE>K1t/XHOjHruLcBgTE+xoWA==</HEAD_OFFICE_CODE>
+    <BRANCH_OFFICE_CODE>mzLZbiOcFKdcowAK2mtZ6w==</BRANCH_OFFICE_CODE>
+    <BRANCH_OFFICE_NAME>7aM01ykhcQWfGwZgUg4Vcn7AQ9vGccvvWkpWywQUO7A=</BRANCH_OFFICE_NAME>
+    <DEPLOYMENT_TYPE>cVwrbPI+JHM8Rv4NWB5Kuw==</DEPLOYMENT_TYPE>
+    <ADDRESS>Ufwgyc783DybmJf14zRNnxUk/ohN2HNMMD3Y+pZMRYqCf5US3+HN3OZT13XTb4K5fdZ2N75UGtr89A6ArjDTsQ==</ADDRESS>
+    <COUNTRY>HDuauCoOkbODIZ+FHQitRA==</COUNTRY>
+    <STATE>n6Au/IabW9hyKm/xJ+C36A==</STATE>
+    <PINCODE>Z8Lv9VD6Aj9HDgALS5IT5g==</PINCODE>
+    <PHONE>m7bApEK36F0zJr+E/6bzeA==</PHONE>
+    <MOBILE_NO>8RNxYshdOf4a1EMNh1AFvQ==</MOBILE_NO>
+    <EMAIL>oCWWhffobjZKrEtLFy209spdzLLTmC3oc73E18vILbU+Y7k8vDTdZMLMLCPrGmgRjxEzZCmSIwlkIDb1G5cLQoCNaoikXpqGfPtO8EwUySE=</EMAIL>
+    <PLACE>+m6uO9PbwB/jULm0ffcPpQ==</PLACE>
+    <LICENSE_KEY_NUMBER>39d9BueD4S4wa9N5cv0t6xa77eiYCrLwD5MIaAW4IrE=</LICENSE_KEY_NUMBER>
+    <NoOfNodes>FV8HGv/eZEpDwCDI8RBhNQ==</NoOfNodes>
+    <YEAR_FROM>LXkGw+wLX1mZ0CE1/3DLB5X4X/Kvhesd8S4FjJ1uv4w=</YEAR_FROM>
+    <YEAR_TO>rW+5Ys61VTFW3bpG3zzf6MK2eHZwP97upKod5m5TV7I=</YEAR_TO>
+    <InstituteName>7aM01ykhcQWfGwZgUg4Vcn7AQ9vGccvvWkpWywQUO7A=</InstituteName>
+    <SocietyName />
+    <IS_MULTILOCATION>iI80ashIjIC6LPXzCiP5Ow==</IS_MULTILOCATION>
+    <ENABLE_PORTAL>dse7EDAs8bOgMwa8MKQ+mg==</ENABLE_PORTAL>
+    <KEY_GENERATED_DATE>aALrjfaX12lfb4hErWzSDhJIdiyU6l8QJ9jnAhsnSLg=</KEY_GENERATED_DATE>
+    <NoOfModules>eEI9tUH/QYeg97B7v2a6JsoM7UNddi7oN0kozFrPPC6me7zovShiswt8YvsdymaX</NoOfModules>
+    <URL>r7Vfpwln2GHlsHGLJNawP3XJb298NCFBqidiEMmUTvE=</URL>
+    <BRANCH_KEY_CODE>Q4/fIEmjektP10cFx7+zQQ==</BRANCH_KEY_CODE>
+    <IS_LICENSE_MODEL>dse7EDAs8bOgMwa8MKQ+mg==</IS_LICENSE_MODEL>
+    <AccessToMultiDB>0</AccessToMultiDB>
+    <FAX />
+    <LOCATION>hR2NExIKuW3GCC+2ghclnA==</LOCATION>
+    <CONTACTPERSON />
+    <LOCK_MASTER>iI80ashIjIC6LPXzCiP5Ow==</LOCK_MASTER>
+    <MAP_LEDGER>dse7EDAs8bOgMwa8MKQ+mg==</MAP_LEDGER>
+  </LicenseKey>
+</dsLicense>

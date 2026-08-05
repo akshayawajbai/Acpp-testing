@@ -1,0 +1,509 @@
+11/01/2016 02:04:07 PM || --------------------------------XML FILE INFO-----------------------------------
+11/01/2016 02:04:07 PM || File Name : D:\AcMEERP_Vouchers\AcME_ERP_Vouchers_636136048362522592final.xml
+-------------------------------------------------------------------------------------------------------------------------------
+11/01/2016 02:04:13 PM || InitializeVoucherSync started
+11/01/2016 02:04:13 PM || AssignDataTable Started..
+11/01/2016 02:04:13 PM || AssignDataTable Ended.
+11/01/2016 02:04:13 PM || SetImportType Started..
+11/01/2016 02:04:13 PM || SetImportType Ended.
+11/01/2016 02:04:13 PM || ValidateBranchCode Started..
+11/01/2016 02:04:13 PM || Branch Office Code is: sdbinminmshc
+11/01/2016 02:04:13 PM || Branch Email ID :inmeconomer@gmail.com, anthonyselvam87@gmail.com, alex@boscosofttech.com
+11/01/2016 02:04:13 PM || ValidateBranchCode Ended.
+11/01/2016 02:04:13 PM || ValidateHeadOfficeCode Started..
+11/01/2016 02:04:13 PM || Head Office Code is: sdbinm
+11/01/2016 02:04:13 PM || ValidateHeadOfficeCode Ended..
+11/01/2016 02:04:13 PM || SetDateDuration Started..
+11/01/2016 02:04:13 PM || Date Duration: 01/04/2016 to 30/04/2016
+11/01/2016 02:04:13 PM || SetDateDuration Ended.
+11/01/2016 02:04:13 PM || ValidateLicenseKey Started.
+11/01/2016 02:04:13 PM || ValidateLicenseKey Ended.
+11/01/2016 02:04:13 PM || FetchHeadOfficeDataBase Started.
+11/01/2016 02:04:13 PM || FetchHeadOfficeDataBase Ended.
+11/01/2016 02:04:14 PM || UpdateDataSyncStatus Started: InProgress
+11/01/2016 02:04:14 PM || UpdateDataSynStatus Ended.
+11/01/2016 02:04:14 PM || FetchBranchOfficeId Started..
+11/01/2016 02:04:14 PM || BRANCH_ID is :47
+11/01/2016 02:04:14 PM || FetchBranchOfficeId Ended.
+11/01/2016 02:04:14 PM || SetLocation Started..
+11/01/2016 02:04:14 PM || SetLocation Ended.
+11/01/2016 02:04:14 PM || InitializeVoucherSync ended
+11/01/2016 02:04:20 PM || ImportTransactionMasters Started..
+11/01/2016 02:04:20 PM || ImportProjectCategory Started..
+11/01/2016 02:04:20 PM || Import Project Category Ended.
+11/01/2016 02:04:20 PM || ImportProject Started..
+11/01/2016 02:04:20 PM || ImportProject Ended.
+11/01/2016 02:04:20 PM || ImportLedger Started..
+11/01/2016 02:04:20 PM || ImportLedger Ended.
+11/01/2016 02:04:20 PM || ImportPurpose Started..
+11/01/2016 02:04:20 PM || ImportPurpose Ended.
+11/01/2016 02:04:20 PM || ImportCountry Started.
+11/01/2016 02:04:20 PM || ImportCountry Ended.
+11/01/2016 02:04:20 PM || ImportDonorInfo Started..
+11/01/2016 02:04:20 PM || ImportDonorInfo Ended.
+11/01/2016 02:04:20 PM || ImportCostCentre Started..
+11/01/2016 02:04:20 PM || ImportCostCentre Ended.
+11/01/2016 02:04:20 PM || ImportBank Started..
+11/01/2016 02:04:20 PM || ImportBank Ended.
+11/01/2016 02:04:20 PM || ImportLedgerBankAccount Started..
+11/01/2016 02:04:20 PM || ImportLedgerBankAccount Started..
+11/01/2016 02:04:20 PM || ImportLedgerBankAccount Ended.
+11/01/2016 02:04:20 PM || ImportBankAccount Started..
+11/01/2016 02:04:20 PM || ImportBankAccount Ended.
+11/01/2016 02:04:20 PM || ImportTransactionMasters Ended.
+11/01/2016 02:04:20 PM || UpdateLedgerOPBalance Started..
+11/01/2016 02:04:21 PM || UpdateLedgerOPBalance Ended.
+11/01/2016 02:04:21 PM || DeleteVouchers Started..
+11/01/2016 02:04:21 PM || GetProjectIds Started.
+11/01/2016 02:04:21 PM || GetProjectIds Ended.
+11/01/2016 02:04:21 PM || FetchTransactions Started..
+11/01/2016 02:04:21 PM || FetchTransactions Ended.
+11/01/2016 02:04:21 PM || DeleteVouchers Ended.
+11/01/2016 02:04:21 PM || ImportVoucherDetails Started..
+11/01/2016 02:04:22 PM || ImportVoucherDetails Ended.
+11/01/2016 02:04:28 PM || ImportFixedDeposit Started..
+11/01/2016 02:04:29 PM || DeleteFDVouchers Started..
+11/01/2016 02:04:29 PM || DeleteFDVouchers Ended.
+11/01/2016 02:04:32 PM || DeleteFDAccountDetails Started.
+11/01/2016 02:04:32 PM || Deleting Fixed Deposit Account Details Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherDetails Started.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:35 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:36 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:04:40 PM || ImportFDAccount Started..
+11/01/2016 02:07:52 PM || Problem in Importing Fixed Deposit Account Details. The Record is Available '07450262965810000156' 
+11/01/2016 02:07:52 PM || The Record is Available '07450262965810000156' 
+11/01/2016 02:07:52 PM || UpdateDataSyncStatus Started: Failed
+11/01/2016 02:07:57 PM || Mail has been communicated to the concerned Person
+11/01/2016 02:15:44 PM || --------------------------------XML FILE INFO-----------------------------------
+11/01/2016 02:15:44 PM || File Name : D:\AcMEERP_Vouchers\AcME_ERP_Vouchers_636136048362522592final.xml
+-------------------------------------------------------------------------------------------------------------------------------
+11/01/2016 02:15:52 PM || InitializeVoucherSync started
+11/01/2016 02:15:52 PM || AssignDataTable Started..
+11/01/2016 02:15:52 PM || AssignDataTable Ended.
+11/01/2016 02:15:52 PM || SetImportType Started..
+11/01/2016 02:15:52 PM || SetImportType Ended.
+11/01/2016 02:15:52 PM || ValidateBranchCode Started..
+11/01/2016 02:15:52 PM || Branch Office Code is: sdbinminmshc
+11/01/2016 02:15:52 PM || Branch Email ID :inmeconomer@gmail.com, anthonyselvam87@gmail.com
+11/01/2016 02:15:52 PM || ValidateBranchCode Ended.
+11/01/2016 02:15:52 PM || ValidateHeadOfficeCode Started..
+11/01/2016 02:15:52 PM || Head Office Code is: sdbinm
+11/01/2016 02:15:52 PM || ValidateHeadOfficeCode Ended..
+11/01/2016 02:15:52 PM || SetDateDuration Started..
+11/01/2016 02:15:52 PM || Date Duration: 01/04/2016 to 30/04/2016
+11/01/2016 02:15:52 PM || SetDateDuration Ended.
+11/01/2016 02:15:52 PM || ValidateLicenseKey Started.
+11/01/2016 02:15:55 PM || Table 'sdbinm.branch_license' doesn't exist
+11/01/2016 02:15:55 PM || UpdateDataSyncStatus Started: Failed
+11/01/2016 02:16:01 PM || Mail has been communicated to the concerned Person
+11/01/2016 02:22:38 PM || --------------------------------XML FILE INFO-----------------------------------
+11/01/2016 02:22:39 PM || File Name : D:\AcMEERP_Vouchers\AcME_ERP_Vouchers_636136048362522592final.xml
+-------------------------------------------------------------------------------------------------------------------------------
+11/01/2016 02:22:45 PM || InitializeVoucherSync started
+11/01/2016 02:22:45 PM || AssignDataTable Started..
+11/01/2016 02:22:45 PM || AssignDataTable Ended.
+11/01/2016 02:22:45 PM || SetImportType Started..
+11/01/2016 02:22:45 PM || SetImportType Ended.
+11/01/2016 02:22:45 PM || ValidateBranchCode Started..
+11/01/2016 02:22:45 PM || Branch Office Code is: sdbinminmshc
+11/01/2016 02:22:45 PM || Branch Email ID :inmeconomer@gmail.com, anthonyselvam87@gmail.com, alex@boscosofttech.com
+11/01/2016 02:22:45 PM || ValidateBranchCode Ended.
+11/01/2016 02:22:45 PM || ValidateHeadOfficeCode Started..
+11/01/2016 02:22:45 PM || Head Office Code is: sdbinm
+11/01/2016 02:22:45 PM || ValidateHeadOfficeCode Ended..
+11/01/2016 02:22:45 PM || SetDateDuration Started..
+11/01/2016 02:22:45 PM || Date Duration: 01/04/2016 to 30/04/2016
+11/01/2016 02:22:45 PM || SetDateDuration Ended.
+11/01/2016 02:22:45 PM || ValidateLicenseKey Started.
+11/01/2016 02:22:45 PM || ValidateLicenseKey Ended.
+11/01/2016 02:22:45 PM || FetchHeadOfficeDataBase Started.
+11/01/2016 02:22:45 PM || FetchHeadOfficeDataBase Ended.
+11/01/2016 02:22:45 PM || UpdateDataSyncStatus Started: InProgress
+11/01/2016 02:22:45 PM || UpdateDataSynStatus Ended.
+11/01/2016 02:22:45 PM || FetchBranchOfficeId Started..
+11/01/2016 02:22:45 PM || BRANCH_ID is :47
+11/01/2016 02:22:45 PM || FetchBranchOfficeId Ended.
+11/01/2016 02:22:45 PM || SetLocation Started..
+11/01/2016 02:22:45 PM || SetLocation Ended.
+11/01/2016 02:22:45 PM || InitializeVoucherSync ended
+11/01/2016 02:22:47 PM || ImportTransactionMasters Started..
+11/01/2016 02:22:47 PM || ImportProjectCategory Started..
+11/01/2016 02:22:47 PM || Import Project Category Ended.
+11/01/2016 02:22:47 PM || ImportProject Started..
+11/01/2016 02:22:47 PM || ImportProject Ended.
+11/01/2016 02:22:47 PM || ImportLedger Started..
+11/01/2016 02:22:47 PM || ImportLedger Ended.
+11/01/2016 02:22:47 PM || ImportPurpose Started..
+11/01/2016 02:22:47 PM || ImportPurpose Ended.
+11/01/2016 02:22:47 PM || ImportCountry Started.
+11/01/2016 02:22:47 PM || ImportCountry Ended.
+11/01/2016 02:22:47 PM || ImportDonorInfo Started..
+11/01/2016 02:22:47 PM || ImportDonorInfo Ended.
+11/01/2016 02:22:47 PM || ImportCostCentre Started..
+11/01/2016 02:22:47 PM || ImportCostCentre Ended.
+11/01/2016 02:22:47 PM || ImportBank Started..
+11/01/2016 02:22:47 PM || ImportBank Ended.
+11/01/2016 02:22:47 PM || ImportLedgerBankAccount Started..
+11/01/2016 02:22:47 PM || ImportLedgerBankAccount Started..
+11/01/2016 02:22:47 PM || ImportLedgerBankAccount Ended.
+11/01/2016 02:22:47 PM || ImportBankAccount Started..
+11/01/2016 02:22:47 PM || ImportBankAccount Ended.
+11/01/2016 02:22:47 PM || ImportTransactionMasters Ended.
+11/01/2016 02:22:48 PM || UpdateLedgerOPBalance Started..
+11/01/2016 02:22:55 PM || UpdateLedgerOPBalance Ended.
+11/01/2016 02:22:55 PM || DeleteVouchers Started..
+11/01/2016 02:22:55 PM || GetProjectIds Started.
+11/01/2016 02:22:55 PM || GetProjectIds Ended.
+11/01/2016 02:22:55 PM || FetchTransactions Started..
+11/01/2016 02:22:55 PM || FetchTransactions Ended.
+11/01/2016 02:22:55 PM || DeleteVouchers Ended.
+11/01/2016 02:22:55 PM || ImportVoucherDetails Started..
+11/01/2016 02:22:56 PM || ImportVoucherDetails Ended.
+11/01/2016 02:23:01 PM || ImportFixedDeposit Started..
+11/01/2016 02:23:05 PM || DeleteFDVouchers Started..
+11/01/2016 02:23:05 PM || DeleteFDVouchers Ended.
+11/01/2016 02:23:10 PM || DeleteFDAccountDetails Started.
+11/01/2016 02:46:02 PM || --------------------------------XML FILE INFO-----------------------------------
+11/01/2016 02:46:02 PM || File Name : D:\AcMEERP_Vouchers\AcME_ERP_Vouchers_636136048362522592final.xml
+-------------------------------------------------------------------------------------------------------------------------------
+11/01/2016 02:46:05 PM || InitializeVoucherSync started
+11/01/2016 02:46:05 PM || AssignDataTable Started..
+11/01/2016 02:46:05 PM || AssignDataTable Ended.
+11/01/2016 02:46:05 PM || SetImportType Started..
+11/01/2016 02:46:05 PM || SetImportType Ended.
+11/01/2016 02:46:05 PM || ValidateBranchCode Started..
+11/01/2016 02:46:05 PM || Branch Office Code is: sdbinminmshc
+11/01/2016 02:46:06 PM || Branch Email ID :inmeconomer@gmail.com, anthonyselvam87@gmail.com, alex@boscosofttech.com
+11/01/2016 02:46:06 PM || ValidateBranchCode Ended.
+11/01/2016 02:46:06 PM || ValidateHeadOfficeCode Started..
+11/01/2016 02:46:06 PM || Head Office Code is: sdbinm
+11/01/2016 02:46:06 PM || ValidateHeadOfficeCode Ended..
+11/01/2016 02:46:06 PM || SetDateDuration Started..
+11/01/2016 02:46:06 PM || Date Duration: 01/04/2016 to 30/04/2016
+11/01/2016 02:46:06 PM || SetDateDuration Ended.
+11/01/2016 02:46:06 PM || ValidateLicenseKey Started.
+11/01/2016 02:46:06 PM || ValidateLicenseKey Ended.
+11/01/2016 02:46:06 PM || FetchHeadOfficeDataBase Started.
+11/01/2016 02:46:06 PM || FetchHeadOfficeDataBase Ended.
+11/01/2016 02:46:06 PM || UpdateDataSyncStatus Started: InProgress
+11/01/2016 02:46:06 PM || UpdateDataSynStatus Ended.
+11/01/2016 02:46:06 PM || FetchBranchOfficeId Started..
+11/01/2016 02:46:06 PM || BRANCH_ID is :47
+11/01/2016 02:46:06 PM || FetchBranchOfficeId Ended.
+11/01/2016 02:46:06 PM || SetLocation Started..
+11/01/2016 02:46:06 PM || SetLocation Ended.
+11/01/2016 02:46:06 PM || InitializeVoucherSync ended
+11/01/2016 02:46:06 PM || ImportTransactionMasters Started..
+11/01/2016 02:46:06 PM || ImportProjectCategory Started..
+11/01/2016 02:46:06 PM || Import Project Category Ended.
+11/01/2016 02:46:06 PM || ImportProject Started..
+11/01/2016 02:46:06 PM || ImportProject Ended.
+11/01/2016 02:46:06 PM || ImportLedger Started..
+11/01/2016 02:46:06 PM || ImportLedger Ended.
+11/01/2016 02:46:06 PM || ImportPurpose Started..
+11/01/2016 02:46:06 PM || ImportPurpose Ended.
+11/01/2016 02:46:06 PM || ImportCountry Started.
+11/01/2016 02:46:06 PM || ImportCountry Ended.
+11/01/2016 02:46:06 PM || ImportDonorInfo Started..
+11/01/2016 02:46:06 PM || ImportDonorInfo Ended.
+11/01/2016 02:46:06 PM || ImportCostCentre Started..
+11/01/2016 02:46:06 PM || ImportCostCentre Ended.
+11/01/2016 02:46:06 PM || ImportBank Started..
+11/01/2016 02:46:06 PM || ImportBank Ended.
+11/01/2016 02:46:06 PM || ImportLedgerBankAccount Started..
+11/01/2016 02:46:06 PM || ImportLedgerBankAccount Started..
+11/01/2016 02:46:06 PM || ImportLedgerBankAccount Ended.
+11/01/2016 02:46:06 PM || ImportBankAccount Started..
+11/01/2016 02:46:06 PM || ImportBankAccount Ended.
+11/01/2016 02:46:06 PM || ImportTransactionMasters Ended.
+11/01/2016 02:46:06 PM || UpdateLedgerOPBalance Started..
+11/01/2016 02:46:11 PM || UpdateLedgerOPBalance Ended.
+11/01/2016 02:46:11 PM || DeleteVouchers Started..
+11/01/2016 02:46:11 PM || GetProjectIds Started.
+11/01/2016 02:46:11 PM || GetProjectIds Ended.
+11/01/2016 02:46:11 PM || FetchTransactions Started..
+11/01/2016 02:46:11 PM || FetchTransactions Ended.
+11/01/2016 02:46:11 PM || DeleteVouchers Ended.
+11/01/2016 02:46:11 PM || ImportVoucherDetails Started..
+11/01/2016 02:46:12 PM || ImportVoucherDetails Ended.
+11/01/2016 02:46:14 PM || ImportFixedDeposit Started..
+11/01/2016 02:46:14 PM || DeleteFDVouchers Started..
+11/01/2016 02:46:14 PM || DeleteFDVouchers Ended.
+11/01/2016 02:46:15 PM || DeleteFDAccountDetails Started.
+11/01/2016 02:46:17 PM || Deleting Fixed Deposit Account Details Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherDetails Started.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:17 PM || ImportFDVoucherTrans Ended.
+11/01/2016 02:46:19 PM || ImportFDAccount Started..
+11/01/2016 02:46:25 PM || ImportFDAccount Ended.
+11/01/2016 02:46:30 PM || ImportFDRenewalDetails Started.
+11/01/2016 02:46:31 PM || ImportFDRenewalDetails Ended.
+11/01/2016 02:46:31 PM || ImportFixedDeposit Ended.
+11/01/2016 02:46:31 PM || Data Synchronized Successfully.
+11/01/2016 02:46:31 PM || UpdateDataSyncStatus Started: Closed
+11/01/2016 02:46:38 PM || UpdateDataSynStatus Ended.
+11/01/2016 02:46:42 PM || Mail has been communicated to the concerned Person
+11/01/2016 03:34:13 PM || --------------------------------XML FILE INFO-----------------------------------
+11/01/2016 03:34:13 PM || File Name : D:\AcMEERP_Vouchers\AcME_ERP_Vouchers_636136104859697078_final002.xml
+-------------------------------------------------------------------------------------------------------------------------------
+11/01/2016 03:34:17 PM || InitializeVoucherSync started
+11/01/2016 03:34:17 PM || AssignDataTable Started..
+11/01/2016 03:34:17 PM || AssignDataTable Ended.
+11/01/2016 03:34:17 PM || SetImportType Started..
+11/01/2016 03:34:17 PM || SetImportType Ended.
+11/01/2016 03:34:17 PM || ValidateBranchCode Started..
+11/01/2016 03:34:17 PM || Branch Office Code is: sdbinminmshc
+11/01/2016 03:34:17 PM || Branch Email ID :inmeconomer@gmail.com, anthonyselvam87@gmail.com, alex@boscosofttech.com
+11/01/2016 03:34:17 PM || ValidateBranchCode Ended.
+11/01/2016 03:34:17 PM || ValidateHeadOfficeCode Started..
+11/01/2016 03:34:17 PM || Head Office Code is: sdbinm
+11/01/2016 03:34:17 PM || ValidateHeadOfficeCode Ended..
+11/01/2016 03:34:17 PM || SetDateDuration Started..
+11/01/2016 03:34:17 PM || Date Duration: 01/04/2016 to 30/04/2016
+11/01/2016 03:34:17 PM || SetDateDuration Ended.
+11/01/2016 03:34:17 PM || ValidateLicenseKey Started.
+11/01/2016 03:34:17 PM || ValidateLicenseKey Ended.
+11/01/2016 03:34:17 PM || FetchHeadOfficeDataBase Started.
+11/01/2016 03:34:17 PM || FetchHeadOfficeDataBase Ended.
+11/01/2016 03:34:17 PM || UpdateDataSyncStatus Started: InProgress
+11/01/2016 03:34:17 PM || UpdateDataSynStatus Ended.
+11/01/2016 03:34:17 PM || FetchBranchOfficeId Started..
+11/01/2016 03:34:17 PM || BRANCH_ID is :47
+11/01/2016 03:34:17 PM || FetchBranchOfficeId Ended.
+11/01/2016 03:34:17 PM || SetLocation Started..
+11/01/2016 03:34:17 PM || SetLocation Ended.
+11/01/2016 03:34:17 PM || InitializeVoucherSync ended
+11/01/2016 03:34:17 PM || ImportTransactionMasters Started..
+11/01/2016 03:34:17 PM || ImportProjectCategory Started..
+11/01/2016 03:34:17 PM || Import Project Category Ended.
+11/01/2016 03:34:17 PM || ImportProject Started..
+11/01/2016 03:34:17 PM || ImportProject Ended.
+11/01/2016 03:34:17 PM || ImportLedger Started..
+11/01/2016 03:34:17 PM || ImportLedger Ended.
+11/01/2016 03:34:17 PM || ImportPurpose Started..
+11/01/2016 03:34:17 PM || ImportPurpose Ended.
+11/01/2016 03:34:17 PM || ImportCountry Started.
+11/01/2016 03:34:17 PM || ImportCountry Ended.
+11/01/2016 03:34:17 PM || ImportDonorInfo Started..
+11/01/2016 03:34:17 PM || ImportDonorInfo Ended.
+11/01/2016 03:34:17 PM || ImportCostCentre Started..
+11/01/2016 03:34:17 PM || ImportCostCentre Ended.
+11/01/2016 03:34:17 PM || ImportBank Started..
+11/01/2016 03:34:17 PM || ImportBank Ended.
+11/01/2016 03:34:17 PM || ImportLedgerBankAccount Started..
+11/01/2016 03:34:17 PM || ImportLedgerBankAccount Started..
+11/01/2016 03:34:17 PM || ImportLedgerBankAccount Ended.
+11/01/2016 03:34:17 PM || ImportBankAccount Started..
+11/01/2016 03:34:17 PM || ImportBankAccount Ended.
+11/01/2016 03:34:17 PM || ImportTransactionMasters Ended.
+11/01/2016 03:34:17 PM || UpdateLedgerOPBalance Started..
+11/01/2016 03:34:18 PM || UpdateLedgerOPBalance Ended.
+11/01/2016 03:34:18 PM || DeleteVouchers Started..
+11/01/2016 03:34:18 PM || GetProjectIds Started.
+11/01/2016 03:34:18 PM || GetProjectIds Ended.
+11/01/2016 03:34:18 PM || FetchTransactions Started..
+11/01/2016 03:34:18 PM || FetchTransactions Ended.
+11/01/2016 03:34:18 PM || DeleteVouchers Ended.
+11/01/2016 03:34:18 PM || ImportVoucherDetails Started..
+11/01/2016 03:34:19 PM || ImportVoucherDetails Ended.
+11/01/2016 03:34:23 PM || ImportFixedDeposit Started..
+11/01/2016 03:34:24 PM || DeleteFDVouchers Started..
+11/01/2016 03:34:24 PM || DeleteFDVouchers Ended.
+11/01/2016 03:34:40 PM || DeleteFDAccountDetails Started.
+11/01/2016 03:35:34 PM || Deleting Fixed Deposit Account Details Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherDetails Started.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:15 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:16 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:16 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:16 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:16 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:16 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:16 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:16 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:16 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:16 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:16 PM || ImportFDVoucherTrans Ended.
+11/01/2016 03:36:25 PM || ImportFDAccount Started..
+11/01/2016 03:37:51 PM || ImportFDAccount Ended.
+11/01/2016 03:37:51 PM || ImportFDRenewalDetails Started.
+11/01/2016 03:37:52 PM || ImportFDRenewalDetails Ended.
+11/01/2016 03:37:52 PM || ImportFixedDeposit Ended.
+11/01/2016 03:37:52 PM || Data Synchronized Successfully.
+11/01/2016 03:37:52 PM || UpdateDataSyncStatus Started: Closed
+11/01/2016 03:37:54 PM || UpdateDataSynStatus Ended.
+11/01/2016 03:37:58 PM || Mail has been communicated to the concerned Person
+11/01/2016 03:43:14 PM || --------------------------------XML FILE INFO-----------------------------------
+11/01/2016 03:43:14 PM || File Name : D:\AcMEERP_Vouchers\AcME_ERP_Vouchers_636136104859697078_final002.xml
+-------------------------------------------------------------------------------------------------------------------------------
+11/01/2016 03:43:17 PM || InitializeVoucherSync started
+11/01/2016 03:43:17 PM || AssignDataTable Started..
+11/01/2016 03:43:17 PM || AssignDataTable Ended.
+11/01/2016 03:43:17 PM || SetImportType Started..
+11/01/2016 03:43:17 PM || SetImportType Ended.
+11/01/2016 03:43:17 PM || ValidateBranchCode Started..
+11/01/2016 03:43:17 PM || Branch Office Code is: sdbinminmshc
+11/01/2016 03:43:17 PM || Branch Email ID :inmeconomer@gmail.com, anthonyselvam87@gmail.com
+11/01/2016 03:43:17 PM || ValidateBranchCode Ended.
+11/01/2016 03:43:17 PM || ValidateHeadOfficeCode Started..
+11/01/2016 03:43:17 PM || Head Office Code is: sdbinm
+11/01/2016 03:43:18 PM || ValidateHeadOfficeCode Ended..
+11/01/2016 03:43:18 PM || SetDateDuration Started..
+11/01/2016 03:43:18 PM || Date Duration: 01/04/2016 to 30/04/2016
+11/01/2016 03:43:18 PM || SetDateDuration Ended.
+11/01/2016 03:43:18 PM || ValidateLicenseKey Started.
+11/01/2016 03:43:21 PM || Table 'sdbinm.branch_license' doesn't exist
+11/01/2016 03:43:21 PM || UpdateDataSyncStatus Started: Failed
+11/20/2025 11:55:54 AM || GetBudget Started..
+11/20/2025 11:55:54 AM || Fetch Budget Master Started..
+11/20/2025 11:55:54 AM || Fetch Budget Master Ended..
+11/20/2025 11:55:54 AM || Fetch Budget project Started..
+11/20/2025 11:55:54 AM || Fetch Budget Project Ended..
+11/20/2025 11:55:54 AM || Fetch Budget Ledger Started..
+11/20/2025 11:55:54 AM || Fetch Budget Ledger Ended..
+11/20/2025 11:55:54 AM || Fetch Budget Sub Ledger Started..
+11/20/2025 11:55:54 AM || Fetch Budget Sub Ledger Ended..
+11/20/2025 11:55:54 AM || GetBudget Ended..
+11/20/2025 11:58:04 AM || UpdateBudget Started..
+11/20/2025 11:58:04 AM || GetProjectIds Started.
+11/20/2025 11:58:04 AM || GetProjectIds Ended.
+11/20/2025 11:58:04 AM || GetBudgetId Started..
+11/20/2025 11:58:04 AM || GetBudgetId Ended..
+11/20/2025 11:58:04 AM || UpdateBudget Ended..

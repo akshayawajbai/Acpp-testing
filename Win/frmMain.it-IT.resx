@@ -1,0 +1,1029 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Acme.erp</value>
+  </data>
+  <data name="BackupNew.Caption" xml:space="preserve">
+    <value>backup</value>
+  </data>
+  <data name="bar1.Text" xml:space="preserve">
+    <value>Utensili</value>
+  </data>
+  <data name="bar3.Text" xml:space="preserve">
+    <value>Barra di stato</value>
+  </data>
+  <data name="bbiAsset.Caption" xml:space="preserve">
+    <value>Immobilis&lt;b&gt;&lt;u&gt;z&lt;/u&gt;&lt;/b&gt;zazioni</value>
+  </data>
+  <data name="bbiBoCode.Caption" xml:space="preserve">
+    <value>Bo:</value>
+  </data>
+  <data name="bbiBranch.Caption" xml:space="preserve">
+    <value>Nome istituito:</value>
+  </data>
+  <data name="bbiCheckUpdates.Caption" xml:space="preserve">
+    <value>A&lt;b&gt;&lt;u&gt;g&lt;/u&gt;&lt;/b&gt;giornamento</value>
+  </data>
+  <data name="bbiCloseAll.Caption" xml:space="preserve">
+    <value>Chiudi tutte le schede &lt;color = grigio&gt; ctrl+shift+f4 &lt;/ color&gt;</value>
+  </data>
+  <data name="bbiConfiguration.Caption" xml:space="preserve">
+    <value>Configurazione &lt;color = grigio&gt; &lt;b&gt; (f12) &lt;/b&gt; &lt;/ Color&gt;</value>
+  </data>
+  <data name="bbiDataUtlity.Caption" xml:space="preserve">
+    <value>&lt;b&gt;&lt;u&gt;U&lt;/u&gt;&lt;/b&gt;tilità</value>
+  </data>
+  <data name="bbidateSelecteionShortCut.Caption" xml:space="preserve">
+    <value>Data &lt;Color = Grey&gt; &lt;b&gt; (F3) &lt;/b&gt; &lt;/ Color&gt;</value>
+  </data>
+  <data name="bbiDateSelection.Caption" xml:space="preserve">
+    <value>Data (F3)</value>
+  </data>
+  <data name="bbiDisposal.Caption" xml:space="preserve">
+    <value>Organizzare</value>
+  </data>
+  <data name="bbiFinance.Caption" xml:space="preserve">
+    <value>F&lt;b&gt;&lt;u&gt;i&lt;/u&gt;&lt;/b&gt;nanza</value>
+  </data>
+  <data name="bbiFinanceReport.Caption" xml:space="preserve">
+    <value>&lt;b&gt;f&lt;/b&gt;innovazioni</value>
+  </data>
+  <data name="bbiHoCode.Caption" xml:space="preserve">
+    <value>Ho:</value>
+  </data>
+  <data name="bbiHome.Caption" xml:space="preserve">
+    <value>C&lt;b&gt;&lt;u&gt;a&lt;/b&gt;&lt;/u&gt;sa</value>
+  </data>
+  <data name="bbiNetworking.Caption" xml:space="preserve">
+    <value>&lt;b&gt; &lt;u&gt; n &lt;/u&gt; &lt;/b&gt; etworking</value>
+  </data>
+  <data name="bbiNetworkReport.Caption" xml:space="preserve">
+    <value>Networking</value>
+  </data>
+  <data name="bbiNew.Caption" xml:space="preserve">
+    <value>&lt;Color = blue&gt; &lt;b&gt; alt+n &lt;/b&gt; &lt;/ Color&gt; nuovo</value>
+  </data>
+  <data name="bbiPayroll.Caption" xml:space="preserve">
+    <value>&amp;Libro&lt;b&gt;&lt;u&gt;p&lt;/u&gt;&lt;/b&gt;aga</value>
+  </data>
+  <data name="bbiPayrollReport.Caption" xml:space="preserve">
+    <value>&amp;&lt;b&gt;p&lt;/b&gt;aie</value>
+  </data>
+  <data name="bbiProject.Caption" xml:space="preserve">
+    <value>Project &lt;Color = Grey&gt; &lt;b&gt; (F5) &lt;/b&gt; &lt;/ Color&gt;</value>
+  </data>
+  <data name="bbiReportsMenu.Caption" xml:space="preserve">
+    <value>&lt;b&gt;&lt;u&gt;R&lt;/u&gt;&lt;/b&gt;apporti</value>
+  </data>
+  <data name="bbiStatutory.Caption" xml:space="preserve">
+    <value>S &lt;b&gt; &lt;u&gt; t &lt;/u&gt; &lt;/b&gt;</value>
+  </data>
+  <data name="bbiStock.Caption" xml:space="preserve">
+    <value>&lt;b&gt; &lt;u&gt; s &lt;/u&gt; &lt;/b&gt; tock</value>
+  </data>
+  <data name="bbiStockMenu.Caption" xml:space="preserve">
+    <value>&amp; &lt;b&gt; s &lt;/b&gt; tock</value>
+  </data>
+  <data name="bbiTDS.Caption" xml:space="preserve">
+    <value>S &amp; &lt;b&gt; &lt;u&gt; T &lt;/u&gt; &lt;/b&gt; ATTUNA</value>
+  </data>
+  <data name="bbiTDSReports.Caption" xml:space="preserve">
+    <value>conformità &amp; &lt;b&gt; &lt;u&gt; t &lt;/u&gt; &lt;/b&gt; statutario</value>
+  </data>
+  <data name="colAccId.Caption" xml:space="preserve">
+    <value>ACC ID</value>
+  </data>
+  <data name="colYearFrom.Caption" xml:space="preserve">
+    <value>Periodo trans</value>
+  </data>
+  <data name="dpAcme.Text" xml:space="preserve">
+    <value>Finanza</value>
+  </data>
+  <data name="hlkAccountInfo.EditValue" xml:space="preserve">
+    <value>Il mio profilo</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>nome</value>
+  </data>
+  <data name="lblUserRole.Text" xml:space="preserve">
+    <value>Ruolo</value>
+  </data>
+  <data name="lblWelcomeNote.Text" xml:space="preserve">
+    <value>Benvenuto</value>
+  </data>
+  <data name="navBarItem1.Caption" xml:space="preserve">
+    <value>Elimina voucher</value>
+  </data>
+  <data name="navbarUpdates.Caption" xml:space="preserve">
+    <value>Per aggiornare</value>
+  </data>
+  <data name="navConnectDBConnection.Caption" xml:space="preserve">
+    <value>Collegare il database</value>
+  </data>
+  <data name="navRestoreData.Caption" xml:space="preserve">
+    <value>Ripristinare</value>
+  </data>
+  <data name="nbg1Allotement.Caption" xml:space="preserve">
+    <value>Transazione</value>
+  </data>
+  <data name="nbg1Reports.Caption" xml:space="preserve">
+    <value>Segnalazioni</value>
+  </data>
+  <data name="nbgAssetMasters.Caption" xml:space="preserve">
+    <value>Padronanza</value>
+  </data>
+  <data name="nbgAssetOptions.Caption" xml:space="preserve">
+    <value>opzioni</value>
+  </data>
+  <data name="nbgAssetTransactions.Caption" xml:space="preserve">
+    <value>Transazioni</value>
+  </data>
+  <data name="nbgAssetViews.Caption" xml:space="preserve">
+    <value>Viste</value>
+  </data>
+  <data name="nbgDataUtility.Caption" xml:space="preserve">
+    <value>Gestione dei dati</value>
+  </data>
+  <data name="nbgDefinition.Caption" xml:space="preserve">
+    <value>Maestro</value>
+  </data>
+  <data name="nbgDonorContactDesk.Caption" xml:space="preserve">
+    <value>Contattare l'ufficio</value>
+  </data>
+  <data name="nbgDonorMailDesk.Caption" xml:space="preserve">
+    <value>Posta di ufficio</value>
+  </data>
+  <data name="nbgDonorMasters.Caption" xml:space="preserve">
+    <value>Padronanza</value>
+  </data>
+  <data name="nbgFixedDeposit.Caption" xml:space="preserve">
+    <value>Deposito fisso</value>
+  </data>
+  <data name="nbgGateway.Caption" xml:space="preserve">
+    <value>opzioni</value>
+  </data>
+  <data name="nbgInventory.Caption" xml:space="preserve">
+    <value>Azione</value>
+  </data>
+  <data name="nbgMaster.Caption" xml:space="preserve">
+    <value>Configurazione del database</value>
+  </data>
+  <data name="nbgOptions.Caption" xml:space="preserve">
+    <value>opzioni</value>
+  </data>
+  <data name="nbgPayroll.Caption" xml:space="preserve">
+    <value>Paga</value>
+  </data>
+  <data name="nbgReports.Caption" xml:space="preserve">
+    <value>Segnalazioni</value>
+  </data>
+  <data name="nbgStock.Caption" xml:space="preserve">
+    <value>&lt;b&gt; &lt;u&gt; s &lt;/u&gt; &lt;/b&gt; tock</value>
+  </data>
+  <data name="nbgStockMasters.Caption" xml:space="preserve">
+    <value>Padronanza</value>
+  </data>
+  <data name="nbgStockVouchers.Caption" xml:space="preserve">
+    <value>Transazioni</value>
+  </data>
+  <data name="nbgTDSMasters.Caption" xml:space="preserve">
+    <value>Master TDS</value>
+  </data>
+  <data name="nbgTDSVouchers.Caption" xml:space="preserve">
+    <value>Transazioni</value>
+  </data>
+  <data name="nbgTransaction.Caption" xml:space="preserve">
+    <value>Contabilità</value>
+  </data>
+  <data name="nbgUserManagement.Caption" xml:space="preserve">
+    <value>Gestione degli utenti</value>
+  </data>
+  <data name="nbgVehicle.Caption" xml:space="preserve">
+    <value>Statutario</value>
+  </data>
+  <data name="nbi1AbstractComponent.Caption" xml:space="preserve">
+    <value>Componente di riepilogo</value>
+  </data>
+  <data name="nbi1AbstractPayroll.Caption" xml:space="preserve">
+    <value>Riepilogo del libro paga</value>
+  </data>
+  <data name="nbi1ComponentAllocation.Caption" xml:space="preserve">
+    <value>Indennità componente</value>
+  </data>
+  <data name="nbi1CustomizeReport.Caption" xml:space="preserve">
+    <value>Personalizza il rapporto</value>
+  </data>
+  <data name="nbi1GrpAllocation.Caption" xml:space="preserve">
+    <value>Indennità di gruppo</value>
+  </data>
+  <data name="nbi1LoanLedger.Caption" xml:space="preserve">
+    <value>Prestito del libro mastro</value>
+  </data>
+  <data name="nbi1LoanMgt.Caption" xml:space="preserve">
+    <value>Prestito del programma</value>
+  </data>
+  <data name="nbi1PayRegister.Caption" xml:space="preserve">
+    <value>Registro a pagamento</value>
+  </data>
+  <data name="nbi1Payroll.Caption" xml:space="preserve">
+    <value>Vedi Pay</value>
+  </data>
+  <data name="nbi1PaySlip.Caption" xml:space="preserve">
+    <value>Payslip</value>
+  </data>
+  <data name="nbi1WagesReport.Caption" xml:space="preserve">
+    <value>Rapporto salariali</value>
+  </data>
+  <data name="nbiAbout.Caption" xml:space="preserve">
+    <value>Sul prodotto</value>
+  </data>
+  <data name="nbiAddress.Caption" xml:space="preserve">
+    <value>Indirizzo</value>
+  </data>
+  <data name="nbiAMCVoucher.Caption" xml:space="preserve">
+    <value>Manutenzione annuale</value>
+  </data>
+  <data name="nbiAmendments.Caption" xml:space="preserve">
+    <value>Note di emendamento</value>
+  </data>
+  <data name="nbiAnniversary.Caption" xml:space="preserve">
+    <value>Compleanno</value>
+  </data>
+  <data name="nbiAppealLetter.Caption" xml:space="preserve">
+    <value>Chiamata</value>
+  </data>
+  <data name="nbiAsset.Caption" xml:space="preserve">
+    <value>Immobilizza&lt;b&gt;&lt;u&gt;z&lt;/u&gt;&lt;/b&gt;ioni</value>
+  </data>
+  <data name="nbiAssetCustodian.Caption" xml:space="preserve">
+    <value>Custode</value>
+  </data>
+  <data name="nbiAssetDetails.Caption" xml:space="preserve">
+    <value>Dettagli delle risorse</value>
+  </data>
+  <data name="nbiAssetDisposal.Caption" xml:space="preserve">
+    <value>Disposizione</value>
+  </data>
+  <data name="nbiAssetImportMasters.Caption" xml:space="preserve">
+    <value>Importare maestri</value>
+  </data>
+  <data name="nbiAssetItemLedgerMapping.Caption" xml:space="preserve">
+    <value>Cartographing Register attivi</value>
+  </data>
+  <data name="nbiAssetOPBalance.Caption" xml:space="preserve">
+    <value>Stock di apertura</value>
+  </data>
+  <data name="nbiAssetReceiveVoucher.Caption" xml:space="preserve">
+    <value>Ricevere in natura</value>
+  </data>
+  <data name="nbiAssetRegisters.Caption" xml:space="preserve">
+    <value>Registro delle attività</value>
+  </data>
+  <data name="nbiAssetSearch.Caption" xml:space="preserve">
+    <value>Controlla la risorsa</value>
+  </data>
+  <data name="nbiAssetVendor.Caption" xml:space="preserve">
+    <value>Venditore</value>
+  </data>
+  <data name="nbiAuditLockTrans.Caption" xml:space="preserve">
+    <value>Serratura</value>
+  </data>
+  <data name="nbiAuditLockType.Caption" xml:space="preserve">
+    <value>Tipo di blocco</value>
+  </data>
+  <data name="nbiAuditor.Caption" xml:space="preserve">
+    <value>Ascoltatore</value>
+  </data>
+  <data name="nbiAuditType.Caption" xml:space="preserve">
+    <value>Tipo di verifica</value>
+  </data>
+  <data name="nbiAudit_Info.Caption" xml:space="preserve">
+    <value>Informazioni di audit</value>
+  </data>
+  <data name="nbiBalanceRefresh.Caption" xml:space="preserve">
+    <value>Aggiorna il saldo del libro mastro</value>
+  </data>
+  <data name="nbiBank.Caption" xml:space="preserve">
+    <value>Banca e gestione</value>
+  </data>
+  <data name="nbiBankAccount.Caption" xml:space="preserve">
+    <value>Conto bancario</value>
+  </data>
+  <data name="nbiBlock.Caption" xml:space="preserve">
+    <value>Bloccato</value>
+  </data>
+  <data name="nbiBudget.Caption" xml:space="preserve">
+    <value>Budget - periodo</value>
+  </data>
+  <data name="nbiBudgetAnnual.Caption" xml:space="preserve">
+    <value>Budget - annuale</value>
+  </data>
+  <data name="nbiBulkTransactions.Caption" xml:space="preserve">
+    <value>Transazione di massa</value>
+  </data>
+  <data name="nbiCategories.Caption" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="nbiCheck.Caption" xml:space="preserve">
+    <value>Navbaritem1</value>
+  </data>
+  <data name="nbiClass.Caption" xml:space="preserve">
+    <value>Classe di attività</value>
+  </data>
+  <data name="nbiClose.Caption" xml:space="preserve">
+    <value>Disconnessione</value>
+  </data>
+  <data name="nbiComponentAlloaction.Caption" xml:space="preserve">
+    <value>Indennità componente</value>
+  </data>
+  <data name="nbiConfigure.Caption" xml:space="preserve">
+    <value>Configurare</value>
+  </data>
+  <data name="nbiContra.Caption" xml:space="preserve">
+    <value>Contra</value>
+  </data>
+  <data name="nbiCostCentre.Caption" xml:space="preserve">
+    <value>Centro di costo</value>
+  </data>
+  <data name="nbiCostCentreCategory.Caption" xml:space="preserve">
+    <value>Categoria dei costi</value>
+  </data>
+  <data name="nbiCountry.Caption" xml:space="preserve">
+    <value>Paese</value>
+  </data>
+  <data name="nbiCreatePayroll.Caption" xml:space="preserve">
+    <value>Creare</value>
+  </data>
+  <data name="nbiDashboard.Caption" xml:space="preserve">
+    <value>Pannello di controllo</value>
+  </data>
+  <data name="nbiDataImport.Caption" xml:space="preserve">
+    <value>Importa registri</value>
+  </data>
+  <data name="nbiDataMigration.Caption" xml:space="preserve">
+    <value>Migrazione</value>
+  </data>
+  <data name="nbiDeductTDS.Caption" xml:space="preserve">
+    <value>dedurre TDS</value>
+  </data>
+  <data name="nbiDeduteeType.Caption" xml:space="preserve">
+    <value>Tipo di TDS-TAP</value>
+  </data>
+  <data name="nbiDefineSubscription.Caption" xml:space="preserve">
+    <value>Definire l'abbonamento</value>
+  </data>
+  <data name="nbiDeletePayroll.Caption" xml:space="preserve">
+    <value>Per cancellare</value>
+  </data>
+  <data name="nbiDeleteVoucher.Caption" xml:space="preserve">
+    <value>Pulizia del voucher</value>
+  </data>
+  <data name="nbiDepreciation.Caption" xml:space="preserve">
+    <value>Ammortamento</value>
+  </data>
+  <data name="nbiDepreciationMethod.Caption" xml:space="preserve">
+    <value>Metodo di ammortamento</value>
+  </data>
+  <data name="nbiDonor.Caption" xml:space="preserve">
+    <value>Donatore</value>
+  </data>
+  <data name="nbiDonorTitle.Caption" xml:space="preserve">
+    <value>Titolo del donatore</value>
+  </data>
+  <data name="nbiDownloadTemplates.Caption" xml:space="preserve">
+    <value>Scarica modelli</value>
+  </data>
+  <data name="nbiDutyTax.Caption" xml:space="preserve">
+    <value>Tassa TDS-DUTY</value>
+  </data>
+  <data name="nbiExecutiveMember.Caption" xml:space="preserve">
+    <value>organi</value>
+  </data>
+  <data name="nbiExportMasters.Caption" xml:space="preserve">
+    <value>Export Masters in sotto-rami</value>
+  </data>
+  <data name="nbiExportVouchers.Caption" xml:space="preserve">
+    <value>Coupon di esportazione</value>
+  </data>
+  <data name="nbiFDInvestment.Caption" xml:space="preserve">
+    <value>Investimento</value>
+  </data>
+  <data name="nbiFDLedger.Caption" xml:space="preserve">
+    <value>Grande libro di deposito fisso</value>
+  </data>
+  <data name="nbiFDPostInterst.Caption" xml:space="preserve">
+    <value>Inviare</value>
+  </data>
+  <data name="nbiFDRegisters.Caption" xml:space="preserve">
+    <value>registro</value>
+  </data>
+  <data name="nbiFDRenewal.Caption" xml:space="preserve">
+    <value>Rinnovo</value>
+  </data>
+  <data name="nbiFDWithdraw.Caption" xml:space="preserve">
+    <value>Ritiro</value>
+  </data>
+  <data name="nbiFeastDay.Caption" xml:space="preserve">
+    <value>Giorno festivo</value>
+  </data>
+  <data name="nbiFianceFDRegister.Caption" xml:space="preserve">
+    <value>Correzione del registro dei depositi</value>
+  </data>
+  <data name="nbiFinanceFDRenewal.Caption" xml:space="preserve">
+    <value>Rinnovo del deposito fisso</value>
+  </data>
+  <data name="nbiFinnanceSettings.Caption" xml:space="preserve">
+    <value>Parametri</value>
+  </data>
+  <data name="nbiFixedDeposit.Caption" xml:space="preserve">
+    <value>Equilibrio di apertura</value>
+  </data>
+  <data name="nbiGoodsReturn.Caption" xml:space="preserve">
+    <value>Acquista reso</value>
+  </data>
+  <data name="nbiGroupAllocation.Caption" xml:space="preserve">
+    <value>Indennità di gruppo</value>
+  </data>
+  <data name="nbiHeadOfficeInterface.Caption" xml:space="preserve">
+    <value>Interfaccia di Chef Bureau</value>
+  </data>
+  <data name="nbiImportAssetMasters.Caption" xml:space="preserve">
+    <value>Import Asset Master</value>
+  </data>
+  <data name="nbiImportAssets.Caption" xml:space="preserve">
+    <value>Apertura di importazione di scorta</value>
+  </data>
+  <data name="nbiImportExportRegisters.Caption" xml:space="preserve">
+    <value>Registri di importazione / esportazione</value>
+  </data>
+  <data name="nbiImportLedgers.Caption" xml:space="preserve">
+    <value>Importa registri</value>
+  </data>
+  <data name="nbiImportMaster.Caption" xml:space="preserve">
+    <value>Redgers Headquarters Card to General Management</value>
+  </data>
+  <data name="nbiImportMasters.Caption" xml:space="preserve">
+    <value>Importare maestri</value>
+  </data>
+  <data name="nbiImportSplitProject.Caption" xml:space="preserve">
+    <value>Importa dati</value>
+  </data>
+  <data name="nbiImportVouchers.Caption" xml:space="preserve">
+    <value>Voucher di importazione</value>
+  </data>
+  <data name="nbiInKind.Caption" xml:space="preserve">
+    <value>In natura ricevuta</value>
+  </data>
+  <data name="nbiInKindArticle.Caption" xml:space="preserve">
+    <value>Nell'articolo gentile</value>
+  </data>
+  <data name="nbiInKindUtilised.Caption" xml:space="preserve">
+    <value>In natura usata</value>
+  </data>
+  <data name="nbiInstitutionType.Caption" xml:space="preserve">
+    <value>Tipo di stabilimento</value>
+  </data>
+  <data name="nbiInstPreference.Caption" xml:space="preserve">
+    <value>Informazioni sull'istituto</value>
+  </data>
+  <data name="nbiInsurance.Caption" xml:space="preserve">
+    <value>Assicurazione</value>
+  </data>
+  <data name="nbiInsuranceRenewal.Caption" xml:space="preserve">
+    <value>Rinnovo assicurativo</value>
+  </data>
+  <data name="nbiInsuranceTypes.Caption" xml:space="preserve">
+    <value>Schema assicurativo</value>
+  </data>
+  <data name="nbiItemDisposal.Caption" xml:space="preserve">
+    <value>Punto di eliminazione</value>
+  </data>
+  <data name="nbiItems.Caption" xml:space="preserve">
+    <value>Elemento attivo</value>
+  </data>
+  <data name="nbiItemTransfer.Caption" xml:space="preserve">
+    <value>Punto di trasferimento</value>
+  </data>
+  <data name="nbiJournal.Caption" xml:space="preserve">
+    <value>Giornale</value>
+  </data>
+  <data name="nbiJournalView.Caption" xml:space="preserve">
+    <value>Giornale</value>
+  </data>
+  <data name="nbiLeageEntityf.Caption" xml:space="preserve">
+    <value>Entità legale</value>
+  </data>
+  <data name="nbiLedger.Caption" xml:space="preserve">
+    <value>Libro mastro</value>
+  </data>
+  <data name="nbiLedgerGroup.Caption" xml:space="preserve">
+    <value>Gruppi</value>
+  </data>
+  <data name="nbiLedgerReport.Caption" xml:space="preserve">
+    <value>Rapporto di contabilità</value>
+  </data>
+  <data name="nbiLegalEntity.Caption" xml:space="preserve">
+    <value>Entità legale</value>
+  </data>
+  <data name="nbiLicenseKey.Caption" xml:space="preserve">
+    <value>Chiave di licenza</value>
+  </data>
+  <data name="nbiLoan.Caption" xml:space="preserve">
+    <value>Pronto</value>
+  </data>
+  <data name="nbiLoanmanagement.Caption" xml:space="preserve">
+    <value>Gestione dei prestiti</value>
+  </data>
+  <data name="nbiLocalization.Caption" xml:space="preserve">
+    <value>Parametri</value>
+  </data>
+  <data name="nbiLocations.Caption" xml:space="preserve">
+    <value>Posizione</value>
+  </data>
+  <data name="nbiLock.Caption" xml:space="preserve">
+    <value>Bloccare</value>
+  </data>
+  <data name="nbiManageMultiDB.Caption" xml:space="preserve">
+    <value>Gestisci multi ramo</value>
+  </data>
+  <data name="nbiManageSecurity.Caption" xml:space="preserve">
+    <value>Gestisci la sicurezza degli utenti</value>
+  </data>
+  <data name="nbiManufacture.Caption" xml:space="preserve">
+    <value>Produttore</value>
+  </data>
+  <data name="nbiMapAssetLedger.Caption" xml:space="preserve">
+    <value>Cartographing Register attivi</value>
+  </data>
+  <data name="nbiMapLedger.Caption" xml:space="preserve">
+    <value>Scheda di contabilità</value>
+  </data>
+  <data name="nbiMapLedgerOption.Caption" xml:space="preserve">
+    <value>Opzioni di contabilità</value>
+  </data>
+  <data name="nbiMapLedgers.Caption" xml:space="preserve">
+    <value>Carta di registro del testa</value>
+  </data>
+  <data name="nbiMapLedProject.Caption" xml:space="preserve">
+    <value>Account di carta</value>
+  </data>
+  <data name="nbiMapLocations.Caption" xml:space="preserve">
+    <value>Carta luoghi</value>
+  </data>
+  <data name="nbiMapMigration.Caption" xml:space="preserve">
+    <value>Unisci i registri</value>
+  </data>
+  <data name="nbiMapProcesstypeLedgers.Caption" xml:space="preserve">
+    <value>Scheda di processo del tipo di registro</value>
+  </data>
+  <data name="nbiMapProjectsforPayroll.Caption" xml:space="preserve">
+    <value>Progetto / i di carte)</value>
+  </data>
+  <data name="nbiMapProjectStaff.Caption" xml:space="preserve">
+    <value>Carta del personale del progetto</value>
+  </data>
+  <data name="nbiMapStockLedgers.Caption" xml:space="preserve">
+    <value>Registri scheda predefinita</value>
+  </data>
+  <data name="nbiMaster.Caption" xml:space="preserve">
+    <value>opzioni</value>
+  </data>
+  <data name="nbiMasterDonorReference.Caption" xml:space="preserve">
+    <value>Riferimento donatore</value>
+  </data>
+  <data name="nbiMasterFD.Caption" xml:space="preserve">
+    <value>Deposito fisso</value>
+  </data>
+  <data name="nbiMastersImport.Caption" xml:space="preserve">
+    <value>Importare maestri</value>
+  </data>
+  <data name="nbiMembers.Caption" xml:space="preserve">
+    <value>Membro</value>
+  </data>
+  <data name="nbiNatureofPayments.Caption" xml:space="preserve">
+    <value>Pagamenti TDS-Nature</value>
+  </data>
+  <data name="nbiNewsLetter.Caption" xml:space="preserve">
+    <value>Nuova lettera</value>
+  </data>
+  <data name="nbiOfferingType.Caption" xml:space="preserve">
+    <value>Tipo di posizionamento</value>
+  </data>
+  <data name="nbiOpenPayroll.Caption" xml:space="preserve">
+    <value>Aprire</value>
+  </data>
+  <data name="nbiOrderComponets.Caption" xml:space="preserve">
+    <value>Ordina componenti</value>
+  </data>
+  <data name="nbiPartyPayment.Caption" xml:space="preserve">
+    <value>Pagamento delle parti</value>
+  </data>
+  <data name="nbiPayment.Caption" xml:space="preserve">
+    <value>Pagamento</value>
+  </data>
+  <data name="nbiPayrollComponent.Caption" xml:space="preserve">
+    <value>Componente pagante</value>
+  </data>
+  <data name="nbiPayrollGroup.Caption" xml:space="preserve">
+    <value>Gruppo di pagamento</value>
+  </data>
+  <data name="nbiPayrollPostpyament.Caption" xml:space="preserve">
+    <value>Convalida una buona retribuzione in finanza</value>
+  </data>
+  <data name="nbiPayrollView.Caption" xml:space="preserve">
+    <value>Paga</value>
+  </data>
+  <data name="nbiPortalUpdates.Caption" xml:space="preserve">
+    <value>Aggiornamenti del portale</value>
+  </data>
+  <data name="nbiPostDailyCollection.Caption" xml:space="preserve">
+    <value>Collezione post giornaliera</value>
+  </data>
+  <data name="nbiProcessPayroll.Caption" xml:space="preserve">
+    <value>processo di gestione stipendi</value>
+  </data>
+  <data name="nbiProject.Caption" xml:space="preserve">
+    <value>Progetto</value>
+  </data>
+  <data name="nbiProjectCategory.Caption" xml:space="preserve">
+    <value>Categoria del progetto</value>
+  </data>
+  <data name="nbiProspectsView.Caption" xml:space="preserve">
+    <value>Prospettive</value>
+  </data>
+  <data name="nbiPurchase.Caption" xml:space="preserve">
+    <value>Acquistare</value>
+  </data>
+  <data name="nbiPurchaseVoucher.Caption" xml:space="preserve">
+    <value>Acquistare</value>
+  </data>
+  <data name="nbiPurpose.Caption" xml:space="preserve">
+    <value>Obiettivo</value>
+  </data>
+  <data name="nbiReceipt.Caption" xml:space="preserve">
+    <value>Reception</value>
+  </data>
+  <data name="nbiReceiptView.Caption" xml:space="preserve">
+    <value>Documenti di supporto</value>
+  </data>
+  <data name="nbiRegenerateVoucher.Caption" xml:space="preserve">
+    <value>Rigenerare il numero di voucher</value>
+  </data>
+  <data name="nbiRegistrationType.Caption" xml:space="preserve">
+    <value>RegistrationType</value>
+  </data>
+  <data name="nbiReportCustomization.Caption" xml:space="preserve">
+    <value>Registrazione della personalizzazione</value>
+  </data>
+  <data name="nbiReprocess.Caption" xml:space="preserve">
+    <value>Ritirarsi</value>
+  </data>
+  <data name="nbiSale.Caption" xml:space="preserve">
+    <value>Saldi</value>
+  </data>
+  <data name="nbiSaleVoucher.Caption" xml:space="preserve">
+    <value>Vendite / eliminazione / donazione</value>
+  </data>
+  <data name="nbiSMSAnniversary.Caption" xml:space="preserve">
+    <value>Compleanno</value>
+  </data>
+  <data name="nbiSMSAppeal.Caption" xml:space="preserve">
+    <value>Chiamata</value>
+  </data>
+  <data name="nbiSMSFeast.Caption" xml:space="preserve">
+    <value>Giorno festivo</value>
+  </data>
+  <data name="nbiSMSTemplates.Caption" xml:space="preserve">
+    <value>Modelli SMS</value>
+  </data>
+  <data name="nbiSMSThanksgiving.Caption" xml:space="preserve">
+    <value>Ringraziamento</value>
+  </data>
+  <data name="nbiSplitLedger.Caption" xml:space="preserve">
+    <value>Esportare</value>
+  </data>
+  <data name="nbiStaffDetails.Caption" xml:space="preserve">
+    <value>Personale</value>
+  </data>
+  <data name="nbiState.Caption" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="nbiStockCategory.Caption" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="nbiStockCustodian.Caption" xml:space="preserve">
+    <value>Custode</value>
+  </data>
+  <data name="nbiStockGroup.Caption" xml:space="preserve">
+    <value>Gruppo di scorta</value>
+  </data>
+  <data name="nbiStockHome.Caption" xml:space="preserve">
+    <value>Registro delle scorte</value>
+  </data>
+  <data name="nbiStockItem.Caption" xml:space="preserve">
+    <value>Articoli stock</value>
+  </data>
+  <data name="nbiStockLocation.Caption" xml:space="preserve">
+    <value>Posizione</value>
+  </data>
+  <data name="nbiStockMapLedgers.Caption" xml:space="preserve">
+    <value>Registri del piano azionario</value>
+  </data>
+  <data name="nbiStockOP.Caption" xml:space="preserve">
+    <value>Equilibrio di apertura</value>
+  </data>
+  <data name="nbiStockReceive.Caption" xml:space="preserve">
+    <value>Ricevere</value>
+  </data>
+  <data name="nbiStockUnitMeasure.Caption" xml:space="preserve">
+    <value>Unità di misurazione</value>
+  </data>
+  <data name="nbiStockUpdation.Caption" xml:space="preserve">
+    <value>Aggiornamento delle scorte</value>
+  </data>
+  <data name="nbiStockVendor.Caption" xml:space="preserve">
+    <value>Venditore</value>
+  </data>
+  <data name="nbiSubBranchList.Caption" xml:space="preserve">
+    <value>Elenco secondario</value>
+  </data>
+  <data name="nbiTaxPolicy.Caption" xml:space="preserve">
+    <value>Politica di tassa TDS</value>
+  </data>
+  <data name="nbiTDSCompanyInfo.Caption" xml:space="preserve">
+    <value>TDS-Info Company</value>
+  </data>
+  <data name="nbiTDSDeduction.Caption" xml:space="preserve">
+    <value>Detrazione TDS</value>
+  </data>
+  <data name="nbiTDSJournal.Caption" xml:space="preserve">
+    <value>Riserva TDS</value>
+  </data>
+  <data name="nbiTDSLedger.Caption" xml:space="preserve">
+    <value>TDS-LEDGER</value>
+  </data>
+  <data name="nbiTDSMasterImport.Caption" xml:space="preserve">
+    <value>Maestri importazione TDS</value>
+  </data>
+  <data name="nbiTDSPayments.Caption" xml:space="preserve">
+    <value>Pagamento TDS</value>
+  </data>
+  <data name="nbiTDSSection.Caption" xml:space="preserve">
+    <value>Sezione TDS</value>
+  </data>
+  <data name="nbiTDSSettings.Caption" xml:space="preserve">
+    <value>Impostazioni - Alt + F5</value>
+  </data>
+  <data name="nbiTemplates.Caption" xml:space="preserve">
+    <value>Modelli di posta</value>
+  </data>
+  <data name="nbiThanksgiving.Caption" xml:space="preserve">
+    <value>Ringraziamento</value>
+  </data>
+  <data name="nbiTransferVoucher.Caption" xml:space="preserve">
+    <value>Trasferire</value>
+  </data>
+  <data name="nbiUnitOfMeasure.Caption" xml:space="preserve">
+    <value>Uom</value>
+  </data>
+  <data name="nbiUpdateAssetDetails.Caption" xml:space="preserve">
+    <value>Aggiornamento dei dettagli</value>
+  </data>
+  <data name="nbiUploadBranchOfficeDB.Caption" xml:space="preserve">
+    <value>Scarica DB</value>
+  </data>
+  <data name="nbiUploadVouchers.Caption" xml:space="preserve">
+    <value>Scarica buoni sotto-direttori</value>
+  </data>
+  <data name="nbiUser.Caption" xml:space="preserve">
+    <value>Utente</value>
+  </data>
+  <data name="nbiUserRights.Caption" xml:space="preserve">
+    <value>Diritti degli utenti</value>
+  </data>
+  <data name="nbiUserRole.Caption" xml:space="preserve">
+    <value>Ruolo dell'utente</value>
+  </data>
+  <data name="nbiUtilised.Caption" xml:space="preserve">
+    <value>Da usare</value>
+  </data>
+  <data name="nbiViews.Caption" xml:space="preserve">
+    <value>Viste</value>
+  </data>
+  <data name="nbiVoucher.Caption" xml:space="preserve">
+    <value>Definire il voucher numerico</value>
+  </data>
+  <data name="nbiVoucherMasters.Caption" xml:space="preserve">
+    <value>Padronanza</value>
+  </data>
+  <data name="nviAccountPeriod.Caption" xml:space="preserve">
+    <value>Periodo di transazione</value>
+  </data>
+  <data name="nviBankReconciliation.Caption" xml:space="preserve">
+    <value>Bancario</value>
+  </data>
+  <data name="pceLoggedUser.EditValue" xml:space="preserve">
+    <value>Amministratore</value>
+  </data>
+  <data name="pceLoggedUser.Properties.NullText" xml:space="preserve">
+    <value>Amministratore di benvenuto</value>
+  </data>
+  <data name="ribbonPageGroup1.Text" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="ribbonPageGroup2.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="ribbonPageGroup5.Text" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="simpleButton1.Text" xml:space="preserve">
+    <value>Disconnessione</value>
+  </data>
+  <data name="nbiStatisticsType.Caption" xml:space="preserve">
+    <value>Tipo di statistica</value>
+  </data>
+  <data name="nbiVendor.Caption" xml:space="preserve">
+    <value>Venditori</value>
+  </data>
+  <data name="nbiGSTPolicy.Caption" xml:space="preserve">
+    <value>Politica TPS</value>
+  </data>
+  <data name="BackupNew" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="nbiAuthorizeVoucher.Caption" xml:space="preserve">
+    <value>Autorizzare il diritto</value>
+  </data>
+  <data name="nbiClosedFd.Caption" xml:space="preserve">
+    <value>Fd chiuso</value>
+  </data>
+  <data name="nbiDeleteunusedLedger.Caption" xml:space="preserve">
+    <value>Grandi libri inutilizzati</value>
+  </data>
+  <data name="nbiExportToTally.Caption" xml:space="preserve">
+    <value>Esportare il</value>
+  </data>
+  <data name="nbiMoveDeleteVouchers.Caption" xml:space="preserve">
+    <value>Sposta / Elimina bene</value>
+  </data>
+  <data name="nbiProjectBulkExportData.Caption" xml:space="preserve">
+    <value>Esportare</value>
+  </data>
+  <data name="nbiProjectBulkImportData.Caption" xml:space="preserve">
+    <value>Importa dati</value>
+  </data>
+  <data name="nbiThirdPartyIntegration.Caption" xml:space="preserve">
+    <value>Integrazione di terze parti</value>
+  </data>
+  <data name="nbiUpdateNarration.Caption" xml:space="preserve">
+    <value>Narrazione di massa</value>
+  </data>
+  <data name="nbiAuditLog.Caption" xml:space="preserve">
+    <value>Giornale di audit</value>
+  </data>
+  <data name="nbiCreditorsDebtors.Caption" xml:space="preserve">
+    <value>Vari creditori e debitori</value>
+  </data>
+  <data name="MODULE_SET_VISIBLE_DATE_TAB" xml:space="preserve">
+    <value>&lt;Color = Blue&gt; &lt;b&gt; (F3) &lt;/b&gt; &lt;/ Color&gt;</value>
+  </data>
+  <data name="nbiBlockArea.Caption" xml:space="preserve">
+    <value>Blocco \ zone</value>
+  </data>
+  <data name="nbiPayrollWorkLocation.Caption" xml:space="preserve">
+    <value>Lavoro di posizione/occupazione</value>
+  </data>
+  <data name="nbiStaffNameTitle.Caption" xml:space="preserve">
+    <value>Nome titolo</value>
+  </data>
+  <data name="nbiCashAccounts.Caption" xml:space="preserve">
+    <value>Grande libro di cassiere</value>
+  </data>
+  <data name="FIXED_ASSET_TITLE" xml:space="preserve">
+    <value>Immobilizzazione</value>
+  </data>
+  <data name="PAYROLL_TITLE" xml:space="preserve">
+    <value>Paga</value>
+  </data>
+  <data name="PAYROLL_TITLE_PREFIX" xml:space="preserve">
+    <value>Paga -</value>
+  </data>
+</root>

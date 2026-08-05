@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6ff17dae-7897-46ab-aaff-42ec585fc15a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://acmeerp.org/DataSyncService/DataSynchronizer.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DataSynchronizer.wsdl" MetadataType="Wsdl" ID="654fa007-97dc-454c-9dba-77071bac0548" SourceId="1" SourceUrl="https://acmeerp.org/DataSyncService/DataSynchronizer.svc?wsdl" />
+    <MetadataFile FileName="DataSynchronizer.xsd" MetadataType="Schema" ID="e15096df-0678-4f51-b8e3-96847e125c6a" SourceId="1" SourceUrl="https://acmeerp.org/DataSyncService/DataSynchronizer.svc?xsd=xsd1" />
+    <MetadataFile FileName="DataSynchronizer1.xsd" MetadataType="Schema" ID="3f792373-3a7c-43e2-a1ad-5d3888719ab6" SourceId="1" SourceUrl="https://acmeerp.org/DataSyncService/DataSynchronizer.svc?xsd=xsd0" />
+    <MetadataFile FileName="DataSynchronizer2.xsd" MetadataType="Schema" ID="955224a9-8706-485a-9e8a-a05ff11a81df" SourceId="1" SourceUrl="https://acmeerp.org/DataSyncService/DataSynchronizer.svc?xsd=xsd3" />
+    <MetadataFile FileName="DataSynchronizer3.xsd" MetadataType="Schema" ID="b217a5c5-ba5c-44bd-99fa-3aabc9a799c9" SourceId="1" SourceUrl="https://acmeerp.org/DataSyncService/DataSynchronizer.svc?xsd=xsd2" />
+    <MetadataFile FileName="DataSynchronizer4.xsd" MetadataType="Schema" ID="b56f9d23-c604-431b-b4fb-a1cb7f26ea77" SourceId="1" SourceUrl="https://acmeerp.org/DataSyncService/DataSynchronizer.svc?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

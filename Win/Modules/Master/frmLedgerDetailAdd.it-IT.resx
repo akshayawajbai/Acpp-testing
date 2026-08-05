@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Libro mastro</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>&amp;Chiudi</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>&amp;Salva</value>
+  </data>
+  <data name="chkAssetGainLedger.Properties.Caption" xml:space="preserve">
+    <value>Libro mastro guadagni da beni</value>
+  </data>
+  <data name="chkAssetLossLedger.Properties.Caption" xml:space="preserve">
+    <value>Perdita beni</value>
+  </data>
+  <data name="chkBankCommissionLedger.Properties.Caption" xml:space="preserve">
+    <value>Commissione bancaria</value>
+  </data>
+  <data name="chkBankFDInsLedger.Properties.Caption" xml:space="preserve">
+    <value>Interessi FD</value>
+  </data>
+  <data name="chkBankFDPenaltyLedger.Properties.Caption" xml:space="preserve">
+    <value>Penale FD</value>
+  </data>
+  <data name="chkBankSBInterest.Properties.Caption" xml:space="preserve">
+    <value>Interesse SB</value>
+  </data>
+  <data name="chkCostCentre.Properties.Caption" xml:space="preserve">
+    <value>Imposta come centro di costo</value>
+  </data>
+  <data name="chkDepriciationLedger.Properties.Caption" xml:space="preserve">
+    <value>Ammortamento</value>
+  </data>
+  <data name="chkDisposalLedger.Properties.Caption" xml:space="preserve">
+    <value>Smaltimento</value>
+  </data>
+  <data name="chkInkindLedger.Properties.Caption" xml:space="preserve">
+    <value>Libro mastro in natura</value>
+  </data>
+  <data name="chkIsGSTApplicable.Properties.Caption" xml:space="preserve">
+    <value>Il GST è applicabile</value>
+  </data>
+  <data name="chkIsTDSApplicable.Properties.Caption" xml:space="preserve">
+    <value>Il TDS è applicabile</value>
+  </data>
+  <data name="chkSubsidyLedger.Properties.Caption" xml:space="preserve">
+    <value>Sovvenzione</value>
+  </data>
+  <data name="colCurrency.Caption" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="layoutControlItem10.Text" xml:space="preserve">
+    <value>Paese</value>
+  </data>
+  <data name="layoutControlItem12.Text" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="layoutControlItem13.Text" xml:space="preserve">
+    <value>Numero PAN</value>
+  </data>
+  <data name="layoutControlItem21.Text" xml:space="preserve">
+    <value>Gruppo di budget</value>
+  </data>
+  <data name="layoutControlItem23.Text" xml:space="preserve">
+    <value>Sottogruppo</value>
+  </data>
+  <data name="layoutControlItem29.CustomizationFormText" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="layoutControlItem29.Text" xml:space="preserve">
+    <value>*Valuta&lt;color=red&gt; &lt;/color&gt;</value>
+  </data>
+  <data name="layoutControlItem9.Text" xml:space="preserve">
+    <value>Numero di cellulare</value>
+  </data>
+  <data name="lblAccountHolder.Text" xml:space="preserve">
+    <value>Titolare del conto</value>
+  </data>
+  <data name="lblAddress.Text" xml:space="preserve">
+    <value>Indirizzo</value>
+  </data>
+  <data name="lblBranch.Text" xml:space="preserve">
+    <value>Filiale&lt;color=red&gt; *</value>
+  </data>
+  <data name="lblCode.Text" xml:space="preserve">
+    <value>Codice</value>
+  </data>
+  <data name="lblCurrencyName.Text" xml:space="preserve">
+    <value>Nome valuta</value>
+  </data>
+  <data name="lblDateClosed.Text" xml:space="preserve">
+    <value>Data di chiusura</value>
+  </data>
+  <data name="lblDateOpened.Text" xml:space="preserve">
+    <value>Data di apertura&lt;color=red&gt; *</value>
+  </data>
+  <data name="lblLedgerGroup.Text" xml:space="preserve">
+    <value>Gruppo&lt;color=red&gt; *</value>
+  </data>
+  <data name="lblLedgerName.Text" xml:space="preserve">
+    <value>Nome libro mastro&lt;color=red&gt; *</value>
+  </data>
+  <data name="lblLedgerType.Text" xml:space="preserve">
+    <value>Tipo di libro&lt;color=red&gt; *</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="lblNoP.Text" xml:space="preserve">
+    <value>Natura dei pagamenti</value>
+  </data>
+  <data name="lblNotes.Text" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="lblOperatedBy.Text" xml:space="preserve">
+    <value>Gestito da</value>
+  </data>
+  <data name="lblUsedCode.Text" xml:space="preserve">
+    <value>Codici usati</value>
+  </data>
+  <data name="lcCurrencyNote.Text" xml:space="preserve">
+    <value>**Se esistono voucher, la valuta non può essere modificata.**</value>
+  </data>
+  <data name="lcgBankAccountDetails.Text" xml:space="preserve">
+    <value>Dettagli conto bancario</value>
+  </data>
+  <data name="lcgCurrencyDetails.CustomizationFormText" xml:space="preserve">
+    <value>Dettagli valuta</value>
+  </data>
+  <data name="lcgCurrencyDetails.Text" xml:space="preserve">
+    <value>Dettagli valuta</value>
+  </data>
+  <data name="lcgDefaultLedgerGroup.Text" xml:space="preserve">
+    <value>Info libro mastro</value>
+  </data>
+  <data name="lcgExpense.CustomizationFormText" xml:space="preserve">
+    <value>Opzione libro spese</value>
+  </data>
+  <data name="lcgExpense.Text" xml:space="preserve">
+    <value>Opzione libro spese</value>
+  </data>
+  <data name="lcgGSt.CustomizationFormText" xml:space="preserve">
+    <value>Informazioni GST</value>
+  </data>
+  <data name="lcgGSt.Text" xml:space="preserve">
+    <value>Informazioni GST</value>
+  </data>
+  <data name="lcgHOLedger.CustomizationFormText" xml:space="preserve">
+    <value>Scheda con libro mastro della sede centrale</value>
+  </data>
+  <data name="lcgHOLedger.Text" xml:space="preserve">
+    <value>Scheda con libro HO</value>
+  </data>
+  <data name="lcgIncome.CustomizationFormText" xml:space="preserve">
+    <value>Opzione libro entrate</value>
+  </data>
+  <data name="lcgIncome.Text" xml:space="preserve">
+    <value>Opzione libro entrate</value>
+  </data>
+  <data name="lcgLedgerDetail.Text" xml:space="preserve">
+    <value>Radice</value>
+  </data>
+  <data name="lcgLedgerProfile.Text" xml:space="preserve">
+    <value>Profilo libro mastro</value>
+  </data>
+  <data name="lcgTDSInfo.CustomizationFormText" xml:space="preserve">
+    <value>Informazioni statutarie</value>
+  </data>
+  <data name="lcgTDSInfo.Text" xml:space="preserve">
+    <value>Informazioni statutarie</value>
+  </data>
+  <data name="lcHSNCode.Caption" xml:space="preserve">
+    <value>Codice HSN</value>
+  </data>
+  <data name="lciGST.Text" xml:space="preserve">
+    <value>GST</value>
+  </data>
+  <data name="lciHOLedger.Text" xml:space="preserve">
+    <value>Scheda con libro HO</value>
+  </data>
+  <data name="lcitemGSTType.Text" xml:space="preserve">
+    <value>Tipo GST</value>
+  </data>
+  <data name="lcLedgerClosedDate.Text" xml:space="preserve">
+    <value>Data di chiusura</value>
+  </data>
+  <data name="lcOpeningAvgExchangeRateCaption.Text" xml:space="preserve">
+    <value>Tasso di cambio medio di apertura al</value>
+  </data>
+  <data name="lcSACCode.Caption" xml:space="preserve">
+    <value>Codice SAC</value>
+  </data>
+</root>

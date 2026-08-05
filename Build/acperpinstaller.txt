@@ -1,0 +1,16 @@
+
+03/16/2017 12:10:54 PM || Test Connection
+03/16/2017 12:10:54 PM || Start:IsMySQL5_6Installed
+03/16/2017 12:10:54 PM || MySQL 5.6 is found: Running
+03/16/2017 12:10:54 PM || Ended:IsMySQL5_6Installed
+03/16/2017 12:10:54 PM || Start:IsMySQLACPERPInstalled
+03/16/2017 12:10:54 PM || mysqlacperp is installed :: 
+03/16/2017 12:10:54 PM || Ended:IsMySQLacperpInstalled
+03/16/2017 12:10:59 PM || Start:IsMySQL5_6Installed
+03/16/2017 12:10:59 PM || MySQL 5.6 is found: Running
+03/16/2017 12:10:59 PM || Ended:IsMySQL5_6Installed
+03/16/2017 12:10:59 PM || Start:IsMySQLACPERPInstalled
+03/16/2017 12:10:59 PM || mysqlacperp is installed :: 
+03/16/2017 12:10:59 PM || Ended:IsMySQLacperpInstalled
+03/16/2017 12:10:59 PM || Start::GetMySQLACPERPServiceStatus
+03/16/2017 12:10:59 PM || Ended::GetMySQLACPERPServiceStatus
