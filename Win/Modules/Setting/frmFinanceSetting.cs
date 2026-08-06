@@ -1751,5 +1751,10 @@ namespace ACPP.Modules
         {
 
         }
+
+        private void chkExportVouchers_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
