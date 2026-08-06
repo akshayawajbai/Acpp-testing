@@ -735,6 +735,7 @@
             this.chkExportVouchers.Name = "chkExportVouchers";
             this.chkExportVouchers.Properties.Caption = resources.GetString("chkExportVouchers.Properties.Caption");
             this.chkExportVouchers.StyleController = this.layoutControl1;
+            this.chkExportVouchers.CheckedChanged += new System.EventHandler(this.chkExportVouchers_CheckedChanged);
             // 
             // chkRefwiseRecPayments
             // 
